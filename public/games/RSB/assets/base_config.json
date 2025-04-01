@@ -1,0 +1,2599 @@
+{
+	"ships": {
+		"skins": [
+			"ship_1",
+			"ship_2",
+			"ship_3",
+			"ship_4",
+			"ship_5",
+			"ship_6",
+			"ship_7"
+		],
+		"bases": {
+			"classic": {
+				"e_descr": "Classic ship",
+				"name": "Normy",
+				"details": "The solid starter",
+				"skin": "ship_1",
+				"size": 1,
+				"max_speed": 300,
+				"min_speed": 0,
+				"acceleration": 400,
+				"slowdown": {
+					"e_step": 0.001,
+					"e_val": 0.994
+				},
+				"rotate_speed": 5,
+				"shot_delay": 200,
+				"use_num_shots": true,
+				"num_shots": 3,
+				"wait_bullets_die": true,
+				"delay_num_shots": 500,
+				"bullet": "default",
+				"frames_to_rotate": 7,
+				"frames_rot_speed": 3,
+				"is_fuzzy_fire": true,
+				"fuzzy_range": 0.1,
+				"collider": {
+					"shape": "circle",
+					"radius": 12,
+					"offset_x": -10,
+					"offset_y": -9
+				},
+				"bullet": "default",
+				"bullet_offset": 12
+			},
+			"default": {
+				"e_descr": "Mission ship 2",
+				"name": "Zoomy",
+                "details": "Fast an agile but low fire distance.\nPress [up arrow] for reverse thrusters.",
+				"skin": "ship_2",
+				"size": 1,
+				"max_speed": 300,
+				"min_speed": 0,
+				"acceleration": 400,
+				"slowdown": {
+					"e_step": 0.001,
+					"e_val": 0.994
+				},
+				"rotate_speed": 6,
+				"shot_delay": 200,
+				"use_num_shots": true,
+				"num_shots": 3,
+				"wait_bullets_die": true,
+				"delay_num_shots": 500,
+				"bullet": "default",
+				"frames_to_rotate": 7,
+				"frames_rot_speed": 3,
+				"is_fuzzy_fire": true,
+				"fuzzy_range": 0.1,
+				"collider": {
+					"shape": "circle",
+					"radius": 12,
+					"offset_x": -10,
+					"offset_y": -9
+				},
+				"bullet": "zoomy_bullet",
+				"bullet_offset": 12,
+                "powerups": {
+                    "reverse_thrusters": {"count": 1, "lvl": 3}
+                },
+                "unlock": {
+                    "rules": {
+                        "e_descr": "how much needs to be done to unlock ship (reach waves, reach missions, destroy asteroids...",
+                        "classic_scores": 10000,
+                        "reach_wave": 0,
+                        "reach_mission": 0,
+                        "destroy_asteroids": 0,
+                        "destroy_ufos": 0,
+                        "beat_waves_and_missions": 0
+                    }
+                }
+			},
+            "tanky": {
+                "e_descr": "Mission ship 3",
+                "name": "Tanky",
+                "details": "Larger bullets, larger body.\nNew shield every level.",
+                "skin": "ship_3",
+                "size": 1,
+                "max_speed": 300,
+                "min_speed": 0,
+                "acceleration": 250,
+                "slowdown": {
+                    "e_step": 0.001,
+                    "e_val": 0.994
+                },
+                "rotate_speed": 3,
+                "shot_delay": 150,
+                "use_num_shots": true,
+                "num_shots": 3,
+                "wait_bullets_die": true,
+                "delay_num_shots": 375,
+                "bullet": "tanky",
+                "frames_to_rotate": 7,
+                "frames_rot_speed": 3,
+                "is_fuzzy_fire": true,
+                "fuzzy_range": 0.1,
+                "collider": {
+                    "shape": "circle",
+                    "radius": 17,
+                    "offset_x": -10,
+                    "offset_y": -9
+                },
+                "bullet": "mission",
+                "bullet_offset": 20,
+                "powerups": {
+					"shield": {"count": 1}
+                },
+                "unlock": {
+                    "rules": {
+                        "e_descr": "how much needs to be done to unlock ship (reach waves, reach missions, destroy asteroids...",
+                        "classic_scores": 0,
+                        "reach_wave": 0,
+                        "reach_mission": 3,
+                        "destroy_asteroids": 0,
+                        "destroy_ufos": 0,
+	                    "beat_waves_and_missions": 0
+                    }
+                }
+            },
+            "mini": {
+                "e_descr": "Mission ship 4",
+                "name": "mini",
+                "details": "Smaller than your average ship.",
+                "skin": "ship_4",
+                "size": 1,
+                "max_speed": 300,
+                "min_speed": 0,
+                "acceleration": 250,
+                "slowdown": {
+                    "e_step": 0.001,
+                    "e_val": 0.994
+                },
+                "rotate_speed": 3,
+                "shot_delay": 250,
+                "use_num_shots": true,
+                "num_shots": 3,
+                "wait_bullets_die": true,
+                "delay_num_shots": 500,
+                "bullet": "mini",
+                "frames_to_rotate": 7,
+                "frames_rot_speed": 3,
+                "is_fuzzy_fire": true,
+                "fuzzy_range": 0.1,
+                "collider": {
+                    "shape": "circle",
+                    "radius": 8,
+                    "offset_x": -10,
+                    "offset_y": -9
+                },
+                "bullet": "mission",
+                "bullet_offset": 10,
+                "unlock": {
+                    "rules": {
+                        "e_descr": "how much needs to be done to unlock ship (reach waves, reach missions, destroy asteroids...",
+                        "classic_scores": 0,
+                        "reach_wave": 0,
+                        "reach_mission": 8,
+                        "destroy_asteroids": 0,
+                        "destroy_ufos": 0,
+                        "beat_waves_and_missions": 0
+                    }
+                }
+            },
+			"backy": {
+				"e_descr": "Backy ship 5",
+				"name": "Backy",
+				"details": "Only shoots while moving.",
+				"skin": "ship_5",
+				"size": 1,
+				"max_speed": 300,
+				"min_speed": 0,
+				"acceleration": 400,
+				"slowdown": {
+					"e_step": 0.001,
+					"e_val": 0.994
+				},
+				"rotate_speed": 5,
+				"shot_delay": 200,
+				"use_num_shots": true,
+				"num_shots": 3,
+				"wait_bullets_die": true,
+				"delay_num_shots": 500,
+				"bullet": "default",
+				"frames_to_rotate": 7,
+				"frames_rot_speed": 3,
+				"is_fuzzy_fire": true,
+				"fuzzy_range": 0.1,
+				"collider": {
+					"shape": "circle",
+					"radius": 12,
+					"offset_x": -10,
+					"offset_y": -9
+				},
+				"bullet": "default",
+				"bullet_offset": 12,
+                "powerups": {
+					"back_shot": {"count": 1}
+                },
+                "unlock": {
+                    "rules": {
+                        "e_descr": "how much needs to be done to unlock ship (reach waves, reach missions, destroy asteroids...",
+                        "classic_scores": 0,
+                        "reach_wave": 0,
+                        "reach_mission": 0,
+                        "destroy_asteroids": 100,
+                        "destroy_ufos": 0,
+                        "beat_waves_and_missions": 0
+                    }
+                }
+			},
+			"multi": {
+				"e_descr": "Multi ship 6",
+				"name": "Multi",
+				"details": "Three shots is better than one.",
+				"skin": "ship_6",
+				"size": 1,
+				"max_speed": 300,
+				"min_speed": 0,
+				"acceleration": 400,
+				"slowdown": {
+					"e_step": 0.001,
+					"e_val": 0.994
+				},
+				"rotate_speed": 5,
+				"shot_delay": 600,
+				"use_num_shots": true,
+				"num_shots": 3,
+				"wait_bullets_die": true,
+				"delay_num_shots": 500,
+				"bullet": "multi",
+				"frames_to_rotate": 7,
+				"frames_rot_speed": 3,
+				"is_fuzzy_fire": true,
+				"fuzzy_range": 0.1,
+				"collider": {
+					"shape": "circle",
+					"radius": 12,
+					"offset_x": -10,
+					"offset_y": -9
+				},
+				"bullet": "default",
+				"bullet_offset": 12,
+                "powerups": {
+					"triple_shot": {"count": 1}
+                },
+                "unlock": {
+                    "rules": {
+                        "e_descr": "how much needs to be done to unlock ship (reach waves, reach missions, destroy asteroids...",
+                        "classic_scores": 0,
+                        "reach_wave": 0,
+                        "reach_mission": 0,
+                        "destroy_asteroids": 0,
+                        "destroy_ufos": 0,
+                        "beat_waves_and_missions": 100
+                    }
+                }
+			},
+			"drilly": {
+				"e_descr": "Drilly ship 7",
+				"name": "Drilly",
+				"details": "Ram into everything.",
+				"skin": "ship_7",
+				"size": 1,
+				"max_speed": 300,
+				"min_speed": 0,
+				"acceleration": 400,
+				"slowdown": {
+					"e_step": 0.001,
+					"e_val": 0.994
+				},
+				"rotate_speed": 5,
+				"shot_delay": -1,
+				"use_num_shots": true,
+				"num_shots": 3,
+				"wait_bullets_die": true,
+				"delay_num_shots": 500,
+				"bullet": "default",
+				"frames_to_rotate": 7,
+				"frames_rot_speed": 3,
+				"is_fuzzy_fire": true,
+				"fuzzy_range": 0.1,
+				"collider": {
+					"shape": "circle",
+					"radius": 12,
+					"offset_x": -10,
+					"offset_y": -9
+				},
+				"bullet": "default",
+				"bullet_offset": 12,
+                "powerups": {
+					"drill_bit": {"count": 1}
+                },
+                "unlock": {
+                    "rules": {
+                        "e_descr": "how much needs to be done to unlock ship (reach waves, reach missions, destroy asteroids...",
+                        "classic_scores": 0,
+                        "reach_wave": 0,
+                        "reach_mission": 0,
+                        "destroy_asteroids": 0,
+                        "destroy_ufos": 20,
+                        "beat_waves_and_missions": 0
+                    }
+                }
+			}
+		},
+		"units": {
+			"ship_classic": {
+				"base": "classic"
+			},
+			"ship_zoomy": {
+				"base": "default"
+			},
+            "ship_tanky": {
+                "base": "tanky"
+            },
+            "ship_mini": {
+                "base": "mini"
+            },
+            "ship_backy": {
+                "base": "backy"
+            },
+            "ship_multi": {
+                "base": "multi"
+            },
+            "ship_drilly": {
+                "base": "drilly"
+            }
+		}
+	},
+	"waves_final_ship_upgrades": {
+		"bases": {
+			"default": {
+				"max_speed": 600,
+				"min_speed": 0,
+				"acceleration": 1000,
+				"slowdown": {
+					"e_step": 0.01,
+					"e_val": 0.98
+				},
+				"rotate_speed": 10,
+				"shot_delay": 50,
+				"bullet_speed": 800,
+				"bullet_lifetime": 1000
+			}
+		}
+	},
+	"bullets": {
+		"skins": ["bullet_1", "bullet_3", "blast_radius_bullet"],
+		"bases": {
+			"default": {
+				"e_descr": "classic bullet",
+				"skin": "bullet_4",
+				"size": 1,
+				"speed": 400,
+				"lifetime": 1000,
+				"power": 1,
+				"collider": {
+					"shape": "circle",
+					"radius": 4,
+					"offset_x": 0,
+					"offset_y": 0
+				},
+				"origin": {
+					"x": 0.7,
+					"y": 0.5
+				}
+			},
+            "mission": {
+                "e_descr": "mission bullet",
+                "skin": "bullet_4",
+                "size": 1,
+                "speed": 400,
+                "lifetime": 600,
+                "power": 1,
+                "collider": {
+                    "shape": "circle",
+                    "radius": 4,
+                    "offset_x": 0,
+                    "offset_y": 0
+                },
+                "origin": {
+                    "x": 0.7,
+                    "y": 0.5
+                }
+            },
+            "zoomy": {
+                "e_descr": "50% shorter fire range",
+                "skin": "bullet_4",
+                "size": 1,
+                "speed": 400,
+                "lifetime": 500,
+                "power": 1,
+                "collider": {
+                    "shape": "circle",
+                    "radius": 4,
+                    "offset_x": 0,
+                    "offset_y": 0
+                },
+                "origin": {
+                    "x": 0.7,
+                    "y": 0.5
+                }
+            },
+            "tanky": {
+                "e_descr": "50% shorter fire range",
+                "skin": "bullet_4",
+                "size": 1.5,
+                "speed": 400,
+                "lifetime": 1250,
+                "power": 1,
+                "collider": {
+                    "shape": "circle",
+                    "radius": 6,
+                    "offset_x": 0,
+                    "offset_y": 0
+                },
+                "origin": {
+                    "x": 0.7,
+                    "y": 0.5
+                }
+            },
+            "mini": {
+                "e_descr": "25% smaller",
+                "skin": "bullet_4",
+                "size": 0.5,
+                "speed": 400,
+                "lifetime": 1000,
+                "power": 1,
+                "collider": {
+                    "shape": "circle",
+                    "radius": 2,
+                    "offset_x": 0,
+                    "offset_y": 0
+                },
+                "origin": {
+                    "x": 0.7,
+                    "y": 0.5
+                }
+            },
+            "multi": {
+                "e_descr": "25% shorter distance",
+				"skin": "bullet_4",
+				"size": 1,
+				"speed": 400,
+				"lifetime": 750,
+				"power": 1,
+				"collider": {
+					"shape": "circle",
+					"radius": 4,
+					"offset_x": 0,
+					"offset_y": 0
+				},
+				"origin": {
+					"x": 0.7,
+					"y": 0.5
+				}
+            },
+			"blast_radius": {
+				"skin": "blast_radius_bullet",
+				"size": 1,
+				"speed": 400,
+				"lifetime": 900,
+				"power": 1,
+				"collider": {
+					"shape": "circle",
+					"radius": 2,
+					"offset_x": 0,
+					"offset_y": 0
+				},
+				"origin": {
+					"x": 0.7,
+					"y": 0.5
+				}
+			}
+		},
+		"units": {
+			"default": {
+				"base": "default"
+			},
+            "mission": {
+                "base": "mission"
+            },
+            "zoomy": {
+                "base": "zoomy"
+            },
+            "tanky": {
+                "base": "tanky"
+            },
+            "mini": {
+                "base": "mini"
+            },
+            "multi": {
+                "base": "multi"
+            },
+			"blast_radius": {
+				"base": "blast_radius"
+			}
+		}
+	},
+	"asteroids": {
+		"skins": [
+			"light_blue",
+			"white",
+			"red",
+			"green",
+			"yellow",
+			"blue",
+			"asteroid_1",
+			"asteroid_2"
+		],
+		"bases": {
+			"default": {
+				"e_descr": "Classic asteroid (2 destructions, 2 explosive parts)",
+				"skin": "light_blue",
+				"size": [1, 1, 1],
+				"destructions": {
+					"e_descr": "The number of stages of destruction of the asteroid (a bullet hit the asteroid and it collapsed into 2 parts - this is the first destruction. A bullet hit one of the parts and it collapsed - this is the second destruction ...)",
+					"e_val": 2,
+					"e_min": 2,
+					"e_max": 2
+				},
+				"explosive_parts": {
+					"e_descr": "How many parts appear after each destruction. This is an array of values. The cell is randomly selected (integers as 1,2,3 ...)",
+					"e_val": [2, 2, 2]
+				},
+				"part_hp": {
+					"e_descr": "The number of hit points for each part of the asteroid. How many times do you need to shoot an asteroid to destroy it in pieces.",
+					"e_val": 1
+				},
+				"move_speeds": {
+					"e_descr": "The speed of parts of asteroid. 'speed_1' is the speed of the first undamaged asteroid. Parameters in text fields are speed options that are randomly selected. (px / sec)",
+					"e_val": [
+						[50, 55, 60],
+						[60, 65, 70],
+						[70, 75, 80]
+					]
+				},
+				"is_rotate": false,
+				"rot_speeds": {
+					"e_descr": "The speed of rotation of the parts of the asteroid. This is an array of values. A random cell is selected (integer values like 10, 60, 180 ..)",
+					"e_val": [
+						[10, 15, 20, 25, 30, -10, -15, -20, -25, -30],
+						[20, 25, 30, 35, 40, -20, -25, -30, -35, -40],
+						[30, 35, 40, 45, 50, -30, -35, -40, -45, -50]
+					]
+				},
+				"scores": {
+					"e_descr": "",
+					"e_val": [20, 50, 100]
+				},
+				"loot_chances": [0.4, 0.5, 0.6],
+				"collider": {
+					"e_descr": "",
+					"e_val": [
+						{
+							"shape": "circle",
+							"radius": 34,
+							"offset_x": 2,
+							"offset_y": 2
+						},
+						{
+							"shape": "circle",
+							"radius": 17,
+							"offset_x": 0,
+							"offset_y": 2
+						},
+						{
+							"shape": "circle",
+							"radius": 9,
+							"offset_x": 1,
+							"offset_y": 1
+						}
+					]
+				}
+			}
+		},
+		"units": {
+			"light_blue": {
+				"base": "default",
+				"skin": "light_blue"
+			},
+			"white": {
+				"base": "default",
+				"skin": "white",
+				"move_speeds": {
+					"e_val": [
+						[60, 65, 70],
+						[75, 80, 90],
+						[95, 100, 105]
+					]
+				}
+			},
+			"red": {
+				"base": "default",
+				"skin": "red",
+				"move_speeds": {
+					"e_val": [
+						[95, 100],
+						[105, 110],
+						[115, 120]
+					]
+				},
+				"loot_chances": [0.5, 0.6, 0.7]
+			},
+			"green": {
+				"base": "default",
+				"skin": "green",
+				"move_speeds": {
+					"e_val": [
+						[60, 65, 70],
+						[75, 80, 90],
+						[95, 100, 105]
+					]
+				}
+			},
+			"yellow": {
+				"base": "default",
+				"skin": "yellow",
+				"move_speeds": {
+					"e_val": [
+						[60, 65, 70],
+						[75, 80, 90],
+						[95, 100, 105]
+					]
+				},
+				"explosive_parts": {
+					"e_val": [2, 3, 4]
+				},
+				"loot_chances": [0.3, 0.4, 0.5]
+			},
+			"blue": {
+				"base": "default",
+				"skin": "blue",
+				"move_speeds": {
+					"e_val": [
+						[60, 65, 70],
+						[75, 80, 90],
+						[95, 100, 105]
+					]
+				},
+				"part_hp": {
+					"e_val": 2
+				},
+				"scores": {
+					"e_val": [40, 100, 200]
+				}
+			}
+		}
+	},
+	"powerups": {
+		"bases": {
+			"common_options": {
+				"dropped_lifetime": 30000,
+				"dropped_blinktime": 10000,
+				"powerup_lifetime": 22000,
+				"powerup_blinktime": 10000,
+				"is_drop_from_enemies": true,
+				"is_drop_from_ast": true,
+				"is_drop_each_ast_part": true,
+				"is_magnet": true,
+				"magnet_radius": 70
+			},
+
+			"thrusters": {
+				"acceleration_percent": 20,
+				"title": "Thrusters",
+				"descr": "How fast\nyou accelerate"
+			},
+			"brakes": {
+				"slowdown_percent": 10,
+				"title": "Brakes",
+				"descr": "How fast\nyou slow down"
+			},
+			"fire_rate": {
+				"shot_delay_percent": 50,
+				"title": "Fire Rate",
+				"descr": "How fast\nyou can shoot"
+			},
+			"shot_distance": {
+				"distance_percent": 40,
+				"title": "Shot distance",
+				"descr": "How far\nyour shots go"
+			},
+			"bullet_size": {
+				"size_percent": 10,
+				"title": "Bullet Size",
+				"descr": "Size of bullet"
+			},
+			"reverse_thrusters": {
+				"acceleration": 100,
+				"acceleration_percent": 20,
+				"title": "Reverse\nThrusters",
+				"descr": "Press back\nto move\nbackwards"
+			},
+
+			"shield": {
+				"is_bounce": true,
+				"title": "Rechargeable\nshield",
+				"descr": "Recharges every\nlevel or death"
+			},
+			"blast_radius": {
+				"bullet": "blast_radius",
+				"bullet_power": 1,
+				"bullet_speed": 400,
+				"bullet_lifetime": 900,
+				"explode_radius": 100,
+				"shot_delay": 600,
+				"title": "Blast Radius\nShot",
+				"descr": "Explosive\nbullets"
+			},
+			"double_shot": {
+				"double_shot_dist": 20,
+				"title": "Double shot",
+				"descr": "Double shot"
+			},
+
+			"life_refill": {
+				"title": "Life Refill",
+				"descr": "Refill lives\nto the max"
+			},
+			"extra_life": {
+				"title": "Extra Life",
+				"descr": "Add a new\nfull life"
+			},
+			"increase_score": {
+				"multiply": 1.25,
+				"title": "Increase\nScores 1.25x",
+				"descr": "Increases\nyour scores"
+			}
+		},
+		"units": {
+			"common_options": {
+				"base": "common_options"
+			},
+			"shield": {
+				"base": "shield"
+			},
+			"blast_radius": {
+				"base": "blast_radius"
+			},
+			"double_shot": {
+				"base": "double_shot"
+			},
+
+			"thrusters": {
+				"base": "thrusters"
+			},
+			"brakes": {
+				"base": "brakes"
+			},
+			"fire_rate": {
+				"base": "fire_rate"
+			},
+			"shot_distance": {
+				"base": "shot_distance"
+			},
+			"bullet_size": {
+				"base": "bullet_size"
+			},
+			"reverse_thrusters": {
+				"base": "reverse_thrusters"
+			},
+
+			"extra_life": {
+				"base": "extra_life"
+			},
+			"life_refill": {
+				"base": "life_refill"
+			},
+			"increase_score": {
+				"base": "increase_score"
+			}
+		}
+	},
+	"enemies": {
+		"skins": [
+			"ufo_1",
+			"ufo_2"
+		],
+		"bases": {
+			"default": {
+				"skin": "ufo_1",
+				"e_descr": "",
+				"size": 1,
+				"speed": {
+					"e_descr": "Array of enemy speeds. The cell is randomly selected. (integers like 60,70,100 ...)",
+					"e_val": [60]
+				},
+				"lifetime": {
+					"e_descr": "An array of enemy lifetime values. After this time, the enemy disappears. The cell is randomly selected. (milliseconds like 4000,4100,4500 ...)",
+					"e_val": [4000, 4100, 4200]
+				},
+				"random_move_angles": [0, 45, -45],
+				"random_move_delay": {
+					"e_descr": "delay between deciding of change move angle. (milliseconds)",
+					"e_val": [3000, 4000, 5000]
+				},
+				"bullet_type": "default",
+				"is_use_bullet_type": true,
+				"bullet_speed": 600,
+				"bullet_lifetime": 1000,
+				"bullet_power": 1,
+				"wait_before_first_shot": {
+					"e_descr": "The time between the spawn of the enemy and first shot. (milliseconds)",
+					"e_val": [0]
+				},
+				"shot_delay": {
+					"e_descr": "",
+					"e_val": [1000]
+				},
+				"score": 200,
+				"is_player_target": {
+					"e_descr": "The enemy will aim at the player",
+					"e_val": false
+				},
+				"is_asteroid_target": {
+					"e_descr": "The enemy will aim at asteroids",
+					"e_val": false
+				},
+				"kill_nearest_asteroid": {
+					"e_descr": "The enemy will only aim at the nearest asteroid",
+					"e_val": false
+				},
+				"accuracy": {
+					"e_descr": "Firing accuracy of the enemy. It indicates how often the enemy will miss. (float 0..1)",
+					"e_step": 0.1,
+					"e_min": 0,
+					"e_max": 1,
+					"e_val": 0.3
+				},
+				"accuracy_angles_range": {
+					"e_descr": "Shot sector of the enemy. Indicates the boundaries of the miss corners. (int)",
+					"e_val": {
+						"from": -30,
+						"to": 30
+					}
+				},
+				"is_dies_by_asteroids": {
+					"e_descr": "Should an enemy explode from an impact on an asteroid?",
+					"e_val": true
+				},
+				"is_die_outside": true,
+				"hp": 1,
+				"is_jerk": {
+					"e_descr": "Test parameter",
+					"e_val": false
+				},
+				"jerk_dist": {
+					"e_descr": "",
+					"e_val": 100
+				},
+				"jerk_wait": {
+					"e_descr": "",
+					"e_val": 1000
+				},
+				"loot_chances": [0.9],
+				"is_loot_powerups": {
+					"e_descr": "",
+					"e_val": true
+				},
+				"collider": {
+					"shape": "circle",
+					"radius": 14,
+					"offset_x": 0,
+					"offset_y": 0
+				}
+			}
+		},
+		"units": {
+			"ufo_1": {
+				"base": "default",
+				"is_dies_by_asteroids": {
+					"e_val": false
+				}
+			},
+			"ufo_2": {
+				"base": "default",
+				"skin": "ufo_2",
+				"is_dies_by_asteroids": {
+					"e_val": false
+				},
+				"speed": {
+					"e_val": [80]
+				},
+				"is_player_target": {
+					"e_val": true
+				},
+				"score": 1000,
+				"loot_chances": [1],
+				"collider": {
+					"shape": "circle",
+					"radius": 10,
+					"offset_x": 0,
+					"offset_y": 0
+				}
+			}
+		}
+	},
+	"classic": {
+		"bases": {
+			"default": {
+				"e_descr": "Options of Classic game mode",
+				"lives": {
+					"e_descr": "How many lives there're on the start",
+					"e_val": 3
+				},
+				"new_live_scores": {
+					"e_descr": "how many points is given a new life",
+					"e_val": 10000
+				},
+				"first_asteroids_count": {
+					"e_descr": "how many asteroids appears on the first level",
+					"e_val": 4
+				},
+				"add_asteroids_count": {
+					"e_descr": "how many asteroids are added each next level",
+					"e_val": 2
+				},
+				"asteroids_type": {
+					"e_descr": "",
+					"e_val": ["light_blue"]
+				},
+				"asteroids_spawn_zones": {
+					"e_descr": "",
+					"e_val": ["l", "r", "t", "d"]
+				},
+				"start_sound_delay": {
+					"e_descr": "each level you hear horror sounds that warn of an imminent UFO attack. This parameter indicates how often this sound sounds at the beginning of each level/ (milliseconds)",
+					"e_val": 1000
+				},
+				"end_sound_delay": {
+					"e_descr": "parameter indicates how often this horror sound sounds at the 'end' of each level/ (milliseconds)",
+					"e_val": 190
+				},
+				"time_before_attack": {
+					"e_descr": "Attack - is period when UFO appears 100% each some delay. In this period we can listen to very frequent sound changing - horror sound. This parameter is linearly interpolated, so you need to specify only two values/ (milliseconds)",
+					"lvl_0": 35000,
+					"lvl_10": 40000
+				},
+				"ufo_spawn_zones": ["l", "r"],
+				"ufo_before_attack_time": {
+					"chance_spawn": {
+						"e_descr": "In original game on the first level after some time always! a large UFO appears, on the second level not always and on the next almost never. This parameter indicates the probability of a UFO appearing at the beginning of the level. This parameter is linearly interpolated. (float 0..1)",
+						"lvl_0": {
+							"e_step": 0.1,
+							"e_min": 0,
+							"e_max": 1,
+							"e_val": 1
+						},
+						"lvl_1": {
+							"e_step": 0.1,
+							"e_min": 0,
+							"e_max": 1,
+							"e_val": 1
+						}
+					},
+					"chance_ufo": {
+						"e_descr": "This parameter shows the spawn probability of each type of UFO at the beginning of the level. It is linearly interpolated. (integer >= 0)",
+						"lvl_0": {
+							"ufo_1": 1,
+							"ufo_2": 0
+						},
+						"lvl_1": {
+							"ufo_1": 3,
+							"ufo_2": 1
+						}
+					},
+					"wait_before_spawn": {
+						"e_descr": "How much time should pass before the first appearance of the UFO at the beginning of the level. Random (from, to). (milliseconds)",
+						"lvl_0": {
+							"e_row": true,
+							"from": 8000,
+							"to": 20000
+						},
+						"lvl_2": {
+							"e_row": true,
+							"from": 7000,
+							"to": 19000
+						}
+					},
+					"spawn_delay": {
+						"e_descr": "How much time should elapse between the reappearance of a UFO at a level. The numbers next to the text fields are seconds, and the numbers in the text fields are the probability of a dogo or other value. This can be represented as an array: ['4 sec', '6 sec', '6 sec', '6 sec', '8 sec', '10 sec', '10 sec'] from which a random cell is selected - the probability of falling out '6 sec' is higher than the rest. (> = 0)",
+						"lvl_0": {
+							"5": 0,
+							"6": 0,
+							"8": 0,
+							"10": 3,
+							"12": 2,
+							"15": 1,
+							"18": 1
+						},
+						"lvl_10": {
+							"5": 6,
+							"6": 6,
+							"8": 5,
+							"10": 4,
+							"12": 1,
+							"15": 0,
+							"18": 0
+						}
+					}
+				},
+				"attack_time_ufo": {
+					"e_descr": "This is the same as above, but these are the parameters for the UFO attack period.",
+					"chance_spawn": {
+						"lvl_0": {
+							"e_step": 0.1,
+							"e_min": 0,
+							"e_max": 1,
+							"e_val": 1
+						},
+						"lvl_10": {
+							"e_step": 0.1,
+							"e_min": 0,
+							"e_max": 1,
+							"e_val": 1
+						}
+					},
+					"chance_ufo": {
+						"lvl_0": {
+							"ufo_1": 2,
+							"ufo_2": 8
+						},
+						"lvl_10": {
+							"ufo_1": 1,
+							"ufo_2": 30
+						}
+					},
+					"wait_before_spawn": {
+						"lvl_0": {
+							"e_row": true,
+							"from": 5000,
+							"to": 8000
+						},
+						"lvl_10": {
+							"e_row": true,
+							"from": 1000,
+							"to": 5000
+						}
+					},
+					"spawn_delay": {
+						"lvl_0": {
+							"5": 1,
+							"6": 1,
+							"7": 1,
+							"8": 1,
+							"9": 3,
+							"10": 3,
+							"11": 3
+						},
+						"lvl_10": {
+							"5": 3,
+							"6": 4,
+							"7": 4,
+							"8": 2,
+							"9": 1,
+							"10": 0,
+							"11": 0
+						}
+					}
+				},
+				"ufo_accurasy_mult": {
+					"e_descr": "",
+					"lvl_0": {
+						"e_step": 0.1,
+						"e_min": 0,
+						"e_val": 1
+					},
+					"lvl_10": {
+						"e_step": 0.1,
+						"e_min": 0,
+						"e_val": 1.5
+					}
+				}
+			}
+		},
+		"units": {
+			"default": {
+				"base": "default"
+			}
+		}
+	},
+	"misc": {
+		"wait_after_death": 5000,
+		"flashing_time_after_death": 4000
+	},
+	"waves": {
+		"bases": {
+			"default": {
+				"bonus_score": 0,
+				"destroy_all": {
+					"is_destroy_all": true,
+					"destroy_all_time": 20
+				},
+				"mines": {
+					"is_mines": true,
+					"mines_count": "3",
+					"pull_power": 1,
+					"mine_size": {
+						"e_step": 0.1,
+						"e_min": 0.1,
+						"e_max": 3,
+						"e_val": 1
+					},
+					"mine_explode_radius": 300,
+					"idle_power": 3,
+					"idle_speed": {
+						"e_step": 0.1,
+						"e_min": 0,
+						"e_max": 20,
+						"e_val": 6
+					}
+				},
+				"timed_survival": {
+					"is_timed_survival": false,
+					"timed_survival_time": 20
+				},
+				"ufo_attack": {
+					"is_ufo_attack": false,
+					"max_enemies_on_screen": 2,
+					"min_enemies_on_screen": 2
+				},
+				"black_hole": {
+					"is_black_hole": false,
+					"black_hole_size": {
+						 "e_step": 0.1,
+						 "e_min": 0.1,
+						 "e_max": 2,
+						 "e_val": 1
+					},
+					"black_hole_speed": {
+						"e_step": 0.01,
+						"e_min": 0,
+						"e_max": 3,
+						"e_val": 0.05
+					},
+					"black_hole_rotate_speed": {
+						"e_step": 0.1,
+						"e_min": 0,
+						"e_max": 10,
+						"e_val": 1
+					}
+				},
+				"spawn_powerups": {
+					"nothing": 0,
+					"shield": 0,
+					"triple_shot": 0,
+					"bomb": 0,
+					"fast_acceleration": 0,
+					"fast_shot": 0
+				},
+				"parts": [
+					{
+						"base": "part"
+					}
+				]
+			},
+			"part": {
+				"wait_delay": "0",
+				"asteroids": {
+					"start_count_": {
+						"big": 0,
+						"middle": 0,
+						"small": 0
+					}
+				},
+				"enemies": {
+					"start_count_": {
+						"ufo_1": 0,
+						"ufo_2": 0
+					},
+					"spawn_rate": {
+						"ufo_1": 0,
+						"ufo_2": 0
+					},
+					"chance_small_ufo": {
+                        "e_step": 0.1,
+                        "e_min": 0,
+                        "e_max": 1,
+                        "e_val": 0
+                    },
+					"count_": 0
+				}
+			}
+		},
+		"units": [
+			{
+				"base": "default",
+				"parts": [
+
+				]
+			}
+		]
+	},
+	"pcg": {
+		"bases": {
+			"common_options": {
+				"mode_chances": {
+					"destroy_all": 1,
+					"timed_survival": 1,
+					"ufo_attack": 1,
+					"mines": 1,
+					"black_hole": 1
+				}
+			},
+			"destroy_all": {
+				"parts": [
+				]
+			},
+			"timed_survival": {
+				"parts": [
+				]
+			},
+			"ufo_attack": {
+				"parts": [
+				]
+			},
+			"mines": {
+				"parts": [
+				]
+			},
+			"black_hole": {
+				"parts": [
+				]
+			},
+			"part": {
+				"asteroids": {
+				},
+				"enemies": {
+				}
+			}
+		},
+		"units": {
+			"common_options": {
+				"base": "common_options"
+			},
+			"destroy_all": {
+				"base": "destroy_all",
+				"bonus_score": 0,
+				"parts": [
+					{
+						"info": 1,
+						"destroy_all_time": 5,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 10
+							},
+							"chance_small_ufo": {
+                                "e_step": 0.1,
+                                "e_min": 0,
+                                "e_max": 1,
+                                "e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 2,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 1,
+								"small": 3
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 9
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 3,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 2,
+								"small": 2
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 8
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 4,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 3,
+								"small": 1
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 7
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 5,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 4,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 6
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 6,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 1,
+								"middle": 3,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 6
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 7,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 2,
+								"middle": 2,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 5
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 8,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 3,
+								"middle": 1,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 2
+							},
+							"spawn_rate": {
+								"ufo_1": 5
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 9,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 4,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 4
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 10,
+						"destroy_all_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 4,
+								"middle": 4,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 4
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					}
+				]
+			},
+			"timed_survival": {
+				"base": "timed_survival",
+				"bonus_score": 1000,
+				"parts": [
+					{
+						"info": 1,
+						"survival_time": 12,
+						"asteroids": {
+							"start_count_": {
+								"big": 1,
+								"middle": 2,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 25
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 2,
+						"survival_time": 14,
+						"asteroids": {
+							"start_count_": {
+								"big": 1,
+								"middle": 2,
+								"small": 6
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 20
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 3,
+						"survival_time": 16,
+						"asteroids": {
+							"start_count_": {
+								"big": 1,
+								"middle": 2,
+								"small": 6
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 20
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 4,
+						"survival_time": 18,
+						"asteroids": {
+							"start_count_": {
+								"big": 2,
+								"middle": 1,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 15
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 5,
+						"survival_time": 20,
+						"asteroids": {
+							"start_count_": {
+								"big": 2,
+								"middle": 2,
+								"small": 6
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 15
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 6,
+						"survival_time": 22,
+						"asteroids": {
+							"start_count_": {
+								"big": 2,
+								"middle": 1,
+								"small": 9
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 2
+							},
+							"spawn_rate": {
+								"ufo_1": 12
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 7,
+						"survival_time": 24,
+						"asteroids": {
+							"start_count_": {
+								"big": 2,
+								"middle": 2,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 2
+							},
+							"spawn_rate": {
+								"ufo_1": 12
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 8,
+						"survival_time": 26,
+						"asteroids": {
+							"start_count_": {
+								"big": 3,
+								"middle": 2,
+								"small": 6
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 2
+							},
+							"spawn_rate": {
+								"ufo_1": 10
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 9,
+						"survival_time": 28,
+						"asteroids": {
+							"start_count_": {
+								"big": 3,
+								"middle": 1,
+								"small": 6
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 10
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 10,
+						"survival_time": 30,
+						"asteroids": {
+							"start_count_": {
+								"big": 3,
+								"middle": 2,
+								"small": 8
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 10
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					}
+				]
+			},
+			"ufo_attack": {
+				"base": "ufo_attack",
+				"bonus_score": 1000,
+				"parts": [
+					{
+						"info": 1,
+						"max_enemies_on_screen": 1,
+						"min_enemies_on_screen": 1,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 2
+							},
+							"spawn_rate": {
+								"ufo_1": 3
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 4
+						}
+					},
+					{
+						"info": 2,
+						"max_enemies_on_screen": 2,
+						"min_enemies_on_screen": 2,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 2
+							},
+							"spawn_rate": {
+								"ufo_1": 3
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 5
+						}
+					},
+					{
+						"info": 3,
+						"max_enemies_on_screen": 3,
+						"min_enemies_on_screen": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 3
+							},
+							"spawn_rate": {
+								"ufo_1": 3
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 5
+						}
+					},
+					{
+						"info": 4,
+						"max_enemies_on_screen": 3,
+						"min_enemies_on_screen": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 3
+							},
+							"spawn_rate": {
+								"ufo_1": 3
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 6
+						}
+					},
+					{
+						"info": 5,
+						"max_enemies_on_screen": 3,
+						"min_enemies_on_screen": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 3
+							},
+							"spawn_rate": {
+								"ufo_1": 3
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 7
+						}
+					},
+					{
+						"info": 6,
+						"max_enemies_on_screen": 3,
+						"min_enemies_on_screen": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 3
+							},
+							"spawn_rate": {
+								"ufo_1": 2
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 7
+						}
+					},
+					{
+						"info": 7,
+						"max_enemies_on_screen": 3,
+						"min_enemies_on_screen": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 3
+							},
+							"spawn_rate": {
+								"ufo_1": 2
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 8
+						}
+					},
+					{
+						"info": 8,
+						"max_enemies_on_screen": 3,
+						"min_enemies_on_screen": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 3
+							},
+							"spawn_rate": {
+								"ufo_1": 2
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 10
+						}
+					},
+					{
+						"info": 9,
+						"max_enemies_on_screen": 3,
+						"min_enemies_on_screen": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 3
+							},
+							"spawn_rate": {
+								"ufo_1": 2
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 12
+						}
+					},
+					{
+						"info": 10,
+						"max_enemies_on_screen": 3,
+						"min_enemies_on_screen": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 4
+							},
+							"spawn_rate": {
+								"ufo_1": 2
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": 14
+						}
+					}
+				]
+			},
+			"mines": {
+				"base": "mines",
+				"bonus_score": 2000,
+				"parts": [
+					{
+						"info": 1,
+						"mines_count": 1,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 10
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 2,
+						"mines_count": 2,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 1,
+								"small": 3
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 9
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 3,
+						"mines_count": 2,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 2,
+								"small": 2
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 8
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 4,
+						"mines_count": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 3,
+								"small": 1
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 7
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 5,
+						"mines_count": 3,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 4,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 6
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 6,
+						"mines_count": 4,
+						"asteroids": {
+							"start_count_": {
+								"big": 1,
+								"middle": 3,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 6
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 7,
+						"mines_count": 4,
+						"asteroids": {
+							"start_count_": {
+								"big": 2,
+								"middle": 2,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 5
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 8,
+						"mines_count": 5,
+						"asteroids": {
+							"start_count_": {
+								"big": 3,
+								"middle": 1,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 2
+							},
+							"spawn_rate": {
+								"ufo_1": 5
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 9,
+						"mines_count": 5,
+						"asteroids": {
+							"start_count_": {
+								"big": 4,
+								"middle": 0,
+								"small": 0
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 4
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 10,
+						"mines_count": 6,
+						"asteroids": {
+							"start_count_": {
+								"big": 4,
+								"middle": 4,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 4
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					}
+				]
+			},
+			"black_hole": {
+				"base": "black_hole",
+				"bonus_score": 2000,
+				"parts": [
+					{
+						"info": 1,
+						"pull_power": 0.5,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 3
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 10
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 2,
+						"pull_power": 0.5,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 0,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 9
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 3,
+						"pull_power": 0.6,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 1,
+								"small": 2
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 8
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 4,
+						"pull_power": 0.6,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 1,
+								"small": 3
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 7
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 5,
+						"pull_power": 0.7,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 2,
+								"small": 2
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 6
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 6,
+						"pull_power": 0.7,
+						"asteroids": {
+							"start_count_": {
+								"big": 0,
+								"middle": 2,
+								"small": 5
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 6
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 7,
+						"pull_power": 0.8,
+						"asteroids": {
+							"start_count_": {
+								"big": 1,
+								"middle": 1,
+								"small": 1
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 5
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 8,
+						"pull_power": 0.8,
+						"asteroids": {
+							"start_count_": {
+								"big": 1,
+								"middle": 2,
+								"small": 2
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 2
+							},
+							"spawn_rate": {
+								"ufo_1": 5
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 9,
+						"pull_power": 0.9,
+						"asteroids": {
+							"start_count_": {
+								"big": 2,
+								"middle": 1,
+								"small": 2
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 0
+							},
+							"spawn_rate": {
+								"ufo_1": 4
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					},
+					{
+						"info": 10,
+						"pull_power": 1,
+						"asteroids": {
+							"start_count_": {
+								"big": 2,
+								"middle": 2,
+								"small": 4
+							}
+						},
+						"enemies": {
+							"start_count_": {
+								"ufo_1": 1
+							},
+							"spawn_rate": {
+								"ufo_1": 4
+							},
+							"chance_small_ufo": {
+                            	"e_step": 0.1,
+                            	"e_min": 0,
+                            	"e_max": 1,
+                            	"e_val": 0
+                            },
+							"count_": -1
+						}
+					}
+				]
+			}
+		}
+	}
+}

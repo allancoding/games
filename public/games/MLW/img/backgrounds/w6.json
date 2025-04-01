@@ -1,0 +1,35 @@
+{"frames": {
+
+"w60000":
+{
+	"frame": {"x":1,"y":1110,"w":681,"h":546},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":683,"h":554},
+	"sourceSize": {"w":683,"h":554}
+},
+"w60001":
+{
+	"frame": {"x":1,"y":557,"w":682,"h":551},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":683,"h":554},
+	"sourceSize": {"w":683,"h":554}
+},
+"w60002":
+{
+	"frame": {"x":1,"y":1,"w":679,"h":554},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":683,"h":554},
+	"sourceSize": {"w":683,"h":554}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.1.0.86",
+	"image": "w6.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "1"
+}
+}

@@ -1,0 +1,35 @@
+<div class="row">
+<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+<a href="<?php echo file_get_contents("files/SOM/SOM.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SOM/SOM.png"/></a>
+<a href="<?php echo file_get_contents("files/BM94/BM94.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/BM94/BM94.jpg"/></a>
+<a href="<?php echo file_get_contents("files/BS/BS.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/BS/BS.jpg"/></a>
+<a href="<?php echo file_get_contents("files/SF64/SF64.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SF64/SF64.jpg"/></a>
+<a href="<?php echo file_get_contents("files/MK64/MK64.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/MK64/MK64.jpg"/></a>
+<a href="<?php echo file_get_contents("files/SM64/SM64.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SM64/SM64.jpg"/></a>
+<a href="<?php echo file_get_contents("files/T2/T2.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/T2/T2.png"/></a>
+<a href="<?php echo file_get_contents("files/MLW/MLW.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/MLW/MLW.png"/></a>
+<a href="<?php echo file_get_contents("files/TR/TR.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/TR/TR.png"/></a>
+</div>
+<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+<a href="<?php echo file_get_contents("files/SM/SM.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SM/SM.jpg"/></a>
+<a href="<?php echo file_get_contents("files/LOZ/LOZ.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/LOZ/LOZ.jpg"/></a>
+<a href="<?php echo file_get_contents("files/SDB/SDB.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SDB/SDB.png"/></a>
+<a href="<?php echo file_get_contents("files/SMB3/SMB3.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SMB3/SMB3.jpg"/></a>
+<a href="<?php echo file_get_contents("files/NBAJ/NBAJ.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/NBAJ/NBAJ.jpg"/></a>
+<a href="<?php echo file_get_contents("files/BB/BB.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/BB/BB.jpg"/></a>
+<a href="<?php echo file_get_contents("files/R3/R3.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/R3/favicon.png"/></a>
+<a href="<?php echo file_get_contents("files/RSB/RSB.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/RSB/RSB.png"/></a>
+<a href="<?php echo file_get_contents("files/GP/GP.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/GP/GP.png"/></a>
+</div>
+<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+<a href="<?php echo file_get_contents("files/LE/LE.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/LE/LE.jpg"/></a>
+<a href="<?php echo file_get_contents("files/SMK/SMK.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SMK/SMK.png"/></a>
+<a href="<?php echo file_get_contents("files/SMW/SMW.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SMW/SMW.jpg"/></a>
+<a href="<?php echo file_get_contents("files/SMALTTP/SMALTTP.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/SMALTTP/SM&ALTTP.jpg"/></a>
+<a href="<?php echo file_get_contents("files/CPG/CPG.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/CPG/logos/pacman10-hp.2.png"/></a>
+<a href="<?php echo file_get_contents("files/CDG/CDG.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/CDG/screenshot.gif"/></a>
+<a href="<?php echo file_get_contents("files/RB/RB.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/RB/RB.jpg"/></a>
+<a href="<?php echo file_get_contents("files/NHN/NHN.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/NHN/NHN.jpg"/></a>
+<a href="<?php echo file_get_contents("files/BP/BP.txt");?>"><img class="w-100 shadow-1-strong rounded mb-4" src="files/BP/BP.png"/></a>
+</div>
+</div>

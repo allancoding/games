@@ -1,0 +1,1585 @@
+{
+    "seed": {
+        "id": 123621,
+        "guid": "97c520dc288f463e80386677507e379f",
+        "mode": "normal",
+        "seedNumber": "758359977",
+        "spoiler": null,
+        "gameName": "Super Metroid & A Link to the Past Combo Randomizer",
+        "gameVersion": "11.2",
+        "gameId": "smz3",
+        "hash": "ZOA GEEMER KURIPI KURIPI",
+        "players": 1,
+        "worlds": [
+            {
+                "id": 141353,
+                "worldId": 0,
+                "seedId": 123621,
+                "guid": "dcda8079928042b09f2cf026a5b9128a",
+                "player": "Player",
+                "settings": "{\"smlogic\":\"normal\",\"goal\":\"defeatboth\",\"swordlocation\":\"randomized\",\"morphlocation\":\"randomized\",\"keyshuffle\":\"none\",\"seed\":\"\",\"race\":\"false\",\"gamemode\":\"normal\",\"players\":\"2\"}",
+                "patch": null,
+                "locations": null
+            }
+        ]
+    },
+    "playthrough": [
+        {
+            "Lost Woods Hideout": "Screw Attack",
+            "Kakariko Well - Top": "Super Missile",
+            "Kakariko Well - Middle": "Lamp",
+            "Blind's Hideout - Far Left": "Progressive Sword",
+            "Kakariko Tavern": "Cane of Somaria",
+            "Maze Race": "Morphing Ball",
+            "Link's House": "Energy Tank",
+            "Aginah's Cave": "Missile",
+            "Sunken Treasure": "Power Bomb",
+            "Ice Rod Cave": "Energy Tank",
+            "Sanctuary": "Hi-Jump Boots",
+            "Hyrule Castle - Map Chest": "Progressive Shield"
+        },
+        {
+            "Sewers - Dark Cross": "Magic Mirror",
+            "Missile (Crateria middle)": "Pegasus Boots",
+            "Power Bomb (blue Brinstar)": "Energy Tank",
+            "Missile (blue Brinstar top)": "Space Jump",
+            "Missile (blue Brinstar behind missile)": "Hammer",
+            "Energy Tank, Etecoons": "Energy Tank",
+            "Energy Tank, Kraid": "Charge Beam",
+            "Missile (pink Brinstar top)": "Gravity Suit",
+            "Missile (green Brinstar pipe)": "Progressive Glove",
+            "Power Bomb (red Brinstar spike room)": "Ether",
+            "Spazer": "Flute",
+            "Missile (Hi-Jump Boots)": "Shovel"
+        },
+        {
+            "Spiral Cave": "Bug Catching Net",
+            "Paradox Cave Lower - Far Left": "Reserve Tank",
+            "Paradox Cave Lower - Left": "Morph Bombs",
+            "Flute Spot": "Moon Pearl",
+            "Energy Tank, Gauntlet": "Progressive Sword",
+            "Missile (Crateria gauntlet right)": "Ice Rod",
+            "Missile (outside Wrecked Ship top)": "Varia Suit",
+            "X-Ray Scope": "Cane of Byrna",
+            "Missile (green Maridia tatori)": "Grappling Beam",
+            "Super Missile (Wrecked Ship left)": "Wave Beam",
+            "Gravity Suit": "Bow"
+        },
+        {
+            "Eastern Palace - Armos Knights": "Plasma Beam",
+            "Tower of Hera - Big Chest": "Hookshot",
+            "Skull Woods - Compass Chest": "Power Bomb",
+            "Spike Cave": "Progressive Glove",
+            "Hype Cave - Top": "Bottle",
+            "Mire Shed - Left": "Quake",
+            "Energy Tank, Brinstar Gate": "Ice Beam",
+            "Missile (Wave Beam)": "Reserve Tank",
+            "Missile (Mickey Mouse room)": "Progressive Shield"
+        },
+        {
+            "Hookshot Cave - Bottom Left": "Reserve Tank",
+            "Hookshot Cave - Bottom Right": "Speed Booster",
+            "Purple Chest": "Mushroom"
+        },
+        {
+            "Palace of Darkness - Dark Basement - Right": "Half Magic",
+            "Super Missile (Crateria)": "Spring Ball",
+            "Super Missile (green Brinstar top)": "Reserve Tank",
+            "Reserve Tank, Wrecked Ship": "Zora's Flippers"
+        },
+        {
+            "Palace of Darkness - Dark Maze - Top": "Magic Powder",
+            "Waterfall Fairy - Left": "Energy Tank",
+            "Lake Hylia Island": "Fire Rod",
+            "Hobo": "Progressive Shield"
+        },
+        {
+            "Misery Mire - Big Key Chest": "Magic Cape"
+        },
+        {
+            "Ganon's Tower - Hope Room - Left": "Book of Mudora"
+        }
+    ],
+    "prizes": [
+        {
+            "Prize - Eastern Palace": "Blue/Red Pendant",
+            "Prize - Desert Palace": "Blue Crystal",
+            "Prize - Tower of Hera": "Blue Crystal",
+            "Prize - Palace of Darkness": "Blue Crystal",
+            "Prize - Swamp Palace": "Blue Crystal",
+            "Prize - Skull Woods": "Blue Crystal",
+            "Prize - Thieves' Town": "Green Pendant",
+            "Prize - Ice Palace": "Red Crystal",
+            "Prize - Misery Mire": "Red Crystal",
+            "Prize - Turtle Rock": "Blue/Red Pendant",
+            "Medallion Required - Misery Mire": "Quake",
+            "Medallion Required - Turtle Rock": "Quake"
+        }
+    ],
+    "regions": [
+        {
+            "region": "Brinstar Blue",
+            "locations": [
+                {
+                    "name": "Missile (blue Brinstar top)",
+                    "item": "Space Jump"
+                },
+                {
+                    "name": "Missile (blue Brinstar bottom)",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Energy Tank, Brinstar Ceiling",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Missile (blue Brinstar middle)",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Power Bomb (blue Brinstar)",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Morphing Ball",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Missile (blue Brinstar behind missile)",
+                    "item": "Hammer"
+                }
+            ]
+        },
+        {
+            "region": "Brinstar Green",
+            "locations": [
+                {
+                    "name": "Power Bomb (green Brinstar bottom)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Super Missile (green Brinstar top)",
+                    "item": "Reserve Tank"
+                },
+                {
+                    "name": "Super Missile (green Brinstar bottom)",
+                    "item": "+5 Arrow Capacity"
+                },
+                {
+                    "name": "Energy Tank, Etecoons",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Missile (green Brinstar behind reserve tank)",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Missile (green Brinstar behind missile)",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Reserve Tank, Brinstar",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Missile (green Brinstar below super missile)",
+                    "item": "Three Bombs"
+                }
+            ]
+        },
+        {
+            "region": "Brinstar Kraid",
+            "locations": [
+                {
+                    "name": "Varia Suit",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Energy Tank, Kraid",
+                    "item": "Charge Beam"
+                },
+                {
+                    "name": "Missile (Kraid)",
+                    "item": "Twenty Rupees"
+                }
+            ]
+        },
+        {
+            "region": "Brinstar Pink",
+            "locations": [
+                {
+                    "name": "Energy Tank, Brinstar Gate",
+                    "item": "Ice Beam"
+                },
+                {
+                    "name": "Energy Tank, Waterway",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Missile (green Brinstar pipe)",
+                    "item": "Progressive Glove"
+                },
+                {
+                    "name": "Power Bomb (pink Brinstar)",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Charge Beam",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Missile (pink Brinstar bottom)",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Missile (pink Brinstar top)",
+                    "item": "Gravity Suit"
+                },
+                {
+                    "name": "Super Missile (pink Brinstar)",
+                    "item": "Power Bomb"
+                }
+            ]
+        },
+        {
+            "region": "Brinstar Red",
+            "locations": [
+                {
+                    "name": "X-Ray Scope",
+                    "item": "Cane of Byrna"
+                },
+                {
+                    "name": "Power Bomb (red Brinstar sidehopper room)",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Missile (red Brinstar spike room)",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Power Bomb (red Brinstar spike room)",
+                    "item": "Ether"
+                },
+                {
+                    "name": "Spazer",
+                    "item": "Flute"
+                }
+            ]
+        },
+        {
+            "region": "Castle Tower",
+            "locations": [
+                {
+                    "name": "Castle Tower - Foyer",
+                    "item": "Castle Tower Key"
+                },
+                {
+                    "name": "Castle Tower - Dark Maze",
+                    "item": "Castle Tower Key"
+                }
+            ]
+        },
+        {
+            "region": "Crateria Central",
+            "locations": [
+                {
+                    "name": "Power Bomb (Crateria surface)",
+                    "item": "Ten Arrows"
+                },
+                {
+                    "name": "Missile (Crateria middle)",
+                    "item": "Pegasus Boots"
+                },
+                {
+                    "name": "Missile (Crateria bottom)",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Bombs",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Super Missile (Crateria)",
+                    "item": "Spring Ball"
+                }
+            ]
+        },
+        {
+            "region": "Crateria East",
+            "locations": [
+                {
+                    "name": "Missile (Crateria moat)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Missile (outside Wrecked Ship middle)",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Missile (outside Wrecked Ship bottom)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Missile (outside Wrecked Ship top)",
+                    "item": "Varia Suit"
+                }
+            ]
+        },
+        {
+            "region": "Crateria West",
+            "locations": [
+                {
+                    "name": "Missile (Crateria gauntlet left)",
+                    "item": "Fifty Rupees"
+                },
+                {
+                    "name": "Missile (Crateria gauntlet right)",
+                    "item": "Ice Rod"
+                },
+                {
+                    "name": "Energy Tank, Gauntlet",
+                    "item": "Progressive Sword"
+                },
+                {
+                    "name": "Energy Tank, Terminator",
+                    "item": "Twenty Rupees"
+                }
+            ]
+        },
+        {
+            "region": "Dark World Death Mountain East",
+            "locations": [
+                {
+                    "name": "Superbunny Cave - Bottom",
+                    "item": "Fifty Rupees"
+                },
+                {
+                    "name": "Superbunny Cave - Top",
+                    "item": "+5 Bomb Capacity"
+                },
+                {
+                    "name": "Hookshot Cave - Bottom Right",
+                    "item": "Speed Booster"
+                },
+                {
+                    "name": "Hookshot Cave - Bottom Left",
+                    "item": "Reserve Tank"
+                },
+                {
+                    "name": "Hookshot Cave - Top Left",
+                    "item": "+5 Arrow Capacity"
+                },
+                {
+                    "name": "Hookshot Cave - Top Right",
+                    "item": "Piece of Heart"
+                }
+            ]
+        },
+        {
+            "region": "Dark World Death Mountain West",
+            "locations": [
+                {
+                    "name": "Spike Cave",
+                    "item": "Progressive Glove"
+                }
+            ]
+        },
+        {
+            "region": "Dark World Mire",
+            "locations": [
+                {
+                    "name": "Mire Shed - Left",
+                    "item": "Quake"
+                },
+                {
+                    "name": "Mire Shed - Right",
+                    "item": "Ten Arrows"
+                }
+            ]
+        },
+        {
+            "region": "Dark World North East",
+            "locations": [
+                {
+                    "name": "Pyramid Fairy - Right",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Pyramid Fairy - Left",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Pyramid",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Catfish",
+                    "item": "Three Bombs"
+                }
+            ]
+        },
+        {
+            "region": "Dark World North West",
+            "locations": [
+                {
+                    "name": "Purple Chest",
+                    "item": "Mushroom"
+                },
+                {
+                    "name": "Blacksmith",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Hammer Pegs",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Brewery",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "C-Shaped House",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Chest Game",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Bumper Cave",
+                    "item": "Twenty Rupees"
+                }
+            ]
+        },
+        {
+            "region": "Dark World South",
+            "locations": [
+                {
+                    "name": "Hype Cave - NPC",
+                    "item": "Bottle"
+                },
+                {
+                    "name": "Hype Cave - Bottom",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Hype Cave - Middle Left",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Hype Cave - Middle Right",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Hype Cave - Top",
+                    "item": "Bottle"
+                },
+                {
+                    "name": "Stumpy",
+                    "item": "+5 Bomb Capacity"
+                },
+                {
+                    "name": "Digging Game",
+                    "item": "Missile"
+                }
+            ]
+        },
+        {
+            "region": "Desert Palace",
+            "locations": [
+                {
+                    "name": "Desert Palace - Lanmolas",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Desert Palace - Compass Chest",
+                    "item": "Desert Palace Big Key"
+                },
+                {
+                    "name": "Desert Palace - Big Key Chest",
+                    "item": "Desert Palace Map"
+                },
+                {
+                    "name": "Desert Palace - Map Chest",
+                    "item": "Desert Palace Key"
+                },
+                {
+                    "name": "Desert Palace - Torch",
+                    "item": "Desert Palace Compass"
+                },
+                {
+                    "name": "Desert Palace - Big Chest",
+                    "item": "Missile"
+                }
+            ]
+        },
+        {
+            "region": "Eastern Palace",
+            "locations": [
+                {
+                    "name": "Eastern Palace - Armos Knights",
+                    "item": "Plasma Beam"
+                },
+                {
+                    "name": "Eastern Palace - Big Key Chest",
+                    "item": "+5 Arrow Capacity"
+                },
+                {
+                    "name": "Eastern Palace - Big Chest",
+                    "item": "Eastern Palace Compass"
+                },
+                {
+                    "name": "Eastern Palace - Compass Chest",
+                    "item": "Progressive Mail"
+                },
+                {
+                    "name": "Eastern Palace - Map Chest",
+                    "item": "Eastern Palace Map"
+                },
+                {
+                    "name": "Eastern Palace - Cannonball Chest",
+                    "item": "Eastern Palace Big Key"
+                }
+            ]
+        },
+        {
+            "region": "Ganon's Tower",
+            "locations": [
+                {
+                    "name": "Ganon's Tower - Randomizer Room - Top Left",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Ganon's Tower - Firesnake Room",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Ganon's Tower - Map Chest",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Ganon's Tower - DMs Room - Bottom Right",
+                    "item": "Three Hundred Rupees"
+                },
+                {
+                    "name": "Ganon's Tower - DMs Room - Bottom Left",
+                    "item": "Ganons Tower Big Key"
+                },
+                {
+                    "name": "Ganon's Tower - DMs Room - Top Right",
+                    "item": "Ganons Tower Key"
+                },
+                {
+                    "name": "Ganon's Tower - DMs Room - Top Left",
+                    "item": "Ganons Tower Key"
+                },
+                {
+                    "name": "Ganon's Tower - Randomizer Room - Top Right",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Ganon's Tower - Bob's Torch",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Ganon's Tower - Randomizer Room - Bottom Left",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Ganon's Tower - Hope Room - Left",
+                    "item": "Book of Mudora"
+                },
+                {
+                    "name": "Ganon's Tower - Moldorm Chest",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Ganon's Tower - Pre-Moldorm Chest",
+                    "item": "Ganons Tower Compass"
+                },
+                {
+                    "name": "Ganon's Tower - Mini Helmasaur Room - Right",
+                    "item": "Ganons Tower Key"
+                },
+                {
+                    "name": "Ganon's Tower - Mini Helmasaur Room - Left",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Ganon's Tower - Big Key Room - Right",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Ganon's Tower - Big Key Room - Left",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Ganon's Tower - Randomizer Room - Bottom Right",
+                    "item": "Bombos"
+                },
+                {
+                    "name": "Ganon's Tower - Big Key Chest",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Ganon's Tower - Bob's Chest",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Ganon's Tower - Compass Room - Bottom Right",
+                    "item": "One Rupee"
+                },
+                {
+                    "name": "Ganon's Tower - Compass Room - Bottom Left",
+                    "item": "Three Hundred Rupees"
+                },
+                {
+                    "name": "Ganon's Tower - Compass Room - Top Right",
+                    "item": "Ganons Tower Map"
+                },
+                {
+                    "name": "Ganon's Tower - Compass Room - Top Left",
+                    "item": "Ten Arrows"
+                },
+                {
+                    "name": "Ganon's Tower - Tile Room",
+                    "item": "Ganons Tower Key"
+                },
+                {
+                    "name": "Ganon's Tower - Hope Room - Right",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Ganon's Tower - Big Chest",
+                    "item": "Piece of Heart"
+                }
+            ]
+        },
+        {
+            "region": "Hyrule Castle",
+            "locations": [
+                {
+                    "name": "Sanctuary",
+                    "item": "Hi-Jump Boots"
+                },
+                {
+                    "name": "Secret Passage",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Hyrule Castle - Zelda's Cell",
+                    "item": "Hyrule Castle Map"
+                },
+                {
+                    "name": "Hyrule Castle - Boomerang Chest",
+                    "item": "Five Rupees"
+                },
+                {
+                    "name": "Hyrule Castle - Map Chest",
+                    "item": "Progressive Shield"
+                },
+                {
+                    "name": "Sewers - Dark Cross",
+                    "item": "Magic Mirror"
+                },
+                {
+                    "name": "Sewers - Secret Room - Right",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Sewers - Secret Room - Middle",
+                    "item": "Sewer Key"
+                },
+                {
+                    "name": "Sewers - Secret Room - Left",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Link's Uncle",
+                    "item": "Ten Arrows"
+                }
+            ]
+        },
+        {
+            "region": "Ice Palace",
+            "locations": [
+                {
+                    "name": "Ice Palace - Big Chest",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Ice Palace - Freezor Chest",
+                    "item": "Ice Palace Map"
+                },
+                {
+                    "name": "Ice Palace - Iced T Room",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Ice Palace - Big Key Chest",
+                    "item": "Ice Palace Big Key"
+                },
+                {
+                    "name": "Ice Palace - Map Chest",
+                    "item": "Ice Palace Key"
+                },
+                {
+                    "name": "Ice Palace - Spike Room",
+                    "item": "Ice Palace Key"
+                },
+                {
+                    "name": "Ice Palace - Compass Chest",
+                    "item": "Ice Palace Compass"
+                },
+                {
+                    "name": "Ice Palace - Kholdstare",
+                    "item": "Missile"
+                }
+            ]
+        },
+        {
+            "region": "Light World Death Mountain East",
+            "locations": [
+                {
+                    "name": "Mimic Cave",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Paradox Cave Lower - Right",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Paradox Cave Lower - Middle",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Paradox Cave Lower - Left",
+                    "item": "Morph Bombs"
+                },
+                {
+                    "name": "Paradox Cave Lower - Far Left",
+                    "item": "Reserve Tank"
+                },
+                {
+                    "name": "Paradox Cave Upper - Right",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Paradox Cave Upper - Left",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Spiral Cave",
+                    "item": "Bug Catching Net"
+                },
+                {
+                    "name": "Paradox Cave Lower - Far Right",
+                    "item": "Fifty Rupees"
+                },
+                {
+                    "name": "Floating Island",
+                    "item": "Three Bombs"
+                }
+            ]
+        },
+        {
+            "region": "Light World Death Mountain West",
+            "locations": [
+                {
+                    "name": "Old Man",
+                    "item": "Ten Arrows"
+                },
+                {
+                    "name": "Spectacle Rock",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Spectacle Rock Cave",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Ether Tablet",
+                    "item": "Energy Tank"
+                }
+            ]
+        },
+        {
+            "region": "Light World North East",
+            "locations": [
+                {
+                    "name": "Sahasrahla",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Sahasrahla's Hut - Right",
+                    "item": "Bottle"
+                },
+                {
+                    "name": "Sahasrahla's Hut - Middle",
+                    "item": "Blue Boomerang"
+                },
+                {
+                    "name": "Sahasrahla's Hut - Left",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Potion Shop",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Waterfall Fairy - Right",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Waterfall Fairy - Left",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Zora's Ledge",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "King Zora",
+                    "item": "Piece of Heart"
+                }
+            ]
+        },
+        {
+            "region": "Light World North West",
+            "locations": [
+                {
+                    "name": "King's Tomb",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Graveyard Ledge",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Pegasus Rocks",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Lumberjack Tree",
+                    "item": "Three Hundred Rupees"
+                },
+                {
+                    "name": "Lost Woods Hideout",
+                    "item": "Screw Attack"
+                },
+                {
+                    "name": "Mushroom",
+                    "item": "Ten Arrows"
+                },
+                {
+                    "name": "Master Sword Pedestal",
+                    "item": "Progressive Sword"
+                },
+                {
+                    "name": "Kakariko Well - Top",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Kakariko Well - Left",
+                    "item": "+5 Arrow Capacity"
+                },
+                {
+                    "name": "Kakariko Well - Right",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Magic Bat",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Kakariko Tavern",
+                    "item": "Cane of Somaria"
+                },
+                {
+                    "name": "Kakariko Well - Middle",
+                    "item": "Lamp"
+                },
+                {
+                    "name": "Sick Kid",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Bottle Merchant",
+                    "item": "Sanctuary Heart Container"
+                },
+                {
+                    "name": "Blind's Hideout - Far Right",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Blind's Hideout - Right",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Blind's Hideout - Left",
+                    "item": "One Rupee"
+                },
+                {
+                    "name": "Blind's Hideout - Far Left",
+                    "item": "Progressive Sword"
+                },
+                {
+                    "name": "Blind's Hideout - Top",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Kakariko Well - Bottom",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Chicken House",
+                    "item": "Missile"
+                }
+            ]
+        },
+        {
+            "region": "Light World South",
+            "locations": [
+                {
+                    "name": "Sunken Treasure",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Floodgate Chest",
+                    "item": "Five Rupees"
+                },
+                {
+                    "name": "Bombos Tablet",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Checkerboard Cave",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Desert Ledge",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Mini Moldorm Cave - Far Right",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Mini Moldorm Cave - Right",
+                    "item": "Progressive Mail"
+                },
+                {
+                    "name": "Lake Hylia Island",
+                    "item": "Fire Rod"
+                },
+                {
+                    "name": "Mini Moldorm Cave - NPC",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Mini Moldorm Cave - Far Left",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Aginah's Cave",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Link's House",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "South of Grove",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Flute Spot",
+                    "item": "Moon Pearl"
+                },
+                {
+                    "name": "Library",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Maze Race",
+                    "item": "Morphing Ball"
+                },
+                {
+                    "name": "Mini Moldorm Cave - Left",
+                    "item": "Three Hundred Rupees"
+                },
+                {
+                    "name": "Hobo",
+                    "item": "Progressive Shield"
+                },
+                {
+                    "name": "Ice Rod Cave",
+                    "item": "Energy Tank"
+                }
+            ]
+        },
+        {
+            "region": "Maridia Inner",
+            "locations": [
+                {
+                    "name": "Space Jump",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Energy Tank, Botwoon",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Missile (Draygon)",
+                    "item": "Five Rupees"
+                },
+                {
+                    "name": "Spring Ball",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Super Missile (pink Maridia)",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Missile (pink Maridia)",
+                    "item": "Silver Arrows"
+                },
+                {
+                    "name": "Power Bomb (right Maridia sand pit room)",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Missile (right Maridia sand pit room)",
+                    "item": "Fifty Rupees"
+                },
+                {
+                    "name": "Reserve Tank, Maridia",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Missile (left Maridia sand pit room)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Plasma Beam",
+                    "item": "+5 Bomb Capacity"
+                },
+                {
+                    "name": "Missile (yellow Maridia super missile)",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Super Missile (yellow Maridia)",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Missile (yellow Maridia false wall)",
+                    "item": "Missile"
+                }
+            ]
+        },
+        {
+            "region": "Maridia Outer",
+            "locations": [
+                {
+                    "name": "Missile (green Maridia tatori)",
+                    "item": "Grappling Beam"
+                },
+                {
+                    "name": "Energy Tank, Mama turtle",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Super Missile (green Maridia)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Missile (green Maridia shinespark)",
+                    "item": "Energy Tank"
+                }
+            ]
+        },
+        {
+            "region": "Misery Mire",
+            "locations": [
+                {
+                    "name": "Misery Mire - Vitreous",
+                    "item": "Misery Mire Key"
+                },
+                {
+                    "name": "Misery Mire - Big Chest",
+                    "item": "Misery Mire Key"
+                },
+                {
+                    "name": "Misery Mire - Big Key Chest",
+                    "item": "Magic Cape"
+                },
+                {
+                    "name": "Misery Mire - Compass Chest",
+                    "item": "Misery Mire Compass"
+                },
+                {
+                    "name": "Misery Mire - Spike Chest",
+                    "item": "One Hundred Rupees"
+                },
+                {
+                    "name": "Misery Mire - Bridge Chest",
+                    "item": "Misery Mire Key"
+                },
+                {
+                    "name": "Misery Mire - Map Chest",
+                    "item": "Misery Mire Map"
+                },
+                {
+                    "name": "Misery Mire - Main Lobby",
+                    "item": "Misery Mire Big Key"
+                }
+            ]
+        },
+        {
+            "region": "Norfair Lower East",
+            "locations": [
+                {
+                    "name": "Energy Tank, Firefleas",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Energy Tank, Ridley",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Power Bomb (Power Bombs of shame)",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Power Bomb (lower Norfair above fire flea room)",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Missile (lower Norfair above fire flea room)",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Missile (lower Norfair near Wave Beam)",
+                    "item": "Single Arrow"
+                }
+            ]
+        },
+        {
+            "region": "Norfair Lower West",
+            "locations": [
+                {
+                    "name": "Missile (Mickey Mouse room)",
+                    "item": "Progressive Shield"
+                },
+                {
+                    "name": "Screw Attack",
+                    "item": "Fifty Rupees"
+                },
+                {
+                    "name": "Super Missile (Gold Torizo)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Missile (Gold Torizo)",
+                    "item": "Three Bombs"
+                }
+            ]
+        },
+        {
+            "region": "Norfair Upper Crocomire",
+            "locations": [
+                {
+                    "name": "Missile (above Crocomire)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Energy Tank, Crocomire",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Power Bomb (Crocomire)",
+                    "item": "Ten Arrows"
+                },
+                {
+                    "name": "Missile (below Crocomire)",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Missile (Grappling Beam)",
+                    "item": "Fifty Rupees"
+                },
+                {
+                    "name": "Grappling Beam",
+                    "item": "Super Missile"
+                }
+            ]
+        },
+        {
+            "region": "Norfair Upper East",
+            "locations": [
+                {
+                    "name": "Wave Beam",
+                    "item": "Spazer"
+                },
+                {
+                    "name": "Missile (Wave Beam)",
+                    "item": "Reserve Tank"
+                },
+                {
+                    "name": "Speed Booster",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Missile (Speed Booster)",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Missile (bubble Norfair)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Missile (bubble Norfair green door)",
+                    "item": "X-Ray Scope"
+                },
+                {
+                    "name": "Missile (Norfair Reserve Tank)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Reserve Tank, Norfair",
+                    "item": "Red Boomerang"
+                }
+            ]
+        },
+        {
+            "region": "Norfair Upper West",
+            "locations": [
+                {
+                    "name": "Energy Tank (Hi-Jump Boots)",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Missile (Hi-Jump Boots)",
+                    "item": "Shovel"
+                },
+                {
+                    "name": "Hi-Jump Boots",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Missile (below Ice Beam)",
+                    "item": "Progressive Sword"
+                },
+                {
+                    "name": "Ice Beam",
+                    "item": "Twenty Rupees"
+                },
+                {
+                    "name": "Missile (lava room)",
+                    "item": "Missile"
+                }
+            ]
+        },
+        {
+            "region": "Palace of Darkness",
+            "locations": [
+                {
+                    "name": "Palace of Darkness - Shooter Room",
+                    "item": "Palace of Darkness Key"
+                },
+                {
+                    "name": "Palace of Darkness - Helmasaur King",
+                    "item": "Palace of Darkness Map"
+                },
+                {
+                    "name": "Palace of Darkness - Big Chest",
+                    "item": "Palace of Darkness Compass"
+                },
+                {
+                    "name": "Palace of Darkness - Dark Maze - Bottom",
+                    "item": "Bottle"
+                },
+                {
+                    "name": "Palace of Darkness - Dark Maze - Top",
+                    "item": "Magic Powder"
+                },
+                {
+                    "name": "Palace of Darkness - Dark Basement - Right",
+                    "item": "Half Magic"
+                },
+                {
+                    "name": "Palace of Darkness - Harmless Hellway",
+                    "item": "Palace of Darkness Key"
+                },
+                {
+                    "name": "Palace of Darkness - Compass Chest",
+                    "item": "Palace of Darkness Key"
+                },
+                {
+                    "name": "Palace of Darkness - Map Chest",
+                    "item": "Palace of Darkness Key"
+                },
+                {
+                    "name": "Palace of Darkness - The Arena - Ledge",
+                    "item": "Palace of Darkness Key"
+                },
+                {
+                    "name": "Palace of Darkness - The Arena - Bridge",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Palace of Darkness - Stalfos Basement",
+                    "item": "Palace of Darkness Big Key"
+                },
+                {
+                    "name": "Palace of Darkness - Big Key Chest",
+                    "item": "Palace of Darkness Key"
+                },
+                {
+                    "name": "Palace of Darkness - Dark Basement - Left",
+                    "item": "Super Missile"
+                }
+            ]
+        },
+        {
+            "region": "Skull Woods",
+            "locations": [
+                {
+                    "name": "Skull Woods - Mothula",
+                    "item": "Skull Woods Map"
+                },
+                {
+                    "name": "Skull Woods - Bridge Room",
+                    "item": "Skull Woods Key"
+                },
+                {
+                    "name": "Skull Woods - Big Key Chest",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Skull Woods - Pinball Room",
+                    "item": "Skull Woods Key"
+                },
+                {
+                    "name": "Skull Woods - Map Chest",
+                    "item": "Skull Woods Big Key"
+                },
+                {
+                    "name": "Skull Woods - Big Chest",
+                    "item": "Skull Woods Compass"
+                },
+                {
+                    "name": "Skull Woods - Compass Chest",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Skull Woods - Pot Prison",
+                    "item": "Skull Woods Key"
+                }
+            ]
+        },
+        {
+            "region": "Swamp Palace",
+            "locations": [
+                {
+                    "name": "Swamp Palace - Arrghus",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Swamp Palace - Waterfall Room",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Swamp Palace - Flooded Room - Right",
+                    "item": "Five Rupees"
+                },
+                {
+                    "name": "Swamp Palace - Flooded Room - Left",
+                    "item": "Swamp Palace Map"
+                },
+                {
+                    "name": "Swamp Palace - Big Key Chest",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Swamp Palace - West Chest",
+                    "item": "Power Bomb"
+                },
+                {
+                    "name": "Swamp Palace - Compass Chest",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Swamp Palace - Big Chest",
+                    "item": "Swamp Palace Compass"
+                },
+                {
+                    "name": "Swamp Palace - Map Chest",
+                    "item": "Swamp Palace Big Key"
+                },
+                {
+                    "name": "Swamp Palace - Entrance",
+                    "item": "Swamp Palace Key"
+                }
+            ]
+        },
+        {
+            "region": "Thieves' Town",
+            "locations": [
+                {
+                    "name": "Thieves' Town - Big Key Chest",
+                    "item": "Thieves Town Big Key"
+                },
+                {
+                    "name": "Thieves' Town - Compass Chest",
+                    "item": "Piece of Heart"
+                },
+                {
+                    "name": "Thieves' Town - Ambush Chest",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Thieves' Town - Map Chest",
+                    "item": "Thieves Town Compass"
+                },
+                {
+                    "name": "Thieves' Town - Attic",
+                    "item": "Thieves Town Map"
+                },
+                {
+                    "name": "Thieves' Town - Blind's Cell",
+                    "item": "Super Missile"
+                },
+                {
+                    "name": "Thieves' Town - Big Chest",
+                    "item": "Thieves Town Key"
+                },
+                {
+                    "name": "Thieves' Town - Blind",
+                    "item": "Super Missile"
+                }
+            ]
+        },
+        {
+            "region": "Tower of Hera",
+            "locations": [
+                {
+                    "name": "Tower of Hera - Big Key Chest",
+                    "item": "+5 Bomb Capacity"
+                },
+                {
+                    "name": "Tower of Hera - Map Chest",
+                    "item": "Tower of Hera Compass"
+                },
+                {
+                    "name": "Tower of Hera - Basement Cage",
+                    "item": "Tower of Hera Big Key"
+                },
+                {
+                    "name": "Tower of Hera - Compass Chest",
+                    "item": "Tower of Hera Map"
+                },
+                {
+                    "name": "Tower of Hera - Big Chest",
+                    "item": "Hookshot"
+                },
+                {
+                    "name": "Tower of Hera - Moldorm",
+                    "item": "Tower of Hera Key"
+                }
+            ]
+        },
+        {
+            "region": "Turtle Rock",
+            "locations": [
+                {
+                    "name": "Turtle Rock - Compass Chest",
+                    "item": "Energy Tank"
+                },
+                {
+                    "name": "Turtle Rock - Roller Room - Left",
+                    "item": "Turtle Rock Key"
+                },
+                {
+                    "name": "Turtle Rock - Roller Room - Right",
+                    "item": "Turtle Rock Key"
+                },
+                {
+                    "name": "Turtle Rock - Chain Chomps",
+                    "item": "Turtle Rock Big Key"
+                },
+                {
+                    "name": "Turtle Rock - Eye Bridge - Bottom Left",
+                    "item": "Turtle Rock Map"
+                },
+                {
+                    "name": "Turtle Rock - Eye Bridge - Bottom Right",
+                    "item": "Turtle Rock Key"
+                },
+                {
+                    "name": "Turtle Rock - Eye Bridge - Top Left",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Turtle Rock - Eye Bridge - Top Right",
+                    "item": "Turtle Rock Compass"
+                },
+                {
+                    "name": "Turtle Rock - Crystaroller Room",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Turtle Rock - Big Chest",
+                    "item": "Heart Container"
+                },
+                {
+                    "name": "Turtle Rock - Big Key Chest",
+                    "item": "Turtle Rock Key"
+                },
+                {
+                    "name": "Turtle Rock - Trinexx",
+                    "item": "Missile"
+                }
+            ]
+        },
+        {
+            "region": "Wrecked Ship",
+            "locations": [
+                {
+                    "name": "Super Missile (Wrecked Ship left)",
+                    "item": "Wave Beam"
+                },
+                {
+                    "name": "Energy Tank, Wrecked Ship",
+                    "item": "Fifty Rupees"
+                },
+                {
+                    "name": "Missile (Wrecked Ship top)",
+                    "item": "Ten Arrows"
+                },
+                {
+                    "name": "Missile (Gravity Suit)",
+                    "item": "Three Bombs"
+                },
+                {
+                    "name": "Reserve Tank, Wrecked Ship",
+                    "item": "Zora's Flippers"
+                },
+                {
+                    "name": "Missile (Wrecked Ship middle)",
+                    "item": "Missile"
+                },
+                {
+                    "name": "Right Super, Wrecked Ship",
+                    "item": "Three Hundred Rupees"
+                },
+                {
+                    "name": "Gravity Suit",
+                    "item": "Bow"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,845 @@
+<html>
+<title>Fun Old Games!</title>
+<link rel="icon" type="image/png" href="files/emulator/img/icon.png" />
+<link rel="stylesheet" href="files/emulator/css/bootstrap.min.css">
+<link rel="stylesheet" href="files/emulator/css/dark.min.css">
+<script src="https://kit.fontawesome.com/e90f0fdcbd.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="files/emulator/css/main.css">
+<script src="files/emulator/js/jquery.min.js"></script>
+<script src="files/emulator/js/main.js"></script>
+<script src="files/emulator/js/sweetalert2.min.js"></script>
+<script src="files/emulator/js/bootstrap.min.js"></script>
+<style>
+    .containerr {
+        top: 0;
+        left: 0;
+        position: fixed;
+        z-index: 99999999;
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+    }
+
+    .vertical--center {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        z-index: -99999999999999;
+    }
+
+    .a {
+        left: 50px !important;
+        position: fixed;
+        width: auto;
+        height: auto;
+    }
+
+    .bot {
+        padding: 5px;
+        margin: 10px;
+        border-radius: 50%;
+        background-color: #ff1100;
+        border: 2px solid black;
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .containerr:hover {
+        opacity: 1.0;
+        transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+    }
+
+    #helppp {
+        display: none;
+        transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+    }
+
+    .helppp1 {
+        margin-left: 15px !important;
+        margin-right: 5px !important;
+        transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+    }
+
+    .helppp2 {
+        margin-left: 0px !important;
+        margin-right: 5px !important;
+        transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+    }
+
+    body {
+        padding: 0;
+        background-color: black;
+    }
+
+    /* Prelaoder */
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99999999999999;
+        overflow: hidden;
+        background: #fff;
+        opacity: 0.95;
+    }
+
+    #preloader:before {
+        content: "";
+        z-index: 9999999999999999;
+        position: fixed;
+        top: calc(50% - 30px);
+        left: calc(50% - 30px);
+        border: 6px solid #f2f2f2;
+        border-top: 6px solid #ff1100;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        -webkit-animation: animate-preloader 1s linear infinite;
+        animation: animate-preloader 1s linear infinite;
+    }
+
+    @-webkit-keyframes animate-preloader {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes animate-preloader {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: contain;
+        background-color: #000;
+    }
+
+    .divv-img,
+    .divv-title,
+    .divv-de {
+        position: relative;
+    }
+
+    .divv-img img,
+    .divv-title h5,
+    .divv-de p {
+        position: absolute;
+    }
+
+    .divv-img img:last-child,
+    .divv-title h5:last-child,
+    .divv-de p:last-child {
+        animation-name: fade;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+        animation-direction: alternate;
+    }
+
+    .divv-img img:first-child,
+    .divv-title h5:first-child,
+    .divv-de p:first-child {
+        animation-name: fade2;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+        animation-direction: alternate;
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 1;
+        }
+
+        45% {
+            opacity: 1;
+        }
+
+        55% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade2 {
+        100% {
+            opacity: 1;
+        }
+
+        55% {
+            opacity: 1;
+        }
+
+        45% {
+            opacity: 0;
+        }
+
+        0% {
+            opacity: 0;
+        }
+    }
+
+    $grid-breakpoints: (
+        xs: 0,
+        sm: 480px,
+        md: 768px,
+        lg: 1024px
+    );
+    $container-max-widths: (
+        sm: 420px,
+        md: 720px,
+        lg: 1000px
+    );
+
+    .card-text {
+        font-size: 9px !important;
+    }
+</style>
+
+<body>
+    <div class="containerr">
+        <div id="hov" class="vertical--center">
+            <button id="helpp" onclick="window.location.href = '/snes-nes/';" class="bot"><i
+                    class="fa fa-bars"></i></button>
+        </div>
+        <div id="helppp" class="vertical--center a">
+            <button onclick="save1(); window.location.href = '<?php echo file_get_contents("files/url1/url1.txt"); ?>'"
+                class="bot helppp1" style="font-size: 20px;border-radius: 25px;width: 50px;"><i
+                    class="fa fa-sign-out"></i></button><button onclick="save();" class="bot helppp2"
+                style="font-size: 20px;border-radius: 25px;width: 50px;"><i class="fa fa-floppy-o"></i></button><button
+                onclick="load();" class="bot helppp2" style="font-size: 20px;border-radius: 25px;width: 50px;"><i
+                    class="fa fa-folder-open-o"></i></button>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color:#282828; color: #fff;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Save Games!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: #fff;">
+                    Successfully Saved!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color:#282828; color: #fff;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Load Saved Games!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: #fff;">
+                    Successfully Loaded!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="container text-center" style="max-width: 100%;">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4"
+                style="--bs-gutter-x: 1.5rem;--bs-gutter-y: 1.5rem; text-align: left; align-items: center;">
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SOM/SOM.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Secret of Mana</h5>
+                            <p class="card-text">Secret of Mana, originally released in Japan as Seiken Densetsu 2, is a
+                                1993 action role-playing game developed and published by Square for the Super...</p>
+                            <a href="files/SOM/Secret Of Mana-1.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SMB3/SMB3.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Mario Bros. 3</h5>
+                            <p class="card-text">Super Mario Bros. 3 is a platform game developed and published by
+                                Nintendo for the Nintendo Entertainment System. It was released for home consoles...</p>
+                            <a href="files/SMB3/Super Mario Bros 3-1.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/MK64/MK64.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Mario Kart 64</h5>
+                            <p class="card-text">Mario Kart 64 is a kart racing video game developed and published by
+                                Nintendo for the Nintendo 64. It was also released for the iQue Player in China...</p>
+                            <a href="files/MK64/Mario Kart 64-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SMW/SMW.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Mario World</h5>
+                            <p class="card-text">Super Mario World, known in Japan as Super Mario World: Super Mario
+                                Bros. 4, is a platform video game developed and published by Nintendo for the...</p>
+                            <a href="files/SMW/Super Mario World-2.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/BM94/BM94.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Bomberman '94</h5>
+                            <p class="card-text">Bomberman '94 is a video game from the Bomberman series which was
+                                developed and published by Hudson Soft for the PC Engine and released on December...</p>
+                            <a href="files/BM94/Bomberman '94-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SM64/SM64.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Mario</h5>
+                            <p class="card-text">Super Mario 64 is a 1996 platform game for the Nintendo 64. Developed
+                                by Nintendo Entertainment Analysis and Development and published by Nintendo,...</p>
+                            <a href="files/SM64/Super Mario 64-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SM/SM.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Metroid</h5>
+                            <p class="card-text">Super Metroid is an action-adventure game developed and published by
+                                Nintendo for the Super Nintendo Entertainment System in 1994. It is the third...</p>
+                            <a href="files/SM/Super Metroid-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/LE/LE.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">L'Empereur</h5>
+                            <p class="card-text">L'Empereur is a turn-based strategy video game for the Nintendo
+                                Entertainment System released by the Koei company in 1989. The user controls Napoleon...
+                            </p>
+                            <a href="files/LE/LEmpereur-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SMALTTP/SM&amp;ALTTP.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Metroid and A Link to the Past Crossover</h5>
+                            <p class="card-text">Super Metroid and A Link to the Past together into one experience and
+                                is randomized both games items to any location in either game creating a new...</p>
+                            <a href="files/SMALTTP/SMALTTP-1.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/NBAJ/NBAJ.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">NBA Jam</h5>
+                            <p class="card-text">NBA Jam is a basketball video game developed and published by Midway
+                                for arcades in 1993. It is the first entry in the NBA Jam series. The project...</p>
+                            <a href="files/NBAJ/NBA Jam-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/BS/BS.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseball Stars</h5>
+                            <p class="card-text">Baseball Stars is a baseball video game developed by SNK. It was
+                                released for the NES in 1989. It became a major hit in many countries worldwide,...</p>
+                            <a href="files/BS/Baseball Stars-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/LOZ/LOZ.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">The Legend of Zelda: A Link to the Past</h5>
+                            <p class="card-text">The Legend of Zelda: A Link to the Past is an action-adventure game
+                                developed and published by Nintendo for the Super Nintendo Entertainment System....</p>
+                            <a href="files/LOZ/The Legend of Zelda A Link to the Past-0.php"
+                                class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SDB/SDB.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Dodge Ball</h5>
+                            <p class="card-text">Super Dodge Ball is a dodgeball-based sports game produced by Technos
+                                Japan Corp. originally released as an arcade game in 1987.</p>
+                            <a href="files/SDB/Super Dodge Ball-1.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SF64/SF64.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Star Fox 64</h5>
+                            <p class="card-text">Star Fox 64, known as Lylat Wars in the PAL regions, is a 3D rail
+                                shooter video game developed by Nintendo for the Nintendo 64. It is the second...</p>
+                            <a href="files/SF64/Star Fox 64-1.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SMK/SMK.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Mario Kart</h5>
+                            <p class="card-text">Super Mario Kart is a kart racing video game developed and published by
+                                Nintendo for the Super Nintendo Entertainment System. The first game of the...</p>
+                            <a href="files/SMK/Super Mario Kart-1.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/TR/TR.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Tunnel Rush</h5>
+                            <p class="card-text">Blaze your way through caves and tunnels. Each Tunnel Rush level drops
+                                you into a whirling kaleidoscope of hazards and 3D tunnels.</p>
+                            <a href="files/TR/Tunnel Rush-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/RSB/RSB.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Retro Space Blaster</h5>
+                            <p class="card-text">Use the on-screen buttons to move and shoot. Beat missions and blast
+                                asteroids to unlock new ships. Use the arrow keys to rotate and fly your ship.</p>
+                            <a href="files/RSB/Retro Space Blaster-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/RB/RB.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Rookie Bowman</h5>
+                            <p class="card-text">Prove that you deserve the magic bow! Use its teleportation powers to
+                                make impossible jumps and dodge traps.</p>
+                            <a href="files/RB/Rookie Bowman-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/NHN/NHN.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Knightin'+</h5>
+                            <p class="card-text">Knightin'+ is a classic adventure game inspired by many of the amazing
+                                masterpieces from 90s.</p>
+                            <a href="files/NHN/Knightin-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/BB/BB.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Blightborne</h5>
+                            <p class="card-text">Only an ancient artifact can end the blight on your village's crops.
+                                Explore dungeons and battle monsters to find it!</p>
+                            <a href="files/BB/Blightborne-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/MLW/MLW.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Mainlands Wars</h5>
+                            <p class="card-text">Rally your troops to conquer land in this Risk-like game. The goal of
+                                Mainland Wars is to capture territories, build the economy, and attack the...</p>
+                            <a href="files/MLW/Mainland Wars-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/R3/favicon.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Run 3</h5>
+                            <p class="card-text">Run 3 is an exciting running game where you run, jump through an
+                                endless tunnel in space. Pass all challenges of hundred levels without falling into...
+                            </p>
+                            <a href="files/R3/Run 3-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/CPG/logos/pacman10-hp.2.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Chrome PAC-MAN</h5>
+                            <p class="card-text">Doodle for 30th Anniversary of PAC-MAN</p>
+                            <a href="files/CPG/Chrome Pacman-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/T2/T2.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Tanks 2</h5>
+                            <p class="card-text">Multiple terrains, multiple weapons - get them before they get you!
+                                Adjust force and angle. Buy weapons and fuel. Destroy the other tank.</p>
+                            <a href="files/T2/Tanks 2-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/CDG/screenshot.gif">
+                        <div class="card-body">
+                            <h5 class="card-title">Chrome Dinosaur Game</h5>
+                            <p class="card-text">The Dinosaur Game is a browser game developed by Google and built into
+                                the Google Chrome web browser. The player guides a pixelated Tyrannosaurus rex...</p>
+                            <a href="files/CDG/Chrome Dino Game-3.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/SMF/SMF.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Mario Flash</h5>
+                            <p class="card-text">The world's most famous plumbers have been flashified! Play as Mario or
+                                Luigi in order to overcome obstacles, defeat the evil goombas (and more),...</p>
+                            <a href="files/SMF/Super-Mario-Flash-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/AK/AK.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Knight</h5>
+                            <p class="card-text">Apple Knight is a beautiful action platformer RPG for all ages. Explore
+                                vast levels filled with secrets, quests and loot. Defeat tough bosses. Fight...</p>
+                            <a href="files/AK/Apple-Knight-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/FN/FN.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Fruit Ninja</h5>
+                            <p class="card-text">Fruit Ninja is a video game developed by Halfbrick. It was released
+                                April 21, 2010 for iPod Touch and iPhone devices, July 12, 2010 for the iPad,...</p>
+                            <a href="files/FN/Fruit-Ninja-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/DJ/DJ.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Doodle Jump</h5>
+                            <p class="card-text">Doodle Jump is a platforming video game developed and published by
+                                Croatian studio Lima Sky, for Windows Phone, iPhone OS, BlackBerry, Android, Java...</p>
+                            <a href="files/DJ/Doodle-Jump-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/GSG/GSG.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Snake Game</h5>
+                            <p class="card-text">Play the classic snake game on Google. Eat the apples and grow your
+                                snake as long as possible.</p>
+                            <a href="files/GSG/Google-Snake-Game-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/GDCIG/GDCIG.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Doodle Champion Island Games</h5>
+                            <p class="card-text">Doodle Champion Island Games is a 2021 role-playing browser game
+                                developed by Google in partnership with Studio 4°C. The game acted as an...</p>
+                            <a href="files/GDCIG/Doodle-Champion-Island-Games-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark splist">
+                        <div class="divv-img"><img class="card-img-top" src="files/GM/GM.gif"><img class="card-img-top"
+                                src="files/GM2/GM2.gif"></div>
+                        <div class="card-body" style="padding-top: calc(15vw + 20px);">
+                            <div class="divv-title">
+                                <h5 class="card-title">Google Doodle's Magic Cat Academy</h5>
+                                <h5 class="card-title">Google Doodle's Magic Cat Academy 2</h5>
+                            </div>
+                            <h5 style="visibility: hidden;" class="card-title">Google Doodle's Magic Cat Academy 2</h5>
+                            <div class="divv-de">
+                                <p class="card-text">Magic Cat Academy is a series of browser games created as Google
+                                    Doodles in celebration of Halloween. The first installment, Magic Cat Academy,
+                                    was...</p>
+                                <p class="card-text">Magic Cat Academy is a series of browser games created as Google
+                                    Doodles in celebration of Halloween. The first installment, Magic Cat Academy,
+                                    was...</p>
+                            </div>
+                            <p style="visibility: hidden;" class="card-text">Magic Cat Academy is a series of browser
+                                games created as Google Doodles in celebration of Halloween. The first installment,
+                                Magic Cat Academy, was...</p>
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-red dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Pick A Game To Open</button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a href="files/GM/Doodle-Magic-Cat-Academy-0.php" class="dropdown-item">Google
+                                            Doodle's Magic Cat Academy</a></li>
+                                    <li><a href="files/GM2/Doodle-Magic-Cat-Academy-2-0.php"
+                                            class="dropdown-item">Google Doodle's Magic Cat Academy 2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark splist">
+                        <div class="divv-img"><img class="card-img-top" src="files/TR2/TR2.jpg"><img
+                                class="card-img-top" src="files/TR2/TR2A.jpg"><img class="card-img-top"
+                                src="files/TR2/TR2F.jpg"><img class="card-img-top" src="files/TR2/TR2J.jpg"></div>
+                        <div class="card-body" style="padding-top: calc(15vw + 20px);">
+                            <div class="divv-title">
+                                <h5 class="card-title">Temple Run 2</h5>
+                                <h5 class="card-title">Temple Run 2: Frozen Shadows</h5>
+                                <h5 class="card-title">Temple Run 2: Holi Festival</h5>
+                                <h5 class="card-title">Temple Run 2: Jungle Fall</h5>
+                            </div>
+                            <h5 style="visibility: hidden;" class="card-title">Temple Run 2: Jungle Fall</h5>
+                            <div class="divv-de">
+                                <p class="card-text">Temple Run 2 is an endless running video game developed and
+                                    published by Imangi Studios. A sequel to Temple Run, the game was produced, designed
+                                    and...</p>
+                                <p class="card-text">Frozen Shadows is an endless runner game developed by Imangi. The
+                                    player must escape from her enemy and avoid all the obstacles and traps that are...
+                                </p>
+                                <p class="card-text">Holi Festival is an endless runner game developed by Imangi.
+                                    Celebrate the Holi Festival in the reimagined colorful temples in Temple Run 2!</p>
+                                <p class="card-text"> Jungle Fall is an endless runner game developed by Imangi. Escape
+                                    from the dangerous demonic apes and avoid all the obstacles and traps that are...
+                                </p>
+                            </div>
+                            <p style="visibility: hidden;" class="card-text"> Jungle Fall is an endless runner game
+                                developed by Imangi. Escape from the dangerous demonic apes and avoid all the obstacles
+                                and traps that are...</p>
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-red dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Pick A Game To Open</button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a href="files/TR2/Temple-Run2-0.php" class="dropdown-item">Temple Run 2</a>
+                                    </li>
+                                    <li><a href="files/TR2/Temple-Run2-0.php" class="dropdown-item">Temple Run 2: Frozen
+                                            Shadows</a></li>
+                                    <li><a href="files/TR2/Temple-Run2-0.php" class="dropdown-item">Temple Run 2: Holi
+                                            Festival</a></li>
+                                    <li><a href="files/TR2/Temple-Run2-0.php" class="dropdown-item">Temple Run 2: Jungle
+                                            Fall</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/TD/TD.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Toy Defense</h5>
+                            <p class="card-text">Deploy your toy soldiers to defend your home in this great tower
+                                defense game, Toy Defense. Protect your base from waves of enemy tanks and infantry.</p>
+                            <a href="files/TD/Toy Defense-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/BP/BP.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Bit Planes</h5>
+                            <p class="card-text">A fun plane game!</p>
+                            <a href="files/BP/Bit-Planes-0.php" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gamel">
+                    <div class="card text-white bg-dark">
+                        <img class="card-img-top" src="files/GP/GP.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Find Person</h5>
+                            <p class="card-text">Find a person in ironschools.org and anyone else in the database!</p>
+                            <a href="files/GP/" class="btn btn-red">Open</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </center>
+    <script>
+        function allStorage() {
+            var archive = {}, // Notice change here
+                keys = Object.keys(localStorage),
+                i = keys.length;
+            while (i--) {
+                archive[keys[i]] = localStorage.getItem(keys[i]);
+            }
+            return archive;
+        }
+        function save() {
+            var myJsonString = JSON.stringify(allStorage());
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/snes-nes/saving.php", true);
+            xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+            xhr.send(myJsonString);
+            xhr.onloadend = function () {
+                console.log(myJsonString);
+                $('#exampleModal').modal('show');
+            };
+        }
+        function load() {
+            $.get('/snes-nes/loading.php', function (script) {
+                $('body').append(script);
+                $('#exampleModal1').modal('show');
+            })
+        }
+        function load1() {
+            $.get('/snes-nes/loading.php', function (script) {
+                $('body').append(script);
+            })
+        }
+        function save1() {
+            var myJsonString = JSON.stringify(allStorage());
+            var yss = false;
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/snes-nes/saving.php", true);
+            xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+            xhr.send(myJsonString);
+        }
+        $("#helpp").hover(function () {
+            $("#helppp").css("display", "block");
+            $("#helpp").html("<i class='fa fa-home'></i>");
+        }, function () {
+        });
+        $(".containerr").hover(function () {
+        }, function () {
+            $("#helppp").css("display", "none");
+            $("#helpp").html("<i class='fa fa-bars'></i>");
+        });
+        <?php
+        if ($urlsl == "login") {
+            echo "const Toast11 = Swal.mixin({
+toast: true,
+position: 'top-end',
+showConfirmButton: false,
+timer: 9000,
+timerProgressBar: true,
+didOpen: (toast) => {
+toast.addEventListener('mouseenter', Swal.stopTimer);
+toast.addEventListener('mouseleave', Swal.resumeTimer);
+}
+});
+window.onload = function () { Toast11.fire({
+icon: 'success',
+title: 'Signed in successfully!'
+}); }
+load1();";
+        }
+        if ($urlsl == "signup") {
+            echo "const Toast1126 = Swal.mixin({
+toast: true,
+position: 'top-end',
+showConfirmButton: false,
+timer: 9000,
+timerProgressBar: true,
+didOpen: (toast) => {
+toast.addEventListener('mouseenter', Swal.stopTimer);
+toast.addEventListener('mouseleave', Swal.resumeTimer);
+}
+});
+window.onload = function () { Toast1126.fire({
+icon: 'success',
+title: 'Signed up successfully!'
+}); }
+load1();";
+        }
+        ?>
+    </script>
+    <style>
+        table,
+        th,
+        td {
+            border: 5px solid black;
+            border-collapse: collapse;
+        }
+
+        body {
+            margin: 15px;
+            padding: 0;
+            background-color: black;
+        }
+    </style>
+</body>
+
+</html>

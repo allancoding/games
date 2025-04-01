@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Blightbore",
+        "platform": "web",
+        "description": "Only an ancient artifact can end the blight on your village's crops. Explore dungeons and battle monsters to find it!",
+        "image": "BB.jpg",
+        "path": "games/BB/"
+    }
+]
