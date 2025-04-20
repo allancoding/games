@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">Продовжити</str>
+	<str id="play">Нова Гра</str>
+	<str id="options">Налаштування</str>
+	<str id="credits">Титри</str>
+	<str id="quit">Вихід</str>
+	<str id="credits_title">-Титри-</str>
+	<str id="credits_roll">Автор - Володимир "Wolod" Якубович
+
+
+Додаткова графіка - Вікторія Беховець
+
+
+Музика - Håkon Dale
+
+
+Французький переклад - Thomas Bourez
+Китайський переклад - Yang Zhang
+Італійський переклад - Fabio
+Іспанський переклад - Lisandro Johnston
+Польський переклад - Kantal
+
+
+Особлива подяка:
+Микола "Nick Urs" Урсатій
+Tom Fulp
+Salt &amp; Pixel
+Юрій Шишкін
+Данило Сиротинський
+Максим Нурієв
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Андрій "Rayfulrand" Рабощук
+
+
+Зроблено в Construct 2
+Muzt Die Studios, Україна, Львів, 2019</str>
+	<str id="skip">-Натисніть будь-яку клавішу, щоби пропустити-</str>
+	<str id="options_title">-Налаштування-</str>
+	<str id="window">У Вікні</str>
+	<str id="music">Музика</str>
+	<str id="sound">Звук</str>
+	<str id="autosave">Автосейв</str>
+	<str id="timer">Статистика</str>
+	<str id="speed">Швидкість</str>
+	<str id="on">Так</str>
+	<str id="off">Ні</str>
+	<str id="language">Мова</str>
+	<str id="en">EN</str>
+	<str id="ru">RU</str>
+	<str id="ua">UA</str>
+	<str id="fr">FR</str>
+	<str id="it">IT</str>
+	<str id="es">ES</str>
+	<str id="pl">PL</str>
+	<str id="cn">CN</str>
+	<str id="back">Назад</str>
+	<str id="confirm_title" type="map">-Вийти на карту?-</str>
+	<str id="confirm_title" type="main_menu">-Вийти в меню?-</str>
+	<str id="confirm_title" type="quit">-Вийти з гри?-</str>
+	<str id="confirm_title" type="play">-Стерти збереження?-</str>
+	<str id="yes">Так</str>
+	<str id="no">Ні</str>
+	<str id="dungeons">-Підземелля-</str>
+	<str id="dungeon0">Забуті Руїни</str>
+	<str id="dungeon1">Древня Піраміда</str>
+	<str id="dungeon2">Закинутий Храм</str>
+	<str id="dungeon3">Темна Вежа</str>
+	<str id="status">-Статус-</str>
+	<str id="boss">Бос</str>
+	<str id="items">Предмети</str>
+	<str id="keys">Ключі</str>
+	<str id="chests">Скрині</str>
+	<str id="pause_title">-Пауза-</str>
+	<str id="resume">Продовжити</str>
+	<str id="map">Карта Світу</str>
+	<str id="main_menu">Головне Меню</str>
+	<str id="save">-Гру Збережено-</str>
+	<str id="armor1">-Лицарські Обладунки-
+Правило ТБ #1: Носіть обладунки, щоб захистити плоть.</str>
+	<str id="armor2">-Багряна Обладунки-
+Ці обладунки не лише дуже міцні, а й неймовірно стильні.</str>
+	<str id="sword1">-Гострющий Меч-
+Махайте ним в напрямку супостата. Не перемогли? Повторіть крок 1.</str>
+	<str id="sword2">-Ураганний Клинок-
+Відкрита секретна техніка затискання кнопки атаки для заряду.</str>
+	<str id="shield1">-Щит Захисту-
+Направте в напрямку небезпеки. Ось так от, легко й просто.</str>
+	<str id="shield2">-Щит Помсти-
+Відбиває снаряди назад у стрільця. Це підлий трюк.</str>
+	<str id="ring1">-Перстень Спритності-
+Дозволяє переміщатися ривками, тому що ходити - повільно і нудно.</str>
+	<str id="ring2">-Перстень Полум'я-
+Звичайний ривок недостатньо крутий? Як щодо палаючого сліду?</str>
+	<str id="wand1">-Чарівний Жезл-
+Направте на ціль. Стріляйте. Старайтесь не схибити.</str>
+	<str id="belt1">-Ремінь Геркулеса-
+Дозволяє штовхати важкі предмети і відкривати банки голими руками!</str>
+	<str id="orb1">-Містична Сфера-
+Мала би переміщати в інші світи, але переміщає в інші кімнати.</str>
+	<str id="amulet1">-Примарний Амулет-
+Робить вас невразливими! Але тільки після поранення...</str>
+	<str id="potion">-Великий Червоний Еліксир-
+Укріпляє здоров'я. Не викликає побічних ефектів.</str>
+	<str id="elixir">-Сяючий Синій Еліксир-
+Збільшує запас магії, як і очікувалося.</str>
+	<str id="key">-Золотий Ключ-
+Очевидно, що відчиняє двері із золотим замком.</str>
+	<str id="boss0">-Квауг-
+Майже дракон</str>
+	<str id="boss1">-Госура-
+Недороблений титан</str>
+	<str id="boss2">-Мерсвін-
+Повелитель сопель</str>
+	<str id="boss3">-Іліч-
+Пересічний темний лорд</str>
+	<str id="boss3_final">-Фінальна Форма-
+Доволі передбачувано</str>
+</ui>

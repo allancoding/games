@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     '~/plugins/title.js'
   ],
   devtools: { enabled: true },
-  modules: ['@nuxt/fonts'],
+  modules: ['@nuxt/fonts', 'nuxt-typedjs', '@nuxt/icon'],
   fonts: {
     families: [
       { name: 'Press Start 2P', provider: 'google' },

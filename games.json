@@ -4,6 +4,95 @@
         "platform": "web",
         "description": "Only an ancient artifact can end the blight on your village's crops. Explore dungeons and battle monsters to find it!",
         "image": "BB.jpg",
-        "path": "games/BB/"
+        "path": "assets/BB/"
+    },
+    {
+        "name": "Bomberman '94",
+        "platform": "EJS",
+        "description": "Bomberman '94 is a video game from the Bomberman series which was developed and published by Hudson Soft for the PC Engine and released on December...",
+        "image": "BM94.jpg",
+        "path": "assets/BM94/",
+        "rom": "BM94.pce.zip",
+        "system": "pce"
+    },
+    {
+        "name": "Bit Planes",
+        "platform": "web",
+        "description": "A fun plane game!",
+        "image": "BP.png",
+        "path": "assets/BP/"
+    },
+    {
+        "name": "Baseball Stars",
+        "platform": "EJS",
+        "description": "Baseball Stars is a baseball video game developed by SNK. It was released for the NES in 1989. It became a major hit in many countries worldwide,...",
+        "image": "BS.jpg",
+        "path": "assets/BS/",
+        "rom": "BS.nes.zip",
+        "system": "nes"
+    },
+    {
+        "name": "Chrome Dinosaur Game",
+        "platform": "web",
+        "description": "The Dinosaur Game is a browser game developed by Google and built into the Google Chrome web browser. The player guides a pixelated Tyrannosaurus rex...",
+        "image": "screenshot.gif",
+        "path": "assets/CDG/"
+    },
+    {
+        "name": "Chrome PAC-MAN",
+        "platform": "web",
+        "description": "Doodle for 30th Anniversary of PAC-MAN",
+        "image": "logos/pacman10-hp.2.png",
+        "path": "assets/CPG/"
+    },
+    {
+        "name": "L'Empereur",
+        "platform": "EJS",
+        "description": "L'Empereur is a turn-based strategy video game for the Nintendo Entertainment System released by the Koei company in 1989. The user controls Napoleon...",
+        "image": "LE.jpg",
+        "path": "assets/LE/",
+        "rom": "LE.nes.zip",
+        "system": "nes"
+    },
+    {
+        "name": "The Legend of Zelda: A Link to the Past",
+        "platform": "EJS",
+        "description": "The Legend of Zelda: A Link to the Past is an action-adventure game developed and published by Nintendo for the Super Nintendo Entertainment System....",
+        "image": "LOZ.jpg",
+        "path": "assets/LOZ/",
+        "rom": "LOZ.smc.zip",
+        "system": "snes"
+    },
+    {
+        "name": "Mario Kart 64",
+        "platform": "EJS",
+        "description": "Mario Kart 64 is a kart racing video game developed and published by Nintendo for the Nintendo 64. It was also released for the iQue Player in China...",
+        "image": "MK64.jpg",
+        "path": "assets/MK64/",
+        "rom": "MK64.n64.zip",
+        "system": "n64"
+    },
+    {
+        "name": "Mainlands Wars",
+        "platform": "web",
+        "description": "Rally your troops to conquer land in this Risk-like game. The goal of Mainland Wars is to capture territories, build the economy, and attack the...",
+        "image": "MLW.png",
+        "path": "assets/MLW/"
+    },
+    {
+        "name": "NBA Jam",
+        "platform": "EJS",
+        "description": "NBA Jam is a basketball video game developed and published by Midway for arcades in 1993. It is the first entry in the NBA Jam series. The project...",
+        "image": "NBAJ.jpg",
+        "path": "assets/NBAJ/",
+        "rom": "NBAJ.sfc.zip",
+        "system": "snes"
+    },
+    {
+        "name": "Knightin'",
+        "platform": "web",
+        "description": "Knightin'+ is a classic adventure game inspired by many of the amazing masterpieces from 90s.",
+        "image": "NHN.jpg",
+        "path": "assets/NHN/"
     }
 ]

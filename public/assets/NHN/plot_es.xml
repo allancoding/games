@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">Érase una vez en un reino muy, muy lejano...</str>
+		<str id="1">Bueno...</str>
+		<str id="2">No estás aquí para leer estas porquerías, ¿verdad?</str>
+		<str id="3">...</str>
+		<str id="4">¿Pero aún así quieres escuchar una historia?</str>
+		<str id="5">Bueno... Aquí tienes...</str>
+		<str id="6">En un reino lejano de cuento de hadas muy genérico...</str>
+		<str id="7">...había un caballero valiente llamado Sir Robamucho.</str>
+		<str id="8">Su coraje y virtudes eran tan legendarios como...</str>
+		<str id="9">...su lujuria por, obviamente, botín y fama.</str>
+		<str id="10">Y, por supuesto, los calabozos llenos de peligro y tesoros...</str>
+		<str id="11">...están muy convenientemente dispersados por el reino.</str>
+		<str id="12">¿Ya ves a donde voy con esto?</str>
+		<str id="13">¡Adelante, hacia la gloria! ¡Chop-chop!</str>
+	</intro>
+	<boss0>
+		<str id="0">La corona de oro rodó hacia los pies del caballero.</str>
+		<str id="1">"¡Mi trabajo aquí ha terminado!" exclamó Sir Robamucho...</str>
+		<str id="2">...mientras guardaba el trofeo en su confiable inventario.</str>
+		<str id="3">Y fue así que el infame casi-dragón encontró la muerte.</str>
+	</boss0>
+	<boss1>
+		<str id="0">"¡Mantén las manos quietas!" gritó Sir Robamucho...</str>
+		<str id="1">...luego de que los mortales puños de piedra se desmoronaron.</str>
+		<str id="2">Así fue cómo el titán inacabado perdió la cabeza.</str>
+		<str id="3">Y manos.</str>
+		<str id="4">El destino del resto de sus partes es desconocido.</str>
+	</boss1>
+	<boss2>
+		<str id="0">Sir Robamucho se paró triunfante, cubierto en fango pegajoso.</str>
+		<str id="1">"Justo ayer pulí mi armadura..." se lamentó.</str>
+		<str id="2">Y así fue como el amo del moco fue derrotado.</str>
+		<str id="3">¿Pero a qué costo?</str>
+		<str id="4">Y así fue como el valiente caballero fue al lavadero más cercano.</str>
+	</boss2>
+	<boss3>
+		<str id="0">"Éste calabozo no es lo suficientemente grande para los dos."</str>
+		<str id="1">Esas fueron las últimas palabras que escuchó el señor oscuro.</str>
+		<str id="2">Y así fue como la saga épica de Sir Robamucho llegó a su fin.</str>
+		<str id="3">...</str>
+		<str id="4">Ahora puedes volver a tu vida.</str>
+		<str id="5">...</str>
+		<str id="6">¿Qué esperas? ¿Un final bonito?</str>
+		<str id="7">Lamentablemente, no hay uno.</str>
+		<str id="8">¿Por qué me miras así?</str>
+		<str id="9">¡No esperé que llegaras tan lejos!</str>
+		<str id="10">Está bien, veamos que puedo hacer...</str>
+	</boss3>
+	<outro>
+		<str id="0">Mucho mejor, supongo.</str>
+		<str id="1">¡Gracias por jugar!</str>
+	</outro>
+	<cast>
+		<str id="cast">-Protagonizado por-</str>
+		<str id="knight">Sir Robamucho</str>
+		<str id="shopkeeper">Sr. Magociante</str>
+		<str id="fly">Tábano</str>
+		<str id="mushroom">Hongo</str>
+		<str id="slime">Slime</str>
+		<str id="imp">Diablillo</str>
+		<str id="jellyfish">Medusa</str>
+		<str id="worm">Gusano Espía</str>
+		<str id="croc">Cocodrilito</str>
+		<str id="egg">Cachorro de Grendel</str>
+		<str id="bat">Murciélago</str>
+		<str id="bug">Insecto Blindado</str>
+		<str id="fishman">Anfibio</str>
+		<str id="ghost">Fantasma</str>
+		<str id="moth">Bombilla</str>
+		<str id="eggplant">Berenjena</str>
+		<str id="jinni">Genio</str>
+		<str id="birdman">Pico</str>
+		<str id="qaug">Qaug</str>
+		<str id="gosura">Gosura</str>
+		<str id="merswin">Merswin</str>
+		<str id="eelich">Eelich</str>
+	</cast>
+</plot>

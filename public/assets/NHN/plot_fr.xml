@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">Il était une fois, dans un royaume très, très lointain...</str>
+		<str id="1">Bon...</str>
+		<str id="2">Vous n'êtes pas là pour lire ces conneries, je me trompe ?</str>
+		<str id="3">...</str>
+		<str id="4">Mais vous voulez quand même entendre une histoire ?</str>
+		<str id="5">D'accord... En voilà une :</str>
+		<str id="6">Dans un royaume de contes de fées pas très original...</str>
+		<str id="7">...Se trouvait un chevalier courageux du nom de Sire Lootalot.</str>
+		<str id="8">Son courage et sa vertu n'avait d'égal que...</str>
+		<str id="9">...Sa soif de butin et de reconnaissance, évidemment.</str>
+		<str id="10">Et, bien sûr, les donjons pleins de dangers et de trésors...</str>
+		<str id="11">...Étaient dispersés de manière très pratique à travers le royaume.</str>
+		<str id="12">Vous-voyez où je veux en venir ?</str>
+		<str id="13">En marche pour la gloire ! Et plus vite que ça !</str>
+	</intro>
+	<boss0>
+		<str id="0">La couronne, faite d'or pur, roula jusqu'aux pieds du chevalier.</str>
+		<str id="1">« Et voilà le travail ! » s'exclama Sire Lootalot...</str>
+		<str id="2">...Alors qu'il planquait son trophée dans son fidèle inventaire.</str>
+		<str id="3">C'est donc ainsi que l'infâme Presque-Dragon succomba. </str>
+	</boss0>
+	<boss1>
+		<str id="0">« Bas les pattes ! » cria Sire Lootalot...</str>
+		<str id="1">...Après que Les mortels poings de pierre étant devenus poussière.</str>
+		<str id="2">C'est donc ainsi que le Titan Inachevé a perdu la tête.</str>
+		<str id="3">Et les mains.</str>
+		<str id="4">Personne ne sait ce qu'il est advenu du reste de ses membres.</str>
+	</boss1>
+	<boss2>
+		<str id="0">Sire Lootalot se dressa, victorieux, couvert de substance gluante.</str>
+		<str id="1">« J'ai ciré mon armure hier... » soupira-t-il.</str>
+		<str id="2">C'est donc ainsi que le Maître du Mucus fut vaincu. </str>
+		<str id="3">Mais à quel prix ?</str>
+		<str id="4">Alors le courageux chevalier se rendit au pressing le plus proche.</str>
+	</boss2>
+	<boss3>
+		<str id="0">« Ce donjon n'est pas assez grand pour nous deux. »</str>
+		<str id="1">Ce sont les derniers mots qu'a entendu le Sombre Seigneur. </str>
+		<str id="2">C'est donc ainsi que l'épopée de Sire Lootalot prit fin.</str>
+		<str id="3">...</str>
+		<str id="4">Vous pouvez désormais vaquer à vos occupations.</str>
+		<str id="5">...</str>
+		<str id="6">Qu'est-ce que vous attendez ? Une fin élaborée ?</str>
+		<str id="7">Malheureusement il n'y en a pas.</str>
+		<str id="8">Pourquoi est-ce que vous me regardez comme ça ?</str>
+		<str id="9">Je ne pensais pas que vous arriveriez si loin !</str>
+		<str id="10">D'accord... Je vais bien trouver quelque chose...</str>
+	</boss3>
+	<outro>
+		<str id="0">Voilà, c'est beaucoup mieux, je pense.</str>
+		<str id="1">Merci d'avoir joué !</str>
+	</outro>
+	<cast>
+		<str id="cast">-En vedette-</str>
+		<str id="knight">Sire Lootalot</str>
+		<str id="shopkeeper">M. Mage d'Affaires</str>
+		<str id="fly">Taon</str>
+		<str id="mushroom">Champignon</str>
+		<str id="slime">Gelée</str>
+		<str id="imp">Diablotin</str>
+		<str id="jellyfish">Méduse</str>
+		<str id="worm">Ver Voyeur</str>
+		<str id="croc">P'tit Croco</str>
+		<str id="egg">Bébé Grendel</str>
+		<str id="bat">Chauve-Souris</str>
+		<str id="bug">Coccinelle</str>
+		<str id="fishman">Amphibien</str>
+		<str id="ghost">Fantôme</str>
+		<str id="moth">Phalène Bombardier</str>
+		<str id="eggplant">Aubergine</str>
+		<str id="jinni">Djinn</str>
+		<str id="birdman">Pivert</str>
+		<str id="qaug">Qaug</str>
+		<str id="gosura">Gosura</str>
+		<str id="merswin">Merswin</str>
+		<str id="eelich">Eelich</str>
+	</cast>
+</plot>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">C'era una volta, in un regno molto molto lontano...</str>
+		<str id="1">Beh...</str>
+		<str id="2">Non sei arrivato qui per leggere questo schifo, giusto?</str>
+		<str id="3">...</str>
+		<str id="4">Vuoi comunque sentire la storia?</str>
+		<str id="5">Okay... Iniziamo...</str>
+		<str id="6">In un non meglio specificato regno incantato...</str>
+		<str id="7">...viveva un impavido cavaliere noto come Sir Lootalot.</str>
+		<str id="8">Il suo coraggio e le sue virtù erano tanto leggendarie quanto...</str>
+		<str id="9">...la sua brama per, ovviamente, la fama e il saccheggio.</str>
+		<str id="10">E naturalmente, le segrete piene di pericoli e tesori...</str>
+		<str id="11">...sono sapientemente sparse per tutto il reame.</str>
+		<str id="12">Capisci dove voglio arrivare?</str>
+		<str id="13">Verso la gloria! Si parte!</str>
+	</intro>
+	<boss0>
+		<str id="0">La corona fatta interamente d'oro rotolò ai piedi del Cavaliere.</str>
+		<str id="1">"Il mio lavoro qui è terminato!" esclamò Sir Lootalot...</str>
+		<str id="2">...mentre nascondeva un trofeo nel suo valoroso inventario</str>
+		<str id="3">Fu cosi che quell'infame di quasi drago conobbe la sua fine.</str>
+	</boss0>
+	<boss1>
+		<str id="0">"Tieni le mani a posto!" urlò Sir Lootalot...</str>
+		<str id="1">...dopo che i letali pugni di pietra si sgretolarono.</str>
+		<str id="2">E cosi che il titano incompleto perse la testa.</str>
+		<str id="3">E le mani.</str>
+		<str id="4">Cosa accadde al resto del suo corpo non è dato saperlo.</str>
+	</boss1>
+	<boss2>
+		<str id="0">Sir Lootalot si alzò trionfante ricoperto da una bava appiccicosa.</str>
+		<str id="1">"Ho lucidato la mia armatura ieri..." sospirò.</str>
+		<str id="2">E fu così che venne ucciso il signore del muco.</str>
+		<str id="3">Ma a quale costo?</str>
+		<str id="4">E così l'impavido cavaliere andò al lavaggio a secco più vicino.</str>
+	</boss2>
+	<boss3>
+		<str id="0">"Queste segrete non sono abbastanza grandi per entrambi."</str>
+		<str id="1">Queste furono le ultime parole che sentì il signore oscuro.</str>
+		<str id="2">Fu così che l'epica saga di Sir Lootalot giunse al termine.</str>
+		<str id="3">...</str>
+		<str id="4">Ora puoi ritornare alla tua vita.</str>
+		<str id="5">...</str>
+		<str id="6">Cosa stai aspettando? Un finale stravagante?</str>
+		<str id="7">Sfortunatamente non esiste.</str>
+		<str id="8">Perché mi guardi in quel modo?</str>
+		<str id="9">Non mi aspettavo che riuscissi ad arrivare fino a qui!</str>
+		<str id="10">Ok va bene... Troverò qualcosa...</str>
+	</boss3>
+	<outro>
+		<str id="0">Molto meglio, credo.</str>
+		<str id="1">Grazie per aver giocato!</str>
+	</outro>
+	<cast>
+		<str id="cast">-Interpreti e personaggi-</str>
+		<str id="knight">Sir Lootalot</str>
+		<str id="shopkeeper">Sig. Mago d'Affari</str>
+		<str id="fly">Tafano</str>
+		<str id="mushroom">Ovolo Malefico</str>
+		<str id="slime">Slime</str>
+		<str id="imp">Belzebù</str>
+		<str id="jellyfish">Medusa</str>
+		<str id="worm">Verme Curioso</str>
+		<str id="croc">Geco</str>
+		<str id="egg">Cucciolo di Grendel</str>
+		<str id="bat">Chiro</str>
+		<str id="bug">Insetto Corazzato</str>
+		<str id="fishman">Anfibio</str>
+		<str id="ghost">Spettro</str>
+		<str id="moth">Falena Bombardiere</str>
+		<str id="eggplant">Clonanzana</str>
+		<str id="jinni">Genio</str>
+		<str id="birdman">Picchio</str>
+		<str id="qaug">Qaug</str>
+		<str id="gosura">Gosura</str>
+		<str id="merswin">Merswin</str>
+		<str id="eelich">Eelich</str>
+	</cast>
+</plot>

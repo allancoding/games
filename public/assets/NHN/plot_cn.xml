@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">很久很久以前在一个遥远的王国中...</str>
+		<str id="1">好吧...</str>
+		<str id="2">你来这里不是为了读这个无聊玩意的，我说的对吗？</str>
+		<str id="3">...</str>
+		<str id="4">但是你仍旧希望听到一个故事吧？</str>
+		<str id="5">那么...我们继续...</str>
+		<str id="6">在一个神话传说一般的王国内...</str>
+		<str id="7">...有一个威名远播的勇敢的骑士-鲁卡洛特爵士.</str>
+		<str id="8">他的勇敢、美德和他...</str>
+		<str id="9">...对战利品与名望的追求一样传奇.</str>
+		<str id="10">当然，充满危险和宝藏的地下城...</str>
+		<str id="11">...遍布整个王国的领域.</str>
+		<str id="12">你瞧，这个地下城通向何方？</str>
+		<str id="13">向荣誉迈进吧！冲啊！</str>
+	</intro>
+	<boss0>
+		<str id="0">由纯金制成的王冠滚到这位骑士的脚上.</str>
+		<str id="1">"工作完成！" 鲁卡洛特爵士喊道...</str>
+		<str id="2">...同时，他把一个战利品藏入他的背包中.</str>
+		<str id="3">这就是一条臭名昭著的冒牌恶龙被终结的后的情景.</str>
+	</boss0>
+	<boss1>
+		<str id="0">"你的手自己留着吧！" 鲁卡洛特爵士喊道...</str>
+		<str id="1">...在致命的石拳碎入灰尘后.</str>
+		<str id="2">残缺泰坦就这样玩丢了脑袋.</str>
+		<str id="3">还有手...</str>
+		<str id="4">他未来的命运还不得而知.</str>
+	</boss1>
+	<boss2>
+		<str id="0">鲁卡洛特爵士得意洋洋的从史莱姆粘液堆中站起身.</str>
+		<str id="1">"昨天才擦干净的盔甲..." 他哀叹到.</str>
+		<str id="2">这就是粘液大师被斩杀的情景.</str>
+		<str id="3">代价是什么？</str>
+		<str id="4">这位勇敢的骑士又去了一趟附近的干洗店.</str>
+	</boss2>
+	<boss3>
+		<str id="0">"这个地下城不够大装不下你和我两个人."</str>
+		<str id="1">这是黑暗领主临终前听到的临终赠言.</str>
+		<str id="2">鲁卡洛特爵士的史诗传奇走向完结.</str>
+		<str id="3">...</str>
+		<str id="4">现在，你可以回到你的现实人生了.</str>
+		<str id="5">...</str>
+		<str id="6">你还在等什么？一个更梦幻的结局？</str>
+		<str id="7">遗憾的是没有那样的结局.</str>
+		<str id="8">你为什么那样看着我？</str>
+		<str id="9">我没想到你会陷的这么深！</str>
+		<str id="10">好吧，我想想其他办法.</str>
+	</boss3>
+	<outro>
+		<str id="0">这样好多了，我猜.</str>
+		<str id="1">感谢游玩！</str>
+	</outro>
+	<cast>
+		<str id="cast">-主演-</str>
+		<str id="knight">鲁卡洛特爵士</str>
+		<str id="shopkeeper">商人法师先生</str>
+		<str id="fly">虻</str>
+		<str id="mushroom">毒蘑菇</str>
+		<str id="slime">史莱姆</str>
+		<str id="imp">小恶魔</str>
+		<str id="jellyfish">海蜇怪</str>
+		<str id="worm">窥视虫</str>
+		<str id="croc">利尔鳄鱼</str>
+		<str id="egg">格伦德尔幼兽</str>
+		<str id="bat">蝙蝠</str>
+		<str id="bug">硬壳虫</str>
+		<str id="fishman">鱼怪</str>
+		<str id="ghost">鬼魂</str>
+		<str id="moth">炸弹飞蛾</str>
+		<str id="eggplant">茄子怪</str>
+		<str id="jinni">精灵</str>
+		<str id="birdman">啄木鸟</str>
+		<str id="qaug">奥格</str>
+		<str id="gosura">格斯拉</str>
+		<str id="merswin">梅斯文</str>
+		<str id="eelich">埃利希</str>
+	</cast>
+</plot>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">Continuar</str>
+	<str id="play">Nuevo Juego</str>
+	<str id="options">Opciones</str>
+	<str id="credits">Créditos</str>
+	<str id="quit">Salir del Juego</str>
+	<str id="credits_title">-Créditos-</str>
+	<str id="credits_roll">Juego por Volodymyr "Wolod" Yakubovych
+
+
+Gráficos adicionales por Victoria Bekhovets'
+
+
+Música por Håkon Dale
+
+
+Traducción al francés por Thomas Bourez
+Traducción al chino por Yang Zhang
+Traducción al italiano por Fabio
+Traducción al español por Lisandro Johnston
+Traducción al polaco por Kantal
+
+
+Agradecimientos especiales a:
+Mykola "Nick Urs" Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii "Rayfulrand" Raboshchuk
+
+
+Desarrollado por Construct 2
+Muzt Die Studios, Ucrania, Leópolis, 2019</str>
+	<str id="skip">-Presiona cualquier tecla para saltar-</str>
+	<str id="options_title">-Opciones-</str>
+	<str id="window">Ventana</str>
+	<str id="music">Música</str>
+	<str id="sound">Sonido</str>
+	<str id="autosave">Autoguardado</str>
+	<str id="timer">Estadísticas</str>
+	<str id="speed">Velocidad</str>
+	<str id="on">On</str>
+	<str id="off">Off</str>
+	<str id="language">Idioma</str>
+	<str id="en">EN</str>
+	<str id="ru">RU</str>
+	<str id="ua">UA</str>
+	<str id="fr">FR</str>
+	<str id="it">IT</str>
+	<str id="es">ES</str>
+	<str id="pl">PL</str>
+	<str id="cn">CN</str>
+	<str id="back">Volver</str>
+	<str id="confirm_title" type="map">-¿Volver al mapa?-</str>
+	<str id="confirm_title" type="main_menu">-¿Volver al menú principal?-</str>
+	<str id="confirm_title" type="quit">-¿Salir del Juego?-</str>
+	<str id="confirm_title" type="play">-¿Borrar los datos guardados?-</str>
+	<str id="yes">Sí</str>
+	<str id="no">No</str>
+	<str id="dungeons">-Calabozos-</str>
+	<str id="dungeon0">Ruinas Abandonadas</str>
+	<str id="dungeon1">Pirámide Antigua</str>
+	<str id="dungeon2">Templo Despoblado</str>
+	<str id="dungeon3">Torre Oscura</str>
+	<str id="status">-Estado-</str>
+	<str id="boss">Jefe</str>
+	<str id="items">Objetos</str>
+	<str id="keys">Llaves</str>
+	<str id="chests">Cofres</str>
+	<str id="pause_title">-Pausa-</str>
+	<str id="resume">Reanudar</str>
+	<str id="map">Mapa del Mundo</str>
+	<str id="main_menu">Menú Principal</str>
+	<str id="save">-Partida Guardada-</str>
+	<str id="armor1">-Armadura de Caballero-
+Norma de seguridad #1: Viste armadura para protegerte.</str>
+	<str id="armor2">-Armadura Carmesí-
+No creerás lo delgado que te hace ver esta armadura.</str>
+	<str id="sword1">-Espada Super Filosa-
+Dale con ella a tu adversario. ¿No has ganado aún? Repite el paso anterior.</str>
+	<str id="sword2">-Espada Torbellino-
+Técnica secreta "mantén-apretado-botón-de-ataque-para-cargar" desbloqueada.</str>
+	<str id="shield1">-Escudo de Protección-
+Levántalo ante cualquier peligro. Así de simple.</str>
+	<str id="shield2">-Escudo de Venganza-
+Rebota proyectiles hacia quien los disparó. Que rudo.</str>
+	<str id="ring1">-Anillo de Velocidad-
+Te permite hacer un dash ya que caminar es lento y aburrido.</str>
+	<str id="ring2">-Anillo ígneo-
+¿El dash no es lo suficientemente genial? ¿Pues que tal un sendero de llamas?</str>
+	<str id="wand1">-Varita Arcana-
+Apunta a tu objetivo. Dispara flechas mágicas. Trata de acertar.</str>
+	<str id="belt1">-Cinturón de Hércules-
+¡Ahora puedes mover objetos pesados y abrir frascos con tus propias manos!</str>
+	<str id="orb1">-Orbe Mística-
+Debería transportarte a otros mundos. Solo te transporta a otras habitaciones.</str>
+	<str id="amulet1">-Amuleto Fantasma-
+¡Te hace invulnerable! Pero solo luego de ser herido...</str>
+	<str id="potion">-Gran Poción Roja-
+Mejora tu Vida. Efectos secundarios desconocidos.</str>
+	<str id="elixir">-Vibrante Elíxir Azul-
+Aumenta la potencia mágica, esperadamente.</str>
+	<str id="key">-Llave Dorada-
+Obviamente, abre una puerta con una cerradura dorada.</str>
+	<str id="boss0">-Qaug-
+Casi un dragón</str>
+	<str id="boss1">-Gosura-
+El titán inacabado</str>
+	<str id="boss2">-Merswin-
+Amo del moco</str>
+	<str id="boss3">-Eelich-
+Señor oscuro genérico</str>
+	<str id="boss3_final">-Forma Final-
+Muy predecible</str>
+</ui>

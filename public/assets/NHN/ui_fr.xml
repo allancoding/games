@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">Continuer</str>
+	<str id="play">Nouveau</str>
+	<str id="options">Options</str>
+	<str id="credits">Crédits</str>
+	<str id="quit">Quitter</str>
+	<str id="credits_title">-Crédits-</str>
+	<str id="credits_roll">Jeu par Volodymyr « Wolod » Yakubovych
+
+
+Graphiques supplémentaires par Victoria Bekhovets'
+
+
+Musique par Håkon Dale
+
+
+Traduction française par Thomas Bourez
+Traduction chinoise par Yang Zhang
+Traduction italienne par Fabio
+Traduction espagnole par Lisandro Johnston
+Traduction polonaise par Kantal
+
+
+Remerciement spécial:
+Mykola "Nick Urs" Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii "Rayfulrand" Raboshchuk
+
+
+Propulsé par Construct 2
+Muzt Die Studios, Ukraine, Lviv, 2019</str>
+	<str id="skip">-Appuyez sur une touche pour passer-</str>
+	<str id="options_title">-Options-</str>
+	<str id="window">Fenêtre</str>
+	<str id="music">Musique</str>
+	<str id="sound">Son</str>
+	<str id="autosave">Sauv. Auto</str>
+	<str id="timer">Statistiques</str>
+	<str id="speed">Vitesse</str>
+	<str id="on">On</str>
+	<str id="off">Off</str>
+	<str id="language">Langue</str>
+	<str id="en">EN</str>
+	<str id="ru">RU</str>
+	<str id="ua">UA</str>
+	<str id="fr">FR</str>
+	<str id="it">IT</str>
+	<str id="es">ES</str>
+	<str id="pl">PL</str>
+	<str id="cn">CN</str>
+	<str id="back">Retour</str>
+	<str id="confirm_title" type="map">-Revenir à la Carte ?-</str>
+	<str id="confirm_title" type="main_menu">-Revenir au Menu ?-</str>
+	<str id="confirm_title" type="quit">-Quitter le jeu ?-</str>
+	<str id="confirm_title" type="play">-Supprimer Sauvegarde ?-</str>
+	<str id="yes">Oui</str>
+	<str id="no">Non</str>
+	<str id="dungeons">-Donjons-</str>
+	<str id="dungeon0">Ruines Abandonnées</str>
+	<str id="dungeon1">Pyramide Antique</str>
+	<str id="dungeon2">Temple Déserté</str>
+	<str id="dungeon3">Tour Sombre</str>
+	<str id="status">-État-</str>
+	<str id="boss">Boss</str>
+	<str id="items">Objets</str>
+	<str id="keys">Clés</str>
+	<str id="chests">Coffres</str>
+	<str id="pause_title">-Pause-</str>
+	<str id="resume">Reprendre</str>
+	<str id="map">Carte du Monde</str>
+	<str id="main_menu">Menu Principal</str>
+	<str id="save">-Partie Sauvegardée-</str>
+	<str id="armor1">-Armure de Chevalier-
+Règle #1: Portez une armure pour protéger votre peau.</str>
+	<str id="armor2">-Armure Cramoisie-
+Robuste et pourtant incroyablement amincissante.</str>
+	<str id="sword1">-Épée Très Aiguisée-
+Brandissez-là vers votre ennemi. Pas encore mort ? Recommencez !</str>
+	<str id="sword2">-Lame Tourbillonnante-
+Attaque secrète (chargée en maintenant le bouton d'attaque) déverrouillée.</str>
+	<str id="shield1">-Bouclier de Protection-
+Placez-le face à n'importe quel danger. C'est aussi simple que ça.</str>
+	<str id="shield2">-Bouclier de Vindicte-
+Renvoie les projectiles à l'envoyeur. C'est mesquin.</str>
+	<str id="ring1">-Anneau de Vitesse-
+Vous permet de courir car marcher est lent et ennuyeux.</str>
+	<str id="ring2">-Anneau de Flammes-
+Pas assez cool de courir ? Et un sillon de flammes, c'est mieux ?</str>
+	<str id="wand1">-Baguette Arcanique-
+Pointez vers votre cible. Tire des projectiles magiques. Ne loupez pas.</str>
+	<str id="belt1">-Ceinture d'Hercule-
+Désormais vous pouvez bouger des objets lourds et ouvrir des bocaux !</str>
+	<str id="orb1">-Orbe Mystique-
+Devrait vous téléporter dans d'autres mondes. Mais téléporte dans d'autres pièces.</str>
+	<str id="amulet1">-Amulette Fantomatique-
+Vous rend invulnérable ! Mais seulement après avoir été blessé...</str>
+	<str id="potion">-Grosse Potion Rouge-
+Augmente la santé. Sans effets secondaires connus.</str>
+	<str id="elixir">-Élixir Bleu Vibrant-
+Augmente la puissance magique.</str>
+	<str id="key">-Clé Dorée-
+Ouvre de toute évidence une porte au verrou doré.</str>
+	<str id="boss0">-Qaug-
+Le Presque-Dragon</str>
+	<str id="boss1">-Gosura-
+Le Titan Inachevé</str>
+	<str id="boss2">-Merswin-
+Le Maître du Mucus</str>
+	<str id="boss3">-Eelich-
+Sombre Seigneur Banal</str>
+	<str id="boss3_final">-Forme Finale-
+Plutôt prévisible</str>
+</ui>

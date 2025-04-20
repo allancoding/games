@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">继续</str>
+	<str id="play">新游戏</str>
+	<str id="options">选项</str>
+	<str id="credits">制作成员</str>
+	<str id="quit">退出</str>
+	<str id="credits_title">-制作成员-</str>
+	<str id="credits_roll">游戏制作 Volodymyr "Wolod" Yakubovych
+
+
+额外的图形 Victoria Bekhovets'
+
+
+音乐 Håkon Dale
+
+
+法语翻译 Thomas Bourez
+中文翻译 Yang Zhang
+意大利语翻译 Fabio
+西班牙语翻译 Lisandro Johnston
+波兰语翻译 Kantal
+
+
+特别感谢:
+Mykola "Nick Urs" Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii "Rayfulrand" Raboshchuk
+
+
+开发工具 Construct 2
+版权所有 Muzt Die Studios, 乌克兰, 利沃夫, 2019</str>
+	<str id="skip">-按任意键快进-</str>
+	<str id="options_title">-选项-</str>
+	<str id="window">窗口</str>
+	<str id="music">音乐</str>
+	<str id="sound">声效</str>
+	<str id="autosave">自动保存</str>
+	<str id="timer">统计</str>
+	<str id="speed">速度</str>
+	<str id="on">开</str>
+	<str id="off">关</str>
+	<str id="language">语种</str>
+	<str id="en">英语</str>
+	<str id="ru">俄语</str>
+	<str id="ua">乌克兰语</str>
+	<str id="fr">法语</str>
+	<str id="it">意大利语</str>
+	<str id="es">西班牙语</str>
+	<str id="pl">波兰语</str>
+	<str id="cn">简体中文</str>
+	<str id="back">返回</str>
+	<str id="confirm_title" type="map">-退出到地图？-</str>
+	<str id="confirm_title" type="main_menu">-退出到主选单？-</str>
+	<str id="confirm_title" type="quit">-退出游戏？-</str>
+	<str id="confirm_title" type="play">-删除记录？-</str>
+	<str id="yes">是</str>
+	<str id="no">否</str>
+	<str id="dungeons">-地牢-</str>
+	<str id="dungeon0">遗弃废墟</str>
+	<str id="dungeon1">古金字塔</str>
+	<str id="dungeon2">废弃神殿</str>
+	<str id="dungeon3">暗黑之塔</str>
+	<str id="status">-状态-</str>
+	<str id="boss">首领</str>
+	<str id="items">道具</str>
+	<str id="keys">钥匙</str>
+	<str id="chests">宝箱</str>
+	<str id="pause_title">-暂停-</str>
+	<str id="resume">继续</str>
+	<str id="map">世界地图</str>
+	<str id="main_menu">主选单</str>
+	<str id="save">-游戏保存-</str>
+	<str id="armor1">-骑士铠甲-
+安全法则 #1: 穿着铠甲保护你的肉身.</str>
+	<str id="armor2">-绯红铠甲-
+你不会相信这个坚实铠甲能如此减肥.</str>
+	<str id="sword1">-超级利剑-
+向你的敌人挥舞，还没赢？继续砍丫的.</str>
+	<str id="sword2">-旋风之刃-
+按住攻击按钮蓄力后可释放神秘的未解锁技巧.</str>
+	<str id="shield1">-守护之盾-
+把它放在任何危险物前面，如此简单.</str>
+	<str id="shield2">-复仇之盾-
+能把弹射物反弹回去.</str>
+	<str id="ring1">-速度之戒-
+允许你冲刺因为走路太慢太无聊.</str>
+	<str id="ring2">-火焰之戒-
+简单的冲刺不够酷？一束火焰如何？</str>
+	<str id="wand1">-神秘魔杖-
+指向你的目标，射出魔法弹，尽量别射偏哟.</str>
+	<str id="belt1">-大力神带-
+现在你终于可以移动重物并且徒手打开罐子了！</str>
+	<str id="orb1">-神秘球-
+本应瞬移到另一个次元，结果却瞬移到了另一个房间.</str>
+	<str id="amulet1">-幽灵护符-
+让你无懈可击！但只有在你受伤之后...</str>
+	<str id="potion">-红色大回复药-
+改善健康，据说没有副作用.</str>
+	<str id="elixir">-活力蓝药-
+增加预期的魔法效力.</str>
+	<str id="key">-黄金钥匙-
+显然能打开带有黄金锁头的大门.</str>
+	<str id="boss0">-奥格-
+冒牌恶龙</str>
+	<str id="boss1">-格斯拉-
+残缺泰坦</str>
+	<str id="boss2">-梅斯文-
+粘液大师</str>
+	<str id="boss3">-埃利希-
+黑暗领主</str>
+	<str id="boss3_final">-最终形态-
+你没想到, 不是吗？</str>
+</ui>

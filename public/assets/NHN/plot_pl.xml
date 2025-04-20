@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">Dawno, dawno temu, w odległym królestwie za siedmioma górami...</str>
+		<str id="1">Właściwie...</str>
+		<str id="2">Nie jesteś tutaj, aby czytać te głupoty. Mam rację?</str>
+		<str id="3">...</str>
+		<str id="4">Ale mimo tego chcesz poznać jakąś historię?</str>
+		<str id="5">Dobrze... Zatem...</str>
+		<str id="6">W zwykłym bajkowym królestwie...</str>
+		<str id="7">...był dzielny rycerz znany jako sir Lutalot.</str>
+		<str id="8">Jego odwaga i cnota były legendarne tak samo...</str>
+		<str id="9">...jak jego żądza chciwości i sławy.</str>
+		<str id="10">A oczywiście podziemia były pełne potworów i skarbów...</str>
+		<str id="11">...i skrzętnie rozmieszczone w rożnych częściach królestwa.</str>
+		<str id="12">Wiesz już do czego to zmierza?</str>
+		<str id="13">Zatem ku chwale i sławie! Migusiem!</str>
+	</intro>
+	<boss0>
+		<str id="0">Korona z czystego złota potoczyła się do stóp rycerza.</str>
+		<str id="1">"Wykonałem swoje zadanie!" - sir Lutalot zawołał...</str>
+		<str id="2">... pakując trofeum do zaufanego ekwipunku.</str>
+		<str id="3">Taki był zatem koniec niesławnego prawie smoka.</str>
+	</boss0>
+	<boss1>
+		<str id="0">"Trzymaj łapy przy sobie!" - wrzasnął sir Lutalot...</str>
+		<str id="1">...po tym jak śmiercionośne, kamienne pięści rozpadły się w pył.</str>
+		<str id="2">Tak oto niedokończony tytan stracił swoją głowę.</str>
+		<str id="3">I ręce.</str>
+		<str id="4">Los jego innych części ciała jest nieznany.</str>
+	</boss1>
+	<boss2>
+		<str id="0">Sir Lutalot stanął triumfalnie pokryty klejącym szlamem.</str>
+		<str id="1">"A dopiero do wczoraj czyściłem moją zbroję..." westchnął.</str>
+		<str id="2">Więc tak został zabity mistrz śluzu.</str>
+		<str id="3">Ale jakim kosztem?</str>
+		<str id="4">Po tym nasz rycerz udał się do najbliższej pralni chemicznej.</str>
+	</boss2>
+	<boss3>
+		<str id="0">"Te podziemia są zbyt małe na nas dwóch."</str>
+		<str id="1">To były ostatnie słowa jakie usłyszał czarny władca.</str>
+		<str id="2">Oto epicka jak saga sir Lutalota właśnie się kończy.</str>
+		<str id="3">...</str>
+		<str id="4">Teraz możesz wrócić do swoich obowiązków.</str>
+		<str id="5">...</str>
+		<str id="6">Na co czekasz? Na ekscytujące zakończenie?</str>
+		<str id="7">Niestety nic z tego.</str>
+		<str id="8">Dlaczego na mnie tak patrzysz?</str>
+		<str id="9">Nie spodziewałem się, że zajdziesz tak daleko!</str>
+		<str id="10">No dobrze... Coś wymyślę...</str>
+	</boss3>
+	<outro>
+		<str id="0">Myślę, że tak będzie lepiej</str>
+		<str id="1">Dziękuję za grę!</str>
+	</outro>
+	<cast>
+		<str id="cast">-Obsada-</str>
+		<str id="knight">Sir Lutalot</str>
+		<str id="shopkeeper">Pan Biznesmag</str>
+		<str id="fly">Muchówka</str>
+		<str id="mushroom">Muchomor</str>
+		<str id="slime">Szlam</str>
+		<str id="imp">Imp</str>
+		<str id="jellyfish">Meduza</str>
+		<str id="worm">Ciekawski Robak</str>
+		<str id="croc">Mały Krok</str>
+		<str id="egg">Młode Grendela</str>
+		<str id="bat">Nietoperz</str>
+		<str id="bug">Biedronka</str>
+		<str id="fishman">Tryton</str>
+		<str id="ghost">Duch</str>
+		<str id="moth">Ćma Bombardier</str>
+		<str id="eggplant">Bakłażan</str>
+		<str id="jinni">Dżin</str>
+		<str id="birdman">Dzióbeł</str>
+		<str id="qaug">Kwaug</str>
+		<str id="gosura">Goszura</str>
+		<str id="merswin">Merswin</str>
+		<str id="eelich">Ilicz</str>
+	</cast>
+</plot>

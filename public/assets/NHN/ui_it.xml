@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">Continua</str>
+	<str id="play">Nuova partita</str>
+	<str id="options">Opzioni</str>
+	<str id="credits">Riconoscimenti</str>
+	<str id="quit">Esci</str>
+	<str id="credits_title">-Riconoscimenti-</str>
+	<str id="credits_roll">Gioco creato da Volodymyr "Wolod" Yakubovych
+
+
+Grafica aggiuntiva di Victoria Bekhovets'
+
+
+Musica di Håkon Dale
+
+
+Traduzione Francese di Thomas Bourez
+Traduzione Cinese di Yang Zhang
+Traduzione Italiana di Fabio
+Traduzione Spagnola di Lisandro Johnston
+Traduzione Polacca di Kantal
+
+
+Ringraziamenti speciali a:
+Mykola "Nick Urs" Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii "Rayfulrand" Raboshchuk
+
+
+Creato con Construct 2
+Muzt Die Studios, Ukraine, Leopoli, 2019</str>
+	<str id="skip">-Premi un tasto qualsiasi per saltare-</str>
+	<str id="options_title">-Opzioni-</str>
+	<str id="window">Finestra</str>
+	<str id="music">Musica</str>
+	<str id="sound">Suono</str>
+	<str id="autosave">Salv. Auto</str>
+	<str id="timer">Statistiche</str>
+	<str id="speed">Velocità</str>
+	<str id="on">On</str>
+	<str id="off">Off</str>
+	<str id="language">Lingua</str>
+	<str id="en">EN</str>
+	<str id="ru">RU</str>
+	<str id="ua">UA</str>
+	<str id="fr">FR</str>
+	<str id="it">IT</str>
+	<str id="es">ES</str>
+	<str id="pl">PL</str>
+	<str id="cn">CN</str>
+	<str id="back">Indietro</str>
+	<str id="confirm_title" type="map">-Torna alla mappa?-</str>
+	<str id="confirm_title" type="main_menu">-Torna al menu?-</str>
+	<str id="confirm_title" type="quit">-Esci dal gioco?-</str>
+	<str id="confirm_title" type="play">-Eliminare salvataggi?-</str>
+	<str id="yes">Si</str>
+	<str id="no">No</str>
+	<str id="dungeons">-Segrete-</str>
+	<str id="dungeon0">Rovine dimenticate</str>
+	<str id="dungeon1">Antica Piramide</str>
+	<str id="dungeon2">Tempio abbandonate</str>
+	<str id="dungeon3">Torre oscura</str>
+	<str id="status">-Stato-</str>
+	<str id="boss">Boss</str>
+	<str id="items">Oggetti</str>
+	<str id="keys">Chiavi</str>
+	<str id="chests">Scrigni</str>
+	<str id="pause_title">-Pausa-</str>
+	<str id="resume">Riprendi</str>
+	<str id="map">Mappa</str>
+	<str id="main_menu">Menu principale</str>
+	<str id="save">-Partita salvata-</str>
+	<str id="armor1">-Armatura-
+Prima regola sulla sicurezza: Indossa l'armatura per proteggere la pelle.</str>
+	<str id="armor2">-Armatura Magenta-
+Non crederai mai quanto snellisce questa potente armatura.</str>
+	<str id="sword1">-Spada Super Affilata-
+Puntala contro i tuoi nemici. Non hai ancora vinto? Ripeti i passaggi precedenti.</str>
+	<str id="sword2">-Lama Vorticosa-
+Tecnica segreta tieni-pulsante-attacco-per-caricare sbloccata.</str>
+	<str id="shield1">-Scudo di Protezione-
+Posizionalo davanti a qualcosa di pericoloso. Niente di più semplice.</str>
+	<str id="shield2">-Scudo di Vendetta
+Rispedisce i proiettili da dove son venuti. Un po crudele.</str>
+	<str id="ring1">-Anello di Velocità-
+Ti permette di fare un balzo perché camminare è lento e noioso.</str>
+	<str id="ring2">-Anello di Fuoco-
+Fare balzi non è abbastanza figo? Che ne dici di una scia di fiamme?</str>
+	<str id="wand1">-Bacchetta occulta-
+Punta al tuo bersaglio. Spara bulloni magici. Cerca di non sbagliare.</str>
+	<str id="belt1">-Cintura di Hercules
+Ora puoi spostare oggetti pesanti e aprire barattoli a mani nude!</str>
+	<str id="orb1">-Sfera mistica-
+Dovrebbe teletrasportare in altri mondi. Ma teletrasporta solo in altre stanze.</str>
+	<str id="amulet1">-Amuleto fantasma-
+Ti rende invisibile! Ma solo dopo che sei stato ferito...</str>
+	<str id="potion">-Grande pozione rossa-
+Migliora la salute. Nessun effetto collaterale noto</str>
+	<str id="elixir">-Elisir blue vivace-
+Aumenta la potenza magica come previsto.</str>
+	<str id="key">-Chiave d'oro-
+Ovviamente, apre una porta con la serratura d'oro.</str>
+	<str id="boss0">-Qaug-
+Un quasi drago</str>
+	<str id="boss1">-Gosura-
+Il Titano incompleto</str>
+	<str id="boss2">-Merswin-
+Signore del muco</str>
+	<str id="boss3">-Eelich-
+Generico signore oscuro</str>
+	<str id="boss3_final">-Ultimo Stadio-
+Abbastanza prevedibile</str>
+</ui>

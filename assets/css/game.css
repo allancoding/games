@@ -1,0 +1,32 @@
+.back {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+}
+
+.back:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-button {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #ff1100;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.back-button span {
+    vertical-align: middle;
+    margin-bottom: 5px;
+}

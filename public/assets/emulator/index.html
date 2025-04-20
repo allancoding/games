@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            background: black;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>EmulatorJS Player</title>
+</head>
+
+<body>
+    <div style='height:100vh;width:100vw'>
+        <div id='game'></div>
+    </div>
+</body>
+
+<script type='text/javascript'>
+    const urlParams = new URLSearchParams(window.location.search);
+    const game = {
+        rom: urlParams.get('rom'),
+        system: urlParams.get('core'),
+        name: urlParams.get('name'),
+        path: urlParams.get('path'),
+        image: urlParams.get('image')
+    };
+
+    window.addEventListener('message', (event) => {
+        const data = event.data;
+        if (data === 'save') {
+            window.EJS_emulator.callEvent("exit");
+        }
+    });
+
+    window.EJS_player = '#game';
+    window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
+    window.EJS_core = game.system;
+    window.EJS_gameUrl = window.location.protocol + "//" + window.location.host + "/" + game.path + game.rom;
+    window.EJS_color = '#ff1100';
+    window.EJS_backgroundImage = window.location.protocol + "//" + window.location.host + "/" + game.path + game.image;
+    window.EJS_backgroundColor = '#000';
+    window.EJS_startButtonName = 'Play ' + game.name;
+</script>
+<script src='https://cdn.emulatorjs.org/stable/data/loader.js'></script>
+</html>

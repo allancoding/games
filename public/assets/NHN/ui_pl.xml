@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">Kontynuuj</str>
+	<str id="play">Nowa Gra</str>
+	<str id="options">Opcje</str>
+	<str id="credits">Twórcy gry</str>
+	<str id="quit">Wyjście</str>
+	<str id="credits_title">-Twórcy gry-</str>
+	<str id="credits_roll">Gra stworzona przez Volodymyra "Wolod" Yakubovycha
+
+
+Dodatkowe grafiki - Victoria Bekhovets'
+
+
+Muzyka - Håkon Dale
+
+
+Francuskie tłumaczenie - Thomas Bourez
+Chińskie tłumaczenie - Yang Zhang
+Włoskie tłumaczenie - Fabio
+Hiszpańskie tłumaczenie - Lisandro Johnston
+Polskie tłumaczenie - Kantal
+
+
+Specjalne podziękowania:
+Mykola "Nick Urs" Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii "Rayfulrand" Raboshchuk
+
+
+Stworzone w Construct 2
+Muzt Die Studios, Ukraina, Lwów, 2019</str>
+	<str id="skip">-Naciśnij dowolny klawisz, aby pominąć-</str>
+	<str id="options_title">-Opcje-</str>
+	<str id="window">Graj w oknie</str>
+	<str id="music">Muzyka</str>
+	<str id="sound">Dźwięki</str>
+	<str id="autosave">Autozapis</str>
+	<str id="timer">Statystyki</str>
+	<str id="speed">Prędkość</str>
+	<str id="on">Tak</str>
+	<str id="off">Nie</str>
+	<str id="language">Język</str>
+	<str id="en">EN</str>
+	<str id="ru">RU</str>
+	<str id="ua">UA</str>
+	<str id="fr">FR</str>
+	<str id="it">IT</str>
+	<str id="es">ES</str>
+	<str id="pl">PL</str>
+	<str id="cn">CN</str>
+	<str id="back">Wstecz</str>
+	<str id="confirm_title" type="map">-Wyjść do Mapy?-</str>
+	<str id="confirm_title" type="main_menu">-Wyjść do Menu?-</str>
+	<str id="confirm_title" type="quit">-Zamknąć Grę?-</str>
+	<str id="confirm_title" type="play">-Wymazać Zapis?-</str>
+	<str id="yes">Tak</str>
+	<str id="no">Nie</str>
+	<str id="dungeons">-Podziemia-</str>
+	<str id="dungeon0">Opuszczone Ruiny</str>
+	<str id="dungeon1">Starożytna Piramida</str>
+	<str id="dungeon2">Zaginiona Świątynia</str>
+	<str id="dungeon3">Czarna Wieża</str>
+	<str id="status">-Status-</str>
+	<str id="boss">Boss</str>
+	<str id="items">Przedmioty</str>
+	<str id="keys">Klucze</str>
+	<str id="chests">Skrzynie</str>
+	<str id="pause_title">-Pauza-</str>
+	<str id="resume">Wznów</str>
+	<str id="map">Mapa Świata</str>
+	<str id="main_menu">Menu Główne</str>
+	<str id="save">-Gra Zapisana-</str>
+	<str id="armor1">-Rycerska Zbroja-
+Zasada bezpieczeństwa #1: Noś zbroję, aby chronić swoje ciało.</str>
+	<str id="armor2">-Szkarłatna Zbroja-
+Nie uwierzysz w jej odchudzające właściwości, póki nie spróbujesz.</str>
+	<str id="sword1">-Super Ostry Miecz-
+Weź zamach w kierunku wroga. Jeszcze nie wygrałeś? Powtórz poprzedni krok.</str>
+	<str id="sword2">-Wirująca Klinga-
+Odblokowano sekretną technikę ładowania ataku po przytrzymaniu przycisku.</str>
+	<str id="shield1">-Tarcza Ochrony-
+Nakieruj ją w stronę niebezpieczeństwa. To takie proste.</str>
+	<str id="shield2">-Tarcza Zemsty-
+Wyślij pociski tam skąd nadleciały. To takie podłe.</str>
+	<str id="ring1">-Pierścień Prędkości-
+Pozwala na szybki uskok, ponieważ chodzenie jest powolne i nudne.</str>
+	<str id="ring2">-Pierścień Płomieni-
+Zwykły uskok już nie wystarcza? A co powiesz na ognisty ślad za sobą?</str>
+	<str id="wand1">-Tajemna Różdżka-
+Namierz swój cel. Wystrzel magiczny pocisk. Spróbuj nie spudłować.</str>
+	<str id="belt1">-Pas Herkulesa-
+Teraz możesz przesuwać ciężkie przedmioty i otwierać słoje gołymi rękami!</str>
+	<str id="orb1">-Mistyczna Kula-
+Powinna teleportować do innych światów. Ale teleportuje do innych pokojów.</str>
+	<str id="amulet1">-Amulet Ducha-
+Powoduje niewrażliwość! Ale tylko po skaleczeniu...</str>
+	<str id="potion">-Duża Czerwona Mikstura-
+Poprawia zdrowie. Efekty uboczne nieznane.</str>
+	<str id="elixir">-Jaskrawoniebieski Eliksir-
+Zwiększa moc magiczną według oczekiwań.</str>
+	<str id="key">-Złoty Klucz-
+Oczywiście otwiera drzwi ze złotym zamkiem.</str>
+	<str id="boss0">-Kwaug-
+Prawie smok</str>
+	<str id="boss1">-Goszura-
+Niedokończony tytan</str>
+	<str id="boss2">-Merswin-
+Mistrz śluzu</str>
+	<str id="boss3">-Ilicz-
+Zwykły czarny władca</str>
+	<str id="boss3_final">-Finałowa Forma-
+Dość przewidywalna</str>
+</ui>
