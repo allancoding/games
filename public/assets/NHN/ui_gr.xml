@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">Συνέχισε</str>
+	<str id="play">Νέο Παιχνίδι</str>
+	<str id="options">Ρυθμίσεις</str>
+	<str id="credits">Εύσημα</str>
+	<str id="quit">Έξοδος</str>
+	<str id="credits_title">-Εύσημα-</str>
+	<str id="credits_roll">Παιχνίδι από Volodymyr "Wolod" Yakubovych
+
+
+Επιπλέον γραφικά από Victoria Bekhovets'
+
+
+Μουσική από Håkon Dale
+
+
+Γαλλική μετάφραση από Thomas Bourez
+Κινεζική μετάφραση από Yang Zhang
+Ιταλική μετάφραση από Fabio
+Αμερικανική ισπανική μετάφραση από Lisandro Johnston
+Πολωνική μετάφραση από Kantal
+Ελληνική μετάφραση από GeopJr
+Βραζιλιάνικη Πορτογαλική μετάφραση από Stallker
+Γερμανική μετάφραση από Steven Korkowsky &amp; Marcel Weyers
+Ισπανική μετάφραση από Andrés Moreno García
+
+
+Ιδιαίτερα ευχαριστώ στους:
+Mykola "Nick Urs" Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii "Rayfulrand" Raboshchuk
+
+
+Λειτουργεί με Construct 2
+Muzt Die Studios, Ουκρανία, Λβιβ, 2019</str>
+	<str id="save_title">-Αποθηκευμένα Παιχνίδια-</str>
+	<str id="empty">Άδειο</str>
+	<str id="dungeon">Μπουντρούμι</str>
+	<str id="skip">-Πάτα οποιοδήποτε πλήκτρο για να παραλείψεις-</str>
+	<str id="options_title">-Ρυθμίσεις-</str>
+	<str id="window">Παράθυρο</str>
+	<str id="music">Μουσική</str>
+	<str id="sound">Ήχος</str>
+	<str id="autosave">Αυτό-Σώσιμο</str>
+	<str id="timer">Στατιστικά</str>
+	<str id="speed">Ταχύτητα</str>
+	<str id="controls">Χειρισμός</str>
+	<str id="on">Ναί</str>
+	<str id="off">Όχι</str>
+	<str id="language">Γλώσσα</str>
+	<str id="en">EN</str>
+	<str id="ru">RU</str>
+	<str id="ua">UA</str>
+	<str id="de">DE</str>
+	<str id="fr">FR</str>
+	<str id="it">IT</str>
+	<str id="es">ES</str>
+	<str id="la">ES-LA</str>
+	<str id="br">BR</str>
+	<str id="pl">PL</str>
+	<str id="gr">GR</str>
+	<str id="jp">JP</str>
+	<str id="cn">CN</str>
+	<str id="back">Πίσω</str>
+	<str id="controls_title">-Χειρισμός-</str>
+	<str id="config">Προσαρμογή</str>
+	<str id="default">Από Προεπιλογή</str>
+	<str id="config_title">-Πάτα Οποιοδήποτε Πλήκτρο-</str>
+	<str id="up">Πάνω</str>
+	<str id="down">Κάτω</str>
+	<str id="left">Αριστερά</str>
+	<str id="right">Δεξί</str>
+	<str id="use">Αλληλεπιδρώ</str>
+	<str id="sword">Σπαθί</str>
+	<str id="shield">Ασπίδα</str>
+	<str id="dash">Ορμώ</str>
+	<str id="shoot">Ρίχνω</str>
+	<str id="reset">Επαναφορά Παζλ</str>
+	<str id="confirm_title" type="default">-Επαναφέρετε τις Προεπιλογές?-</str>
+	<str id="confirm_title" type="map">-Έξοδος στον Χάρτη;-</str>
+	<str id="confirm_title" type="main_menu">-Έξοδος στο Μενού;-</str>
+	<str id="confirm_title" type="quit">-Έξοδος από το Παιχνίδι;-</str>
+	<str id="confirm_title" type="play">-Διάγραψε την Αποθήκευση;-</str>
+	<str id="yes">Ναί</str>
+	<str id="no">Όχι</str>
+	<str id="dungeons">-Μπουντρούμια-</str>
+	<str id="dungeon0">Ξεχασμένα Ερείπια</str>
+	<str id="dungeon1">Αρχαία Πυραμίδα</str>
+	<str id="dungeon2">Ερειπωμένος Ναός</str>
+	<str id="dungeon3">Σκοτεινός Πύργος</str>
+	<str id="status">-Κατάσταση-</str>
+	<str id="boss">Αφεντικό</str>
+	<str id="items">Πράγματα</str>
+	<str id="keys">Κλειδιά</str>
+	<str id="chests">Σεντούκι</str>
+	<str id="pause_title">-Παύση-</str>
+	<str id="resume">Συνέχεια</str>
+	<str id="map">Παγκόσμιος Χάρτης</str>
+	<str id="main_menu">Κύριο Μενού</str>
+	<str id="save">-Το Παιχνίδι Αποθηκεύτηκε-</str>
+	<str id="armor1">-Πανοπλία Ιππότη-
+Κανόνας ασφάλειας #1: Φόρα πανοπλία για να προστατέψεις την σάρκα σου.</str>
+	<str id="armor2">-Πορφυρή Πανοπλία-
+Δεν θα πιστέψεις πόσο κολακευτική αυτή η σκληροτράχηλη πανοπλία είναι.</str>
+	<str id="sword1">-Σούπερ Κοφτερό Σπαθί-
+Κούνα το προς τον εχθρό σου. Ακόμη να νικήσεις; Επανέλαβε το προηγούμενο βήμα.</str>
+	<str id="sword2">-Λεπίδα Ανεμοστρόβιλου-
+Kρυφή κράτα-το-πλήκτρο-επίθεσης-γιά-έφοδο τεχνική ξεκλειδώθηκε.</str>
+	<str id="shield1">-Ασπίδα Προστασίας-
+Τοποθέτησέ την μπροστά από οτιδήποτε επικίνδυνο. Τόσο απλό.</str>
+	<str id="shield2">-Ασπίδα Εκδίκησης-
+Στέλνει βλήματα πίσω από εκεί που ήρθαν. Αυτό είναι κακό.</str>
+	<str id="ring1">-Δαχτυλίδι Ταχύτητας-
+Σου επιτρέπει να ορμάς διότι το περπάτημα είναι πολύ αργό και βαρετό.</str>
+	<str id="ring2">-Δαχτυλίδι Φλογών-
+Η απλή ορμή δεν είναι αρκετά κούλ; Τι λες για ένα μονοπάτι φωτιάς;</str>
+	<str id="wand1">-Απόκρυφο Ραβδί-
+Σημάδεψε τον στόχο σου. Ρίξε μαγικά βέλη. Προσπάθησε να μην αστοχήσεις.</str>
+	<str id="belt1">-Ζώνη του Ηρακλή-
+Τώρα μπορείς να κινείς βαριά πράγματα και να ανοίγεις βάζα!</str>
+	<str id="orb1">-Μυστηριακή Σφαίρα-
+Αντί να τηλεμεταφέρει σε άλλους κόσμους, τηλεμεταφέρει σε άλλα δωμάτια.</str>
+	<str id="amulet1">-Φυλαχτό Φάντασμα-
+Σε κάνει αήττητο! Αλλά αφού έχεις τραυματιστεί...</str>
+	<str id="potion">-Μεγάλο Κόκκινο Φίλτρο-
+Βελτιώνει την υγεία. Καμία γνωστή παρενέργεια.</str>
+	<str id="elixir">-Έντονο Μπλε Ελιξίριο-
+Αυξάνει την μαγική ισχύ όπως ήταν αναμενόμενο.</str>
+	<str id="key">-Χρυσό Κλειδί-
+Προφανώς, ανοίγει μια πόρτα με χρυσή κλειδαριά.</str>
+	<str id="boss0">-Qaug-
+Σχεδόν δράκος</str>
+	<str id="boss1">-Gosura-
+Ο ημιτελής τιτάνας</str>
+	<str id="boss2">-Merswin-
+Αφέντης της βλέννας</str>
+	<str id="boss3">-Eelich-
+Συνήθης σκοτεινός λόρδος</str>
+	<str id="boss3_final">-Τελικη Μορφη-
+Αρκετά προβλέψιμο</str>
+</ui>

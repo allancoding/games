@@ -18,8 +18,12 @@
 Французский перевод - Thomas Bourez
 Китайский перевод - Yang Zhang
 Итальянский перевод - Fabio
-Испанский перевод - Lisandro Johnston
+Американский Испанский перевод - Lisandro Johnston
 Польский перевод - Kantal
+Грецкий перевод - GeopJr
+Бразильский Португальский перевод - Stallker
+Немецкий перевод - Steven Korkowsky &amp; Marcel Weyers
+Испанский перевод - Andrés Moreno García
 
 
 Особая благодарность:
@@ -37,7 +41,10 @@ ChaosWolfGod
 
 Сделано в Construct 2
 Muzt Die Studios, Украина, Львов, 2019</str>
-	<str id="skip">-Жмите любую клавишу, чтобы пропустить-</str>
+	<str id="save_title">-Сохранения-</str>
+	<str id="empty">Пусто</str>
+	<str id="dungeon">Подземелье</str>
+	<str id="skip">-Нажмите любую клавишу, чтобы пропустить-</str>
 	<str id="options_title">-Настройки-</str>
 	<str id="window">В Окне</str>
 	<str id="music">Музыка</str>
@@ -45,18 +52,39 @@ Muzt Die Studios, Украина, Львов, 2019</str>
 	<str id="autosave">Автосейв</str>
 	<str id="timer">Статистика</str>
 	<str id="speed">Скорость</str>
+	<str id="controls">Управление</str>
 	<str id="on">Да</str>
 	<str id="off">Нет</str>
 	<str id="language">Язык</str>
 	<str id="en">EN</str>
 	<str id="ru">RU</str>
 	<str id="ua">UA</str>
+	<str id="de">DE</str>
 	<str id="fr">FR</str>
 	<str id="it">IT</str>
 	<str id="es">ES</str>
+	<str id="la">ES-LA</str>
+	<str id="br">BR</str>
 	<str id="pl">PL</str>
+	<str id="gr">GR</str>
+	<str id="jp">JP</str>
 	<str id="cn">CN</str>
 	<str id="back">Назад</str>
+	<str id="controls_title">-Управление-</str>
+	<str id="config">Настроить</str>
+	<str id="default">По Умолчанию</str>
+	<str id="config_title">-Нажмите Любую Клавишу-</str>
+	<str id="up">Вверх</str>
+	<str id="down">Вниз</str>
+	<str id="left">Влево</str>
+	<str id="right">Вправо</str>
+	<str id="use">Взаимодействие</str>
+	<str id="sword">Меч</str>
+	<str id="shield">Щит</str>
+	<str id="dash">Рывок</str>
+	<str id="shoot">Стрельба</str>
+	<str id="reset">Сброс Головоломки</str>
+	<str id="confirm_title" type="default">-Вернуть По Умолчанию?-</str>
 	<str id="confirm_title" type="map">-Выйти на карту?-</str>
 	<str id="confirm_title" type="main_menu">-Выйти в меню?-</str>
 	<str id="confirm_title" type="quit">-Выйти из игры?-</str>

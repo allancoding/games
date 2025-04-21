@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">Es war einmal in einem weit entfernten Königreich ...</str>
+		<str id="1">Nun ...</str>
+		<str id="2">Du bist nicht hier, um diesen Mist zu lesen, oder?</str>
+		<str id="3">...</str>
+		<str id="4">Willst aber trotzdem eine Geschichte hören?</str>
+		<str id="5">Okay ... Hier, bitte schön ...</str>
+		<str id="6">In einem ganz gewöhnlichem Märchenreich ...</str>
+		<str id="7">... gab es einen tapferen Ritter namens Sir Lootalot.</str>
+		<str id="8">Sein Mut und seine Tugenden waren so legendär ...</str>
+		<str id="9">... wie seine Begierde nach Beute und Ruhm.</str>
+		<str id="10">Und natürlich waren die Kerker voller Gefahren und Schätze ...</str>
+		<str id="11">... praktischerweise überall im ganzen Reich verteilt.</str>
+		<str id="12">Siehst du, wohin das führt?</str>
+		<str id="13">Vorwärts zum Ruhm! Hopp, hopp!</str>
+	</intro>
+	<boss0>
+		<str id="0">Die Krone aus reinem Gold rollte dem Ritter vor die Füße.</str>
+		<str id="1">„Meine Arbeit hier ist getan!“, rief Sir Lootalot ...</str>
+		<str id="2">... während er eine Trophäe in seinem Inventar verstaute.</str>
+		<str id="3">So hat der berüchtigte Fast-Drache also sein Ende gefunden.</str>
+	</boss0>
+	<boss1>
+		<str id="0">„Behalte deine Hände bei dir!“, schrie Sir Lootalot ...</str>
+		<str id="1">... nachdem die tödlichen Steinfäuste zu Staub zerfielen.</str>
+		<str id="2">So verlor der unfertige Titan also seinen Kopf.</str>
+		<str id="3">Und seine Hände.</str>
+		<str id="4">Das Schicksal der übrigen Teile ist unbekannt.</str>
+	</boss1>
+	<boss2>
+		<str id="0">Sir Lootalot stand siegreich da, bedeckt mit ekligem Schleim.</str>
+		<str id="1">„Ich habe meine Rüstung erst poliert.“ Er seufzte.</str>
+		<str id="2">So wurde also der Meister des Schleims getötet.</str>
+		<str id="3">Aber zu welchem Preis?</str>
+		<str id="4">Und so ging der tapfere Ritter zur nächsten Reinigung.</str>
+	</boss2>
+	<boss3>
+		<str id="0">„Dieser Kerker ist nicht groß genug für uns beide.“</str>
+		<str id="1">Das waren die letzten Worte, die der dunkle Lord hörte.</str>
+		<str id="2">So ging die epische Saga von Sir Lootalot zu Ende.</str>
+		<str id="3">...</str>
+		<str id="4">Nun kannst du wieder in dein Leben zurück.</str>
+		<str id="5">...</str>
+		<str id="6">Worauf wartest du noch? Ein tolles Ende?</str>
+		<str id="7">Dummerweise gibt es keins.</str>
+		<str id="8">Warum siehst du mich so an?</str>
+		<str id="9">Ich habe nicht erwartet, dass du so weit kommst!</str>
+		<str id="10">Okay ... Ich werde mir etwas ausdenken ...</str>
+	</boss3>
+	<outro>
+		<str id="0">Das ist viel besser, schätze ich.</str>
+		<str id="1">Danke fürs Spielen!</str>
+	</outro>
+	<cast>
+		<str id="cast">-Hauptrollen-</str>
+		<str id="knight">Sir Lootalot</str>
+		<str id="shopkeeper">Mr. Geschäftsmagier</str>
+		<str id="fly">Stechfliege</str>
+		<str id="mushroom">Fliegenpilz</str>
+		<str id="slime">Schleim</str>
+		<str id="imp">Wichtel</str>
+		<str id="jellyfish">Qualle</str>
+		<str id="worm">Glubschwurm</str>
+		<str id="croc">Kleines Kroko</str>
+		<str id="egg">Grendel-Welpe</str>
+		<str id="bat">Fledermaus</str>
+		<str id="bug">Panzerkäfer</str>
+		<str id="fishman">Ichthyander</str>
+		<str id="ghost">Geist</str>
+		<str id="moth">Bombenmotte</str>
+		<str id="eggplant">Aubergine</str>
+		<str id="jinni">Dschinn</str>
+		<str id="birdman">Schnabel</str>
+		<str id="qaug">Quag</str>
+		<str id="gosura">Gosura</str>
+		<str id="merswin">Merswin</str>
+		<str id="eelich">Eelich</str>
+	</cast>
+</plot>

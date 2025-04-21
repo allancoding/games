@@ -18,8 +18,12 @@
 Французький переклад - Thomas Bourez
 Китайський переклад - Yang Zhang
 Італійський переклад - Fabio
-Іспанський переклад - Lisandro Johnston
+Американський Іспанський переклад -  Lisandro Johnston
 Польський переклад - Kantal
+Грецький переклад - GeopJr
+Бразильський Португальський переклад - Stallker
+Німецький переклад - Steven Korkowsky &amp; Marcel Weyers
+Іспанський переклад - Andrés Moreno García
 
 
 Особлива подяка:
@@ -37,6 +41,9 @@ ChaosWolfGod
 
 Зроблено в Construct 2
 Muzt Die Studios, Україна, Львів, 2019</str>
+	<str id="save_title">-Збереження-</str>
+	<str id="empty">Порожньо</str>
+	<str id="dungeon">Підземелля</str>
 	<str id="skip">-Натисніть будь-яку клавішу, щоби пропустити-</str>
 	<str id="options_title">-Налаштування-</str>
 	<str id="window">У Вікні</str>
@@ -45,18 +52,39 @@ Muzt Die Studios, Україна, Львів, 2019</str>
 	<str id="autosave">Автосейв</str>
 	<str id="timer">Статистика</str>
 	<str id="speed">Швидкість</str>
+	<str id="controls">Керування</str>
 	<str id="on">Так</str>
 	<str id="off">Ні</str>
 	<str id="language">Мова</str>
 	<str id="en">EN</str>
 	<str id="ru">RU</str>
 	<str id="ua">UA</str>
+	<str id="de">DE</str>
 	<str id="fr">FR</str>
 	<str id="it">IT</str>
 	<str id="es">ES</str>
+	<str id="la">ES-LA</str>
+	<str id="br">BR</str>
 	<str id="pl">PL</str>
+	<str id="gr">GR</str>
+	<str id="jp">JP</str>
 	<str id="cn">CN</str>
 	<str id="back">Назад</str>
+	<str id="controls_title">-Керування-</str>
+	<str id="config">Налаштувати</str>
+	<str id="default">Стандартне</str>
+	<str id="config_title">-Натисніть Будь-яку Клавішу-</str>
+	<str id="up">Вгору</str>
+	<str id="down">Вниз</str>
+	<str id="left">Вліво</str>
+	<str id="right">Вправо</str>
+	<str id="use">Взаємодія</str>
+	<str id="sword">Меч</str>
+	<str id="shield">Щит</str>
+	<str id="dash">Ривок</str>
+	<str id="shoot">Стрільба</str>
+	<str id="reset">Скидання Головоломки</str>
+	<str id="confirm_title" type="default">-Повернути За Замовчуванням?-</str>
 	<str id="confirm_title" type="map">-Вийти на карту?-</str>
 	<str id="confirm_title" type="main_menu">-Вийти в меню?-</str>
 	<str id="confirm_title" type="quit">-Вийти з гри?-</str>

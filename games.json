@@ -89,10 +89,89 @@
         "system": "snes"
     },
     {
-        "name": "Knightin'",
+        "name": "Knightin'+",
         "platform": "web",
         "description": "Knightin'+ is a classic adventure game inspired by many of the amazing masterpieces from 90s.",
         "image": "NHN.jpg",
         "path": "assets/NHN/"
+    },
+    {
+        "name": "Run 3",
+        "platform": "web",
+        "description": "Run 3 is an exciting running game where you run, jump through an endless tunnel in space. Pass all challenges of hundred levels without falling into...",
+        "image": "R3.webp",
+        "path": "assets/R3/"
+    },
+    {
+        "name": "Rookie Bowman",
+        "platform": "web",
+        "description": "Prove that you deserve the magic bow! Use its teleportation powers to make impossible jumps and dodge traps.",
+        "image": "RB.jpg",
+        "path": "assets/RB/"
+    },
+    {
+        "name": "Retro Space Blaster",
+        "platform": "web",
+        "description": "Use the on-screen buttons to move and shoot. Beat missions and blast asteroids to unlock new ships. Use the arrow keys to rotate and fly your ship.",
+        "image": "RSB.png",
+        "path": "assets/RSB/"
+    },
+    {
+        "name": "Super Dodge Ball",
+        "platform": "EJS",
+        "description": "Super Dodge Ball is a dodgeball-based sports game produced by Technos Japan Corp. originally released as an arcade game in 1987.",
+        "image": "SDB.png",
+        "path": "assets/SDB/",
+        "rom": "SDB.nes.zip",
+        "system": "nes"
+    },
+    {
+        "name": "Star Fox 64",
+        "platform": "EJS",
+        "description": "Star Fox 64, known as Lylat Wars in the PAL regions, is a 3D rail shooter video game developed by Nintendo for the Nintendo 64. It is the second...",
+        "image": "SF64.jpg",
+        "path": "assets/SF64/",
+        "rom": "SF64.n64.zip",
+        "system": "n64"
+    },
+    {
+        "name": "Super Metroid",
+        "platform": "EJS",
+        "description": "Super Metroid is an action-adventure game developed and published by Nintendo for the Super Nintendo Entertainment System in 1994. It is the third...",
+        "image": "SM.jpg",
+        "path": "assets/SM/",
+        "rom": "SM.smc.zip",
+        "system": "snes"
+    },
+    {
+        "name": "Super Mario 64",
+        "platform": "EJS",
+        "description": "Super Mario 64 is a 1996 platform game for the Nintendo 64. Developed by Nintendo Entertainment Analysis and Development and published by Nintendo,...",
+        "image": "SM64.jpg",
+        "path": "assets/SM64/",
+        "rom": "SM64.z64.zip",
+        "system": "n64"
+    },
+    {
+        "name": "Super Metroid and A Link to the Past Crossover",
+        "platform": "EJS",
+        "description": "Super Metroid and A Link to the Past together into one experience and is randomized both games items to any location in either game creating a new...",
+        "image": "SMALTTP.jpg",
+        "path": "assets/SMALTTP/",
+        "rom": "SMALTTP.sfc.zip",
+        "system": "snes",
+        "modal": {
+            "title": "This game is really hard!",
+            "body": "<a target='_blank' href='assets/SMALTTP/SMALTTP.html'>This is the cheet sheet!</a> If you need it!"
+        }
+    },
+    {
+        "name": "Super Mario Bros. 3",
+        "platform": "EJS",
+        "description": "Super Mario Bros. 3 is a platform game developed and published by Nintendo for the Nintendo Entertainment System. It was released for home consoles...",
+        "image": "SMB3.jpg",
+        "path": "assets/SMB3/",
+        "rom": "SMB3.nes.zip",
+        "system": "nes"
     }
 ]

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">昔々、遠い彼方の王国に…</str>
+		<str id="1">ふーむ…</str>
+		<str id="2">よくある話なんて聞きたくないでしょう？</str>
+		<str id="3">...</str>
+		<str id="4">それでもストーリーだけは知りたい？</str>
+		<str id="5">はいはい、分かりましたよ…</str>
+		<str id="6">昔々、おとぎ話に出てくるような王国のに</str>
+		<str id="7">「サー・ルートアロット」という勇者がいた</str>
+		<str id="8">彼の物と名声への強い欲望は伝説となり…</str>
+		<str id="9">やがて、勇気と美徳として語り継がれた</str>
+		<str id="10">勇者がいるところには必ず迷宮が存在し…</str>
+		<str id="11">中には都合よくモンスターと財宝が眠る</str>
+		<str id="12">お分かり頂けただろうか？</str>
+		<str id="13">迷宮で敵を倒して財宝ゲット！</str>
+	</intro>
+	<boss0>
+		<str id="0">純金の冠が勇者の足元に落ちた</str>
+		<str id="1">勇者の仕事はこれで一段落</str>
+		<str id="2">戦利品を袋につめて帰る支度をする</str>
+		<str id="3">なんちゃってドラゴンは息を引き取った</str>
+	</boss0>
+	<boss1>
+		<str id="0">大きな石の拳が粉々になった</str>
+		<str id="1">勇者は強力なボスに打ち勝ったのだ</str>
+		<str id="2">不完全型のタイタンは息を引き取った</str>
+		<str id="3">頭と手を失った</str>
+		<str id="4">胴体は未だに発見されていない</str>
+	</boss1>
+	<boss2>
+		<str id="0">昨晩、キレイに磨いた勇者の鎧</str>
+		<str id="1">粘液だらけになってしまった</str>
+		<str id="2">粘液の使い手は息を引き取った</str>
+		<str id="3">代償は何か？</str>
+		<str id="4">クリーニング代が勇者を待っている</str>
+	</boss2>
+	<boss3>
+		<str id="0">消えてゆく暗黒の帝王は叫んだ</str>
+		<str id="1">「これで終わりだと思うなよ！」</str>
+		<str id="2">暗黒の帝王は息を引き取った…らしい</str>
+		<str id="3">...</str>
+		<str id="4">ゲームはこれで終わり</str>
+		<str id="5">...</str>
+		<str id="6">何かをお望みで？エンドロール？</str>
+		<str id="7">すいません、用意してなかったっす</str>
+		<str id="8">そんな目で見ないでください</str>
+		<str id="9">ここまでプレイすると思ってなかったんです</str>
+		<str id="10">わかりましたよ…ちょっと待っててください</str>
+	</boss3>
+	<outro>
+		<str id="0">これで十分でしょう？</str>
+		<str id="1">プレイしてくれてありがとうございます！</str>
+	</outro>
+	<cast>
+		<str id="cast">-出演-</str>
+		<str id="knight">サー・ルートアロット</str>
+		<str id="shopkeeper">ミスタービジネスマン</str>
+		<str id="fly">アブ</str>
+		<str id="mushroom">トードストゥール</str>
+		<str id="slime">スライム</str>
+		<str id="imp">インプ</str>
+		<str id="jellyfish">クラゲン</str>
+		<str id="worm">ピッピワーム</str>
+		<str id="croc">リル・クロコ</str>
+		<str id="egg">グレンデリング</str>
+		<str id="bat">コウモリ</str>
+		<str id="bug">シェルバグ</str>
+		<str id="fishman">河童</str>
+		<str id="ghost">ゴースト</str>
+		<str id="moth">ボンバーモス</str>
+		<str id="eggplant">ナッスナス</str>
+		<str id="jinni">ジーニ</str>
+		<str id="birdman">ペッカー</str>
+		<str id="qaug">クァング</str>
+		<str id="gosura">ゴースラ</str>
+		<str id="merswin">マースウィン</str>
+		<str id="eelich">イーリッチ</str>
+	</cast>
+</plot>

@@ -18,11 +18,15 @@
 法语翻译 Thomas Bourez
 中文翻译 Yang Zhang
 意大利语翻译 Fabio
-西班牙语翻译 Lisandro Johnston
+美式西班牙语翻译 Lisandro Johnston
 波兰语翻译 Kantal
+希腊语翻译 GeopJr
+巴西葡萄牙语翻译 Stallker
+德语翻译 Steven Korkowsky &amp; Marcel Weyers
+西班牙语翻译 Andrés Moreno García
 
 
-特别感谢:
+に感謝します:
 Mykola "Nick Urs" Ursatiy
 Tom Fulp
 Salt &amp; Pixel
@@ -37,6 +41,9 @@ Andrii "Rayfulrand" Raboshchuk
 
 开发工具 Construct 2
 版权所有 Muzt Die Studios, 乌克兰, 利沃夫, 2019</str>
+	<str id="save_title">-选择保存-</str>
+	<str id="empty">空</str>
+	<str id="dungeon">地牢</str>
 	<str id="skip">-按任意键快进-</str>
 	<str id="options_title">-选项-</str>
 	<str id="window">窗口</str>
@@ -45,18 +52,39 @@ Andrii "Rayfulrand" Raboshchuk
 	<str id="autosave">自动保存</str>
 	<str id="timer">统计</str>
 	<str id="speed">速度</str>
+	<str id="controls">操作模式</str>
 	<str id="on">开</str>
 	<str id="off">关</str>
 	<str id="language">语种</str>
 	<str id="en">英语</str>
 	<str id="ru">俄语</str>
 	<str id="ua">乌克兰语</str>
+	<str id="de">德语</str>
 	<str id="fr">法语</str>
 	<str id="it">意大利语</str>
 	<str id="es">西班牙语</str>
+	<str id="la">美国西班牙语</str>
+	<str id="br">巴西葡萄牙语</str>
 	<str id="pl">波兰语</str>
+	<str id="gr">希腊语</str>
+	<str id="jp">日语</str>
 	<str id="cn">简体中文</str>
 	<str id="back">返回</str>
+	<str id="controls_title">-操作模式-</str>
+	<str id="config">定制</str>
+	<str id="default">恢复默认设置</str>
+	<str id="config_title">-按任意键-</str>
+	<str id="up">上</str>
+	<str id="down">下</str>
+	<str id="left">左</str>
+	<str id="right">右</str>
+	<str id="use">相互作用</str>
+	<str id="sword">剑</str>
+	<str id="shield">之盾</str>
+	<str id="dash">冲刺</str>
+	<str id="shoot">射击</str>
+	<str id="reset">重置益智</str>
+	<str id="confirm_title" type="default">-恢复默认设置？-</str>
 	<str id="confirm_title" type="map">-退出到地图？-</str>
 	<str id="confirm_title" type="main_menu">-退出到主选单？-</str>
 	<str id="confirm_title" type="quit">-退出游戏？-</str>

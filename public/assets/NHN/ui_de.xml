@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">Fortsetzen</str>
+	<str id="play">Neues Spiel</str>
+	<str id="options">Optionen</str>
+	<str id="credits">Credits</str>
+	<str id="quit">Spiel beenden</str>
+	<str id="credits_title">-Credits-</str>
+	<str id="credits_roll">Spiel von Volodymyr „Wolod“ Yakubovych
+
+
+Weitere Grafiken von Victoria Bekhovets'
+
+
+Musik von Håkon Dale
+
+
+Französische Übersetzung von Thomas Bourez
+Chinesische Übersetzung von Yang Zhang
+Italienische Übersetzung von Fabio
+Amerikanische Spanische Übersetzung von Lisandro Johnston
+Polnische Übersetzung von Kantal
+Griechische Übersetzung von GeopJr
+Brasilianische Übersetzung von Stallker
+Deutsche Übersetzung von Steven Korkowsky &amp; Marcel Weyers
+Spanische Übersetzung von Andrés Moreno García
+
+
+Besonderer Dank an:
+Mykola „Nick Urs“ Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii „Rayfulrand“ Raboshchuk
+
+
+Erstellt mit Construct 2
+Muzt Die Studios, Ukraine, Lemberg, 2019</str>
+	<str id="save_title">-Datei wählen-</str>
+	<str id="empty">Leer</str>
+	<str id="dungeon">Kerker</str>
+	<str id="skip">-Zum Überspringen drücken-</str>
+	<str id="options_title">-Optionen-</str>
+	<str id="window">Fenster</str>
+	<str id="music">Musik</str>
+	<str id="sound">Sound</str>
+	<str id="autosave">Autosave</str>
+	<str id="timer">Stats</str>
+	<str id="speed">Tempo</str>
+	<str id="controls">Steuerung</str>
+	<str id="on">An</str>
+	<str id="off">Aus</str>
+	<str id="language">Sprache</str>
+	<str id="en">EN</str>
+	<str id="ru">RU</str>
+	<str id="ua">UA</str>
+	<str id="de">DE</str>
+	<str id="fr">FR</str>
+	<str id="it">IT</str>
+	<str id="es">ES</str>
+	<str id="la">ES-LA</str>
+	<str id="br">BR</str>
+	<str id="pl">PL</str>
+	<str id="gr">GR</str>
+	<str id="jp">JP</str>
+	<str id="cn">CN</str>
+	<str id="back">Zurück</str>
+	<str id="controls_title">-Steuerung-</str>
+	<str id="config">Konfigurieren</str>
+	<str id="default">Standard</str>
+	<str id="config_title">-Beliebige Taste drücken-</str>
+	<str id="up">Hoch</str>
+	<str id="down">Runter</str>
+	<str id="left">Links</str>
+	<str id="right">Rechts</str>
+	<str id="use">Interagieren</str>
+	<str id="sword">Schwert</str>
+	<str id="shield">Schild</str>
+	<str id="dash">Ansturm</str>
+	<str id="shoot">Schuss</str>
+	<str id="reset">Rätsel zurücksetzen</str>
+	<str id="confirm_title" type="default">-Standard wiederherstellen?-</str>
+	<str id="confirm_title" type="map">-Zurück zur Karte?-</str>
+	<str id="confirm_title" type="main_menu">-Zurück zum Menü?-</str>
+	<str id="confirm_title" type="quit">-Spiel beenden?-</str>
+	<str id="confirm_title" type="play">-Spielstand löschen?-</str>
+	<str id="yes">Ja</str>
+	<str id="no">Nein</str>
+	<str id="dungeons">-Kerker-</str>
+	<str id="dungeon0">Verlassene Ruinen</str>
+	<str id="dungeon1">Antike Pyramide</str>
+	<str id="dungeon2">Verlassener Tempel</str>
+	<str id="dungeon3">Dunkler Turm</str>
+	<str id="status">-Status-</str>
+	<str id="boss">Boss</str>
+	<str id="items">Objekte</str>
+	<str id="keys">Schlüssel</str>
+	<str id="chests">Truhen</str>
+	<str id="pause_title">-Pause-</str>
+	<str id="resume">Zurück</str>
+	<str id="map">Weltkarte</str>
+	<str id="main_menu">Hauptmenü</str>
+	<str id="save">-Spiel gespeichert-</str>
+	<str id="armor1">-Ritterüstung-
+Regel #1: Trage eine Rüstung, um dein Fleisch zu schützen.</str>
+	<str id="armor2">-Karminrote Rüstung-
+Diese schwere Rüstung macht unglaublich schlank.</str>
+	<str id="sword1">-Superscharfes Schwert-
+Schwinge es gegen Feinde. Noch nicht gewonnen? Wiederhole das.</str>
+	<str id="sword2">-Wirbelsturm-Schwert- 
+Geheime Halte-Knopf-Zum-Laden-Technik freigeschaltet.</str>
+	<str id="shield1">-Schild des Schutzes- 
+Stelle es vor alles Gefährliche. So einfach ist das.</str>
+	<str id="shield2">-Racheschild-
+Schickt Projektile dorthin zurück, wo sie herkommen. Das ist gemein.</str>
+	<str id="ring1">-Temporing-
+Ermöglicht zu stürmen, weil Gehen langsam und langweilig ist.</str>
+	<str id="ring2">-Flammenring-
+Ein einfacher Ansturm ist nicht cool genug? Wie wäre es mit einer Flammenspur?</str>
+	<str id="wand1">-Arkaner Zauberstab-
+Zeige auf dein Ziel. Schieß magische Bolzen. Versuch, nicht zu verfehlen.</str>
+	<str id="belt1">-Herkules-Gürtel-
+Jetzt kannst du schwere Dinge bewegen und Gläser mit bloßen Händen öffnen!</str>
+	<str id="orb1">-Mystischer Orb-
+Teleportiert dich in andere Räume, anstatt in andere Welten..</str>
+	<str id="amulet1">-Geist-Amulett-
+Macht dich unverwundbar, nachdem du verletzt wurdest ...</str>
+	<str id="potion">-Großer roter Trank-
+Verbessert Gesundheit. Keine Nebenwirkungen bekannt.</str>
+	<str id="elixir">-Starkes blaues Elixier-
+Erhöht die magische Kraft, wie erwartet.</str>
+	<str id="key">-Goldener Schlüssel-
+Öffnet eine Tür mit einem goldenen Schloss.</str>
+	<str id="boss0">-Qaug-
+Fast ein Drache</str>
+	<str id="boss1">-Gosura-
+Der unfertige Titan</str>
+	<str id="boss2">-Merswin-
+Meister des Schleims</str>
+	<str id="boss3">-Eelich-
+Gewöhnlicher Dunkler Lord</str>
+	<str id="boss3_final">-Finale Form-
+Ziemlich vorhersehbar</str>
+</ui>

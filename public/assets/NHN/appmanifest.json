@@ -1,7 +1,7 @@
 {
 	"name": "Knightin'+",
 	"short_name": "Knightin'+",
-	"start_url": "index.php",
+	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",
 	"icons": [{

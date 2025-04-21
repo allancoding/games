@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">Era uma vez em um reino distante muito longe...</str>
+		<str id="1">Bem...</str>
+		<str id="2">Você não está aqui para ler essa porcaria, estou certo?</str>
+		<str id="3">...</str>
+		<str id="4">Mas você quer ouvir uma história de qualquer maneira né?</str>
+		<str id="5">Tudo bem... Aqui vamos nós...</str>
+		<str id="6">Em um reino bastante genérico de conto de fadas...</str>
+		<str id="7">...Havia um cavaleiro valente conhecido como senhor Lootalot.</str>
+		<str id="8">Sua coragem e virtudes eram tão lendárias quanto...</str>
+		<str id="9">...Seu desejo por, obviamente, saque e fama.</str>
+		<str id="10">E, claro, os calabouços cheios de perigos e tesouros...</str>
+		<str id="11">... Estão convenientemente espalhados pelo reino.</str>
+		<str id="12">Você vê onde isso vai?</str>
+		<str id="13">Para a glória! Chop-chop!</str>
+	</intro>
+	<boss0>
+		<str id="0">A coroa feita de ouro puro rolou para os pés do cavaleiro.</str>
+		<str id="1">"Meu trabalho aqui está feito!" exclamou senhor Lootalot...</str>
+		<str id="2">...Enquanto esconde um troféu em seu inventário confiável.</str>
+		<str id="3">Então é assim que o infame dragão quase encontrou seu fim.</str>
+	</boss0>
+	<boss1>
+		<str id="0">"Guarde suas mãos para si mesmo!", Gritou o senhor Lootalot...</str>
+		<str id="1">...Depois que os punhos mortais de pedra se desintegraram na poeira.</str>
+		<str id="2">Então é assim que o titã inacabado perdeu a cabeça.</str>
+		<str id="3">E mãos.</str>
+		<str id="4">O destino do resto de suas partes é desconhecido.</str>
+	</boss1>
+	<boss2>
+		<str id="0">Senhor Lootalot ficou triunfante coberto de lodo pegajoso.</str>
+		<str id="1">"Poli minha armadura ontem..." ele suspirou.</str>
+		<str id="2">Então foi assim que o mestre do muco foi morto.</str>
+		<str id="3">Mas a que custo?</str>
+		<str id="4">E então o bravo cavaleiro foi até a limpeza a seco mais próxima...</str>
+	</boss2>
+	<boss3>
+		<str id="0">"Este calabouço não é grande o suficiente para nós dois."</str>
+		<str id="1">Estas foram as últimas palavras que o senhor das trevas ouviu.</str>
+		<str id="2">Então é assim que a saga épica de senhor Lootalot chegou ao fim.</str>
+		<str id="3">...</str>
+		<str id="4">Agora você pode voltar para sua vida.</str>
+		<str id="5">...</str>
+		<str id="6">O que você está esperando? Um final chique?</str>
+		<str id="7">Infelizmente não há nenhum.</str>
+		<str id="8">Por que você me olha assim?</str>
+		<str id="9">Eu não esperava que você viesse tão longe!</str>
+		<str id="10">Tudo bem... Eu vou pensar em algo...</str>
+	</boss3>
+	<outro>
+		<str id="0">Isso é muito melhor, eu acho.</str>
+		<str id="1">Obrigado por jogar!</str>
+	</outro>
+	<cast>
+		<str id="cast">-Elenco-</str>
+		<str id="knight">Senhor Lootalot</str>
+		<str id="shopkeeper">Sr. Mago de Negocios</str>
+		<str id="fly">Tavão</str>
+		<str id="mushroom">Fungo</str>
+		<str id="slime">Slime</str>
+		<str id="imp">Diabinho</str>
+		<str id="jellyfish">Medusa</str>
+		<str id="worm">Verme Curioso</str>
+		<str id="croc">Pouco Croco</str>
+		<str id="egg">Filhote de Grendel</str>
+		<str id="bat">Morcego</str>
+		<str id="bug">Inseto Blindado</str>
+		<str id="fishman">Anfíbio</str>
+		<str id="ghost">Fantasma</str>
+		<str id="moth">Bomboleta</str>
+		<str id="eggplant">Berinjela</str>
+		<str id="jinni">Gênio</str>
+		<str id="birdman">Pica-Pau</str>
+		<str id="qaug">Qaug</str>
+		<str id="gosura">Gosura</str>
+		<str id="merswin">Merswin</str>
+		<str id="eelich">Eelich</str>
+	</cast>
+</plot>

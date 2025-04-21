@@ -18,8 +18,12 @@ Musica di Håkon Dale
 Traduzione Francese di Thomas Bourez
 Traduzione Cinese di Yang Zhang
 Traduzione Italiana di Fabio
-Traduzione Spagnola di Lisandro Johnston
+Traduzione Spagnola Americana di Lisandro Johnston
 Traduzione Polacca di Kantal
+Traduzione Greco di GeopJr
+Traduzione Portoghese Brasiliano di Stallker
+Traduzione Tedesco di Steven Korkowsky &amp; Marcel Weyers
+Traduzione Spagnola di Andrés Moreno García
 
 
 Ringraziamenti speciali a:
@@ -37,6 +41,9 @@ Andrii "Rayfulrand" Raboshchuk
 
 Creato con Construct 2
 Muzt Die Studios, Ukraine, Leopoli, 2019</str>
+	<str id="save_title">-Salvataggi-</str>
+	<str id="empty">Vuoto</str>
+	<str id="dungeon">Segreta</str>
 	<str id="skip">-Premi un tasto qualsiasi per saltare-</str>
 	<str id="options_title">-Opzioni-</str>
 	<str id="window">Finestra</str>
@@ -45,18 +52,39 @@ Muzt Die Studios, Ukraine, Leopoli, 2019</str>
 	<str id="autosave">Salv. Auto</str>
 	<str id="timer">Statistiche</str>
 	<str id="speed">Velocità</str>
+	<str id="controls">Comandi</str>
 	<str id="on">On</str>
 	<str id="off">Off</str>
 	<str id="language">Lingua</str>
 	<str id="en">EN</str>
 	<str id="ru">RU</str>
 	<str id="ua">UA</str>
+	<str id="de">DE</str>
 	<str id="fr">FR</str>
 	<str id="it">IT</str>
 	<str id="es">ES</str>
+	<str id="la">ES-LA</str>
+	<str id="br">BR</str>
 	<str id="pl">PL</str>
+	<str id="gr">GR</str>
+	<str id="jp">JP</str>
 	<str id="cn">CN</str>
 	<str id="back">Indietro</str>
+	<str id="controls_title">-Comandi-</str>
+	<str id="config">Configurare</str>
+	<str id="default">Predefinite</str>
+	<str id="config_title">-Premi un Tasto Qualsiasi-</str>
+	<str id="up">Su</str>
+	<str id="down">Giù</str>
+	<str id="left">Sinistra</str>
+	<str id="right">Destra</str>
+	<str id="use">Interagire</str>
+	<str id="sword">Spada</str>
+	<str id="shield">Scudo</str>
+	<str id="dash">Fare un Balzo</str>
+	<str id="shoot">Sparare</str>
+	<str id="reset">Resettare il Puzzle</str>
+	<str id="confirm_title" type="default">-Ripristinare i Comandi?-</str>
 	<str id="confirm_title" type="map">-Torna alla mappa?-</str>
 	<str id="confirm_title" type="main_menu">-Torna al menu?-</str>
 	<str id="confirm_title" type="quit">-Esci dal gioco?-</str>

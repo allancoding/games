@@ -18,8 +18,12 @@ Musique par Håkon Dale
 Traduction française par Thomas Bourez
 Traduction chinoise par Yang Zhang
 Traduction italienne par Fabio
-Traduction espagnole par Lisandro Johnston
+Traduction en espagnol américain par Lisandro Johnston
 Traduction polonaise par Kantal
+Traduction grecque par GeopJr
+Traduction en portugais brésilien par Stallker
+Traduction allemande par Steven Korkowsky &amp; Marcel Weyers
+Traduction espagnole par Andrés Moreno García
 
 
 Remerciement spécial:
@@ -37,6 +41,9 @@ Andrii "Rayfulrand" Raboshchuk
 
 Propulsé par Construct 2
 Muzt Die Studios, Ukraine, Lviv, 2019</str>
+	<str id="save_title">-Sauvegardes-</str>
+	<str id="empty">Vide</str>
+	<str id="dungeon">Donjon</str>
 	<str id="skip">-Appuyez sur une touche pour passer-</str>
 	<str id="options_title">-Options-</str>
 	<str id="window">Fenêtre</str>
@@ -45,18 +52,39 @@ Muzt Die Studios, Ukraine, Lviv, 2019</str>
 	<str id="autosave">Sauv. Auto</str>
 	<str id="timer">Statistiques</str>
 	<str id="speed">Vitesse</str>
+	<str id="controls">Contrôles</str>
 	<str id="on">On</str>
 	<str id="off">Off</str>
 	<str id="language">Langue</str>
 	<str id="en">EN</str>
 	<str id="ru">RU</str>
 	<str id="ua">UA</str>
+	<str id="de">DE</str>
 	<str id="fr">FR</str>
 	<str id="it">IT</str>
 	<str id="es">ES</str>
+	<str id="la">ES-LA</str>
+	<str id="br">BR</str>
 	<str id="pl">PL</str>
+	<str id="gr">GR</str>
+	<str id="jp">JP</str>
 	<str id="cn">CN</str>
 	<str id="back">Retour</str>
+	<str id="controls_title">-Contrôles-</str>
+	<str id="config">Configurer</str>
+	<str id="default">Par Défaut</str>
+	<str id="config_title">-Appuyez Sur Une Touche-</str>
+	<str id="up">Haut</str>
+	<str id="down">Bas</str>
+	<str id="left">Gauche</str>
+	<str id="right">Droite</str>
+	<str id="use">Interagir</str>
+	<str id="sword">Épée</str>
+	<str id="shield">Bouclier</str>
+	<str id="dash">Courir</str>
+	<str id="shoot">Tirer</str>
+	<str id="reset">Réinitialiser le Puzzle</str>
+	<str id="confirm_title" type="default">-Réinitialiser les Contrôles?-</str>
 	<str id="confirm_title" type="map">-Revenir à la Carte ?-</str>
 	<str id="confirm_title" type="main_menu">-Revenir au Menu ?-</str>
 	<str id="confirm_title" type="quit">-Quitter le jeu ?-</str>

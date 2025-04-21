@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">つづきから</str>
+	<str id="play">はじめから</str>
+	<str id="options">オプション</str>
+	<str id="credits">クレジット</str>
+	<str id="quit">やめる</str>
+	<str id="credits_title">-Credits-</str>
+	<str id="credits_roll">Game by Volodymyr "Wolod" Yakubovych
+
+
+Additional graphics by Victoria Bekhovets'
+
+
+Music by Håkon Dale
+
+
+French translation by Thomas Bourez
+Chinese translation by Yang Zhang
+Italian translation by Fabio
+American Spanish translation by Lisandro Johnston
+Polish translation by Kantal
+Greek translation by GeopJr
+Brazilian Portuguese translation by Stallker
+German translation by Steven Korkowsky &amp; Marcel Weyers
+Spanish translation by Andrés Moreno García
+
+
+Special thanks to:
+Mykola "Nick Urs" Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii "Rayfulrand" Raboshchuk
+
+
+Powered by Construct 2
+Muzt Die Studios, Ukraine, Lviv, 2019</str>
+	<str id="save_title">-セーブデータ-</str>
+	<str id="empty">データなし</str>
+	<str id="dungeon">ダンジョン</str>
+	<str id="skip">-ボタンをおしてスキップ-</str>
+	<str id="options_title">-オプション-</str>
+	<str id="window">ウィンドウ</str>
+	<str id="music">BGM</str>
+	<str id="sound">サウンド</str>
+	<str id="autosave">オートセーブ</str>
+	<str id="timer">統計データ</str>
+	<str id="speed">ゲーム速度</str>
+	<str id="controls">ゲーム操作</str>
+	<str id="on">オン</str>
+	<str id="off">オフ</str>
+	<str id="language">言語</str>
+	<str id="en">英語</str>
+	<str id="ru">ロシア語</str>
+	<str id="ua">ウクライナ語</str>
+	<str id="de">ドイツ語</str>
+	<str id="fr">フランス語</str>
+	<str id="it">イタリア語</str>
+	<str id="es">スペイン語</str>
+	<str id="la">アメリカのスペイン語</str>
+	<str id="br">ブラジルポルトガル語</str>
+	<str id="pl">ポーランド語</str>
+	<str id="gr">ギリシャ語</str>
+	<str id="jp">日本語</str>
+	<str id="cn">簡体字中国語</str>
+	<str id="back">もどる</str>
+	<str id="controls_title">-ゲーム操作-</str>
+	<str id="config">コンフィグ</str>
+	<str id="default">デフォルト</str>
+	<str id="config_title">-ボタンを押してください-</str>
+	<str id="up">上に移動</str>
+	<str id="down">下に移動</str>
+	<str id="left">左に移動</str>
+	<str id="right">右に移動</str>
+	<str id="use">調べる</str>
+	<str id="sword">攻撃</str>
+	<str id="shield">防御</str>
+	<str id="dash">ダッシュ</str>
+	<str id="shoot">発射</str>
+	<str id="reset">パズルをリセット</str>
+	<str id="confirm_title" type="default">-デフォルトにしますか？-</str>
+	<str id="confirm_title" type="map">-マップに戻りますか？-</str>
+	<str id="confirm_title" type="main_menu">-メインメニューに戻りますか？-</str>
+	<str id="confirm_title" type="quit">-ゲームをやめますか？-</str>
+	<str id="confirm_title" type="play">-セーブデータを消しますか？-</str>
+	<str id="yes">はい</str>
+	<str id="no">いいえ</str>
+	<str id="dungeons">-ダンジョン-</str>
+	<str id="dungeon0">コドクナイセキ</str>
+	<str id="dungeon1">サバクノイセキ</str>
+	<str id="dungeon2">カコノシンデン</str>
+	<str id="dungeon3">ダークタワー</str>
+	<str id="status">-統計データ-</str>
+	<str id="boss">ボス</str>
+	<str id="items">アイテム</str>
+	<str id="keys">キー</str>
+	<str id="chests">宝箱</str>
+	<str id="pause_title">-ポーズ-</str>
+	<str id="resume">つづける</str>
+	<str id="map">ワールドマップ</str>
+	<str id="main_menu">メインメニュー</str>
+	<str id="save">-セーブ完了-</str>
+	<str id="armor1">-ナイトアーマー-
+防具で身を守るのは基本中の基本。</str>
+	<str id="armor2">-クリムゾンアーマー-
+信じられないほどスリムでタフなアーマー。</str>
+	<str id="sword1">-スーパーシャープ-
+振れば敵を攻撃できる。倒せない？ならばもっと振ればいい。</str>
+	<str id="sword2">-ワールウィンド-
+ため攻撃ができるようになる。</str>
+	<str id="shield1">-プロテクション-
+危険が迫ったら体の前に置いて身を守る。</str>
+	<str id="shield2">-ベンジェンス-
+発射されたものをそのまま跳ね返す。</str>
+	<str id="ring1">-スピードリング-
+ダッシュできるようになる。これで、退屈で遅い歩行とおさばら。</str>
+	<str id="ring2">-フレイムリング-
+普通のダッシュだと物足りない？炎を残すダッシュはどうですか？</str>
+	<str id="wand1">-アーケインの杖-
+魔法の炎を放つ。的を外さないように。</str>
+	<str id="belt1">-ヘラクレスベルト-
+重いオブジェクトを動かせるようになる。親指でボトルだって開けれる。</str>
+	<str id="orb1">-オーブ-
+あるシンボルに立つと他の部屋にテレポートしてくれる。</str>
+	<str id="amulet1">-ゴーストアムレット-
+ダメージを受けると、一時的に不死身になる。</str>
+	<str id="potion">-ビッグレッドポーション-
+体力が増える。副作用なし。</str>
+	<str id="elixir">-ブルーエリクサー-
+マジックポイントを増加する。</str>
+	<str id="key">-金色のカギ-
+ドアを開けるカギだということは明らか。</str>
+	<str id="boss0">-クァング-
+なんちゃってドラゴン</str>
+	<str id="boss1">-ゴースラ-
+不完成型タイタン</str>
+	<str id="boss2">-マースウィン-
+粘液の使い手</str>
+	<str id="boss3">-イーリッチ-
+暗黒の帝王</str>
+	<str id="boss3_final">-真・イーリッチ-
+よくあるパターン</str>
+</ui>

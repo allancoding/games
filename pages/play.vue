@@ -23,6 +23,20 @@
             </button>
         </div>
         <iframe :src="gameUrl" class="cover" frameBorder="0" id="game"></iframe>
+        <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true" role="dialog" v-if="game.modal" data-bs-theme="dark">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 text-white">{{ game.modal.title }}</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-white" v-html="game.modal.body"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="preloader"></div>
     </div>
 </template>
@@ -46,6 +60,11 @@ onMounted(() => {
         window.$('#preloader').delay(500).fadeOut('slow', function () {
             window.$(this).remove();
         });
+    }
+    if (game.modal) {
+        $('#modal').modal('show');
+    } else {
+        $('#modal').modal('hide');
     }
 })
 

@@ -18,8 +18,12 @@ Music by Håkon Dale
 French translation by Thomas Bourez
 Chinese translation by Yang Zhang
 Italian translation by Fabio
-Spanish translation by Lisandro Johnston
+American Spanish translation by Lisandro Johnston
 Polish translation by Kantal
+Greek translation by GeopJr
+Brazilian Portuguese translation by Stallker
+German translation by Steven Korkowsky &amp; Marcel Weyers
+Spanish translation by Andrés Moreno García
 
 
 Special thanks to:
@@ -37,6 +41,9 @@ Andrii "Rayfulrand" Raboshchuk
 
 Powered by Construct 2
 Muzt Die Studios, Ukraine, Lviv, 2019</str>
+	<str id="save_title">-Select Save-</str>
+	<str id="empty">Empty</str>
+	<str id="dungeon">Dungeon</str>
 	<str id="skip">-Press any key to skip-</str>
 	<str id="options_title">-Options-</str>
 	<str id="window">Window</str>
@@ -45,18 +52,39 @@ Muzt Die Studios, Ukraine, Lviv, 2019</str>
 	<str id="autosave">Autosave</str>
 	<str id="timer">Stats</str>
 	<str id="speed">Speed</str>
+	<str id="controls">Controls</str>
 	<str id="on">On</str>
 	<str id="off">Off</str>
 	<str id="language">Language</str>
 	<str id="en">EN</str>
 	<str id="ru">RU</str>
 	<str id="ua">UA</str>
+	<str id="de">DE</str>
 	<str id="fr">FR</str>
 	<str id="it">IT</str>
 	<str id="es">ES</str>
+	<str id="la">ES-LA</str>
+	<str id="br">BR</str>
 	<str id="pl">PL</str>
+	<str id="gr">GR</str>
+	<str id="jp">JP</str>
 	<str id="cn">CN</str>
 	<str id="back">Back</str>
+	<str id="controls_title">-Controls-</str>
+	<str id="config">Configure</str>
+	<str id="default">Default</str>
+	<str id="config_title">-Press Any Key-</str>
+	<str id="up">Up</str>
+	<str id="down">Down</str>
+	<str id="left">Left</str>
+	<str id="right">Right</str>
+	<str id="use">Interact</str>
+	<str id="sword">Sword</str>
+	<str id="shield">Shield</str>
+	<str id="dash">Dash</str>
+	<str id="shoot">Shoot</str>
+	<str id="reset">Reset Puzzle</str>
+	<str id="confirm_title" type="default">-Restore Defaults?-</str>
 	<str id="confirm_title" type="map">-Quit To Map?-</str>
 	<str id="confirm_title" type="main_menu">-Quit To Menu?-</str>
 	<str id="confirm_title" type="quit">-Quit Game?-</str>

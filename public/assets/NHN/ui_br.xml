@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+	<str id="load">Continuar</str>
+	<str id="play">Novo Jogo</str>
+	<str id="options">Opções</str>
+	<str id="credits">Créditos</str>
+	<str id="quit">Sair do Jogo</str>
+	<str id="credits_title">-Créditos-</str>
+	<str id="credits_roll">Jogo por Volodymyr "Wolod" Yakubovych
+
+
+Gráficos adicionais por Victoria Bekhovets'
+
+
+Música por Håkon Dale
+
+
+Tradução Francesa por Thomas Bourez
+Tradução Chinesa por Yang Zhang
+Tradução IItaliana por Fabio
+Tradução Espanhola Americano por Lisandro Johnston
+Tradução Polonesa por Kantal
+Tradução Grega por GeopJr
+Tradução Brasileira por Stallker
+Tradução Alemã por Steven Korkowsky &amp; Marcel Weyers
+Tradução Espanhola por Andrés Moreno García
+
+
+Agradecimentos Especiais para:
+Mykola "Nick Urs" Ursatiy
+Tom Fulp
+Salt &amp; Pixel
+Yuriy Shyshkin
+Danylo Syrotynsky
+Maxim Nuriev
+DarkCreeperLord
+ExoticPanda
+ChaosWolfGod
+Andrii "Rayfulrand" Raboshchuk
+
+
+Criado no Construct 2
+Muzt Die Studios, Ucrânia, Leópolis, 2019</str>
+	<str id="save_title">-Jogos Salvos-</str>
+	<str id="empty">Esvaziar</str>
+	<str id="dungeon">Calabouço</str>
+	<str id="skip">-Pressione Qualquer Tecla Para Pular-</str>
+	<str id="options_title">-Opções-</str>
+	<str id="window">Janela</str>
+	<str id="music">Música</str>
+	<str id="sound">Som</str>
+	<str id="autosave">Autosave</str>
+	<str id="timer">Estatísticas</str>
+	<str id="speed">Velocidade</str>
+	<str id="controls">Controlos</str>
+	<str id="on">Sim</str>
+	<str id="off">Não</str>
+	<str id="language">Idioma</str>
+	<str id="en">EN</str>
+	<str id="ru">RU</str>
+	<str id="ua">UA</str>
+	<str id="de">DE</str>
+	<str id="fr">FR</str>
+	<str id="it">IT</str>
+	<str id="es">ES</str>
+	<str id="la">ES-LA</str>
+	<str id="br">BR</str>
+	<str id="pl">PL</str>
+	<str id="gr">GR</str>
+	<str id="jp">JP</str>
+	<str id="cn">CN</str>
+	<str id="back">Voltar</str>
+	<str id="controls_title">-Controlos-</str>
+	<str id="config">Configurar</str>
+	<str id="default">Padrão</str>
+	<str id="config_title">-Pressione Qualquer Tecla-</str>
+	<str id="up">Acima</str>
+	<str id="down">Abaixo</str>
+	<str id="left">Esquerda</str>
+	<str id="right">Direita</str>
+	<str id="use">Interagir</str>
+	<str id="sword">Espada</str>
+	<str id="shield">Escudo</str>
+	<str id="dash">Correr</str>
+	<str id="shoot">Atirar</str>
+	<str id="reset">Reiniciar o Quebra-cabeça</str>
+	<str id="confirm_title" type="default">-Restaurar Padrões?-</str>
+	<str id="confirm_title" type="map">-Sair Para o Mapa?-</str>
+	<str id="confirm_title" type="main_menu">-Sair Para o Menu?-</str>
+	<str id="confirm_title" type="quit">-Sair do Jogo?-</str>
+	<str id="confirm_title" type="play">-Deletar Salvo?-</str>
+	<str id="yes">Sim</str>
+	<str id="no">Não</str>
+	<str id="dungeons">-Calabouços-</str>
+	<str id="dungeon0">Ruínas Abandonadas</str>
+	<str id="dungeon1">Pirâmide Antiga</str>
+	<str id="dungeon2">Templo Deserto</str>
+	<str id="dungeon3">Torre Negra</str>
+	<str id="status">-Status-</str>
+	<str id="boss">Chefes</str>
+	<str id="items">Items</str>
+	<str id="keys">Chaves</str>
+	<str id="chests">Baú</str>
+	<str id="pause_title">-Pausa-</str>
+	<str id="resume">Resumo</str>
+	<str id="map">Mapa Mundial</str>
+	<str id="main_menu">Menu Principal</str>
+	<str id="save">-Jogo Salvo-</str>
+	<str id="armor1">-Armadura do Cavaleiro-
+Regra de Segurança #1: Use armadura para proteger sua carne.</str>
+	<str id="armor2">-Armadura Carmesim-
+Você não vai acreditar em quão emagrecedor é essa armadura resistente.</str>
+	<str id="sword1">-Espada Super Afiada-
+Balançe em direção ao seu inimigo. Ainda não venceu? Repita o passo anterior.</str>
+	<str id="sword2">-Lâmina Redemoinho-
+Segredo: segure-botão-de-ataque-para carregar a técnica.</str>
+	<str id="shield1">-Escudo de Proteção-
+Coloque na frente de qualquer coisa perigosa. É simples assim.</str>
+	<str id="shield2">-Escudo da Vingança-
+Reflete os projéteis para onde eles vieram. Isso é maldade.</str>
+	<str id="ring1">-Anel da Velocidade-
+Permite que você corra porque caminhar é lento e chato.</str>
+	<str id="ring2">-Anel de Chamas-
+Impulso simples não é legal o suficiente? Que tal um rastro de chamas?</str>
+	<str id="wand1">-Varinha Arcana-
+Aponte para o seu alvo. Atira raios mágicos. Tente não errar!</str>
+	<str id="belt1">-Cinto do Hércules-
+Agora você pode mover coisas pesadas e abrir frascos com as mãos!</str>
+	<str id="orb1">-Orbe Místico-
+Deve teletransportar para outros mundos. Mas só vai para salas ao lado.</str>
+	<str id="amulet1">-Amuleto Fantasma-
+Torna você invulnerável! Mas só depois que você se machucou...</str>
+	<str id="potion">-Poção Vermelha Grande-
+Melhora a saúde. Nenhum efeito colateral conhecido.</str>
+	<str id="elixir">-Elixir Azul Vibrante-
+Aumenta a potência mágica como de se esperar.</str>
+	<str id="key">-Chave de Ouro-
+Obviamente, abre uma porta com um cadeado de Ouro.</str>
+	<str id="boss0">-Qaug-
+Quase um Dragão</str>
+	<str id="boss1">-Gosura-
+O Titã Inacabado</str>
+	<str id="boss2">-Merswin-
+Mestre do Mucos</str>
+	<str id="boss3">-Eelich-
+Senhor das Trevas Genérico</str>
+	<str id="boss3_final">-Forma Final-
+Bastante Previsível</str>
+</ui>

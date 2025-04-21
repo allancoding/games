@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plot>
+	<intro>
+		<str id="0">Μία φορά κι έναν καιρό σε ένα απόμακρο βασίλειο πάρα πολύ μακριά... </str>
+		<str id="1">Λοιπόν...</str>
+		<str id="2">Δεν είσαι εδώ για να διαβάζεις αυτές τις αηδίες, σωστά;</str>
+		<str id="3">...</str>
+		<str id="4">Αλλά θες να ακούσεις μία ιστορία ούτως ή άλλως;</str>
+		<str id="5">Εντάξει... Ορίστε...</str>
+		<str id="6">Σε ένα αρκετά συνηθισμένο παραμυθένιο βασίλειο...</str>
+		<str id="7">...υπήρχε ένας γενναίος ιππότης γνωστός ως sir Lootalot.</str>
+		<str id="8">Το θάρρος και οι αρετές του ήταν τόσο θρυλικές όσο...</str>
+		<str id="9">...ο πόθος του για, προφανώς, λάφυρα και φήμη.</str>
+		<str id="10">Και, φυσικά, τα γεμάτα με κίνδυνο και θησαυρούς μπουντρούμια...</str>
+		<str id="11">...είναι πολύ βολικά σκορπισμένα σε όλη την χώρα.</str>
+		<str id="12">Βλέπεις που πηγαίνει;</str>
+		<str id="13">Εμπρός στην δόξα! Τσοπ-τσοπ!</str>
+	</intro>
+	<boss0>
+		<str id="0">Το στέμμα φτιαγμένο από καθαρό χρυσό κύλησε στα πόδια του ιππότη.</str>	
+		<str id="1">"Η δουλειά μου εδώ τελείωσε!" αναφώνησε ο sir Lootalot...</str>
+		<str id="2">...καθώς καταχωνιάζει ένα τρόπαιο στο αξιόπιστο απόθεμα του.</str>
+		<str id="3">Έτσι λοιπόν ο περιβόητος σχεδόν δράκος, έφτασε στο τέλος του.</str>
+	</boss0>
+	<boss1>
+		<str id="0">"Μάζεψε τα χέρια σου!" φώναξε ο sir Lootalot...</str>
+		<str id="1">...έπειτα οι θανατηφόρες πέτρινες γροθιές γκρεμίστηκαν στην σκόνη.</str>
+		<str id="2">Έτσι λοιπόν ο ημιτελής τιτάνας έχασε το κεφάλι του.</str>
+		<str id="3">Και χέρια.</str>
+		<str id="4">Η μοίρα των άλλων μελών του είναι άγνωστη.</str>
+	</boss1>
+	<boss2>
+		<str id="0">Ο sir Lootalot στάθηκε περήφανα καλυμμένος με κολλώδης γλίτσα.</str>
+		<str id="1">"Μόλις γυάλισα την πανοπλία μου χθες..." αναστέναξε.</str>
+		<str id="2">Έτσι λοιπόν ο αφέντης της βλέννας σφαγιάσθηκε.</str>
+		<str id="3">Αλλά με τι κόστος;</str>
+		<str id="4">Και έτσι ο γενναίος ιππότης πήγε στο κοντινότερο στεγνοκαθαριστήριο.</str>
+	</boss2>
+	<boss3>
+		<str id="0">"Το μπουντρούμι δεν είναι αρκετά μεγάλο και για τους δυο μας."</str>
+		<str id="1">Αυτά ήταν τα τελευταία λόγια που άκουσε ο σκοτεινός λόρδος.</str>
+		<str id="2">Έτσι λοιπόν το απίθανο έπος του sir Lootalot ήλθε στο τέλος του.</str>
+		<str id="3">...</str>
+		<str id="4">Τώρα μπορείς να γυρίσεις πίσω στην ζωή σου.</str>
+		<str id="5">...</str>
+		<str id="6">Τι περιμένεις; Ένα φανταχτερό τέλος;</str>
+		<str id="7">Δυστυχώς δεν υπάρχει.</str>
+		<str id="8">Γιατί με κοιτάς έτσι;</str>
+		<str id="9">Δεν περίμενα να φτάσεις μέχρι εδώ!</str>
+		<str id="10">Εντάξει... Θα σκεφτώ κάτι...</str>
+	</boss3>
+	<outro>
+		<str id="0">Αυτό είναι πολύ καλύτερο, νομίζω.</str>
+		<str id="1">Ευχαριστώ που έπαιξες!</str>
+	</outro>
+	<cast>
+		<str id="cast">-Πρωταγωνιστούν-</str>
+		<str id="knight">Sir Lootalot</str>
+		<str id="shopkeeper">Mr. Businessmage</str>
+		<str id="fly">Gadfly</str>
+		<str id="mushroom">Toadstool</str>
+		<str id="slime">Slime</str>
+		<str id="imp">Imp</str>
+		<str id="jellyfish">Jellyfish</str>
+		<str id="worm">Peeping Worm</str>
+		<str id="croc">Lil' Croc</str>
+		<str id="egg">Grendel Whelp</str>
+		<str id="bat">Bat</str>
+		<str id="bug">Shellbug</str>
+		<str id="fishman">Ichthyander</str>
+		<str id="ghost">Ghost</str>
+		<str id="moth">Bomb Moth</str>
+		<str id="eggplant">Eggplant</str>
+		<str id="jinni">Jinni</str>
+		<str id="birdman">Pecker</str>
+		<str id="qaug">Qaug</str>
+		<str id="gosura">Gosura</str>
+		<str id="merswin">Merswin</str>
+		<str id="eelich">Eelich</str>
+	</cast>
+</plot>
