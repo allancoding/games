@@ -8,7 +8,7 @@ dist
 
 # Node dependencies
 node_modules
-.yarn
+pnpm-workspace.yaml
 
 # Logs
 logs
