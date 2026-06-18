@@ -1,6 +1,6 @@
 {
   "name": "allancoding-games",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "My games site!",
   "git": {
     "repository": "https://github.com/allancoding/games"
@@ -17,8 +17,8 @@
     "@nuxt/icon": "^2.2.3",
     "bootstrap": "^5.3.8",
     "jquery": "^4.0.0",
-    "nuxt": "^4.4.7",
+    "nuxt": "^4.4.8",
     "nuxt-typedjs": "^1.2.0",
-    "vue": "^3.5.35"
+    "vue": "^3.5.38"
   }
 }
